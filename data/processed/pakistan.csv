@@ -1,0 +1,431 @@
+strike_id,date,location,country,area,min_ppl_killed,max_ppl_killed,min_civil_killed,max_civil_killed,min_child_killed,max_child_killed,min_injured,max_injured
+B1,2004-06-17T00:00:00Z,Wana,Pakistan,South Waziristan,6,8,2,2,2,2,1,1
+B2,2005-05-08T00:00:00Z,Toorikhel,Pakistan,North Waziristan,2,2,0,0,0,0,0,0
+B3,2005-11-05T00:00:00Z,Mosaki,Pakistan,North Waziristan,8,8,3,8,2,3,1,1
+B4,2005-12-01T00:00:00Z,Haisori,Pakistan,North Waziristan,6,6,2,3,2,2,0,0
+B5,2006-01-13T00:00:00Z,Damadola,Pakistan,Bajaur Agency,13,22,10,18,5,6,0,0
+B6,2006-10-30T00:00:00Z,Chenegai,Pakistan,Bajaur Agency,81,83,80,82,68,70,3,3
+B7,2007-01-16T00:00:00Z,Zamazola,Pakistan,South Waziristan,8,8,8,8,1,1,0,0
+B8,2007-04-27T00:00:00Z,Saidgai,Pakistan,North Waziristan,3,4,3,4,0,0,3,9
+B9,2007-06-19T00:00:00Z,Mami Rogha,Pakistan,North Waziristan,20,34,0,34,0,0,10,15
+B10,2007-11-02T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,5,10,0,0,0,0,6,12
+B11,2007-12-03T00:00:00Z,Jani Khel,Pakistan,Bannu Frontier Region,0,0,0,0,0,0,1,1
+B12,2008-01-29T00:00:00Z,Mir Ali,Pakistan,North Waziristan,12,15,4,6,2,3,1,2
+B13,2008-02-28T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,10,13,0,0,0,0,6,16
+B14,2008-03-16T00:00:00Z,Dhook Pir Bagh,Pakistan,South Waziristan,18,20,0,4,0,0,5,9
+B15,2008-05-14T00:00:00Z,Damadola,Pakistan,Bajaur Agency,12,20,4,6,1,4,9,9
+B16,2008-06-14T00:00:00Z,Makeen,Pakistan,South Waziristan,1,1,0,1,0,0,0,0
+B17,2008-07-28T00:00:00Z,Zeralita,Pakistan,South Waziristan,7,12,1,5,0,2,3,3
+B18,2008-08-12T00:00:00Z,Bhaggar,Pakistan,South Waziristan,12,25,0,5,0,0,0,4
+B19,2008-08-20T00:00:00Z,Zari Noor,Pakistan,South Waziristan,6,12,0,0,0,0,5,5
+B20,2008-08-27T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,0,0,0,0,0,0,4,4
+B21,2008-08-30T00:00:00Z,Korzai,Pakistan,South Waziristan,4,5,0,0,0,0,4,4
+B22,2008-08-30T00:00:00Z,Miram Shah,Pakistan,North Waziristan,6,11,2,9,1,4,2,8
+B23,2008-09-02T00:00:00Z,Unknown,Pakistan,North Waziristan,0,10,0,0,0,0,0,1
+B24,2008-09-04T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,5,7,0,0,0,0,3,4
+B25,2008-09-05T00:00:00Z,Gurwak,Pakistan,North Waziristan,5,12,5,7,3,4,0,0
+B26,2008-09-08T00:00:00Z,Miram Shah,Pakistan,North Waziristan,17,23,11,20,5,8,14,25
+B27,2008-09-12T00:00:00Z,Tol Khel,Pakistan,North Waziristan,12,15,3,5,2,2,14,14
+B28,2008-09-17T00:00:00Z,Baghar Cheena,Pakistan,South Waziristan,4,7,0,0,0,0,3,3
+B29,2008-09-30T00:00:00Z,Khushali,Pakistan,South Waziristan,4,8,0,0,0,0,5,9
+B30,2008-10-03T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,3,3,3,1,1,5,5
+B31,2008-10-03T00:00:00Z,Datta Khel,Pakistan,North Waziristan,17,21,7,14,3,3,0,0
+B32,2008-10-09T00:00:00Z,Tati,Pakistan,North Waziristan,5,9,1,9,1,4,2,2
+B33,2008-10-11T00:00:00Z,Miram Shah,Pakistan,North Waziristan,4,5,0,0,0,0,2,2
+B34,2008-10-16T00:00:00Z,Taparghai,Pakistan,South Waziristan,2,9,0,4,0,0,1,7
+B35,2008-10-23T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,8,11,7,10,7,7,6,11
+B36,2008-10-26T00:00:00Z,Mandata,Pakistan,South Waziristan,18,20,0,4,0,3,2,2
+B37,2008-10-31T00:00:00Z,Asori,Pakistan,North Waziristan,4,25,1,20,0,0,0,0
+B38,2008-10-31T00:00:00Z,Kari Kot,Pakistan,South Waziristan,4,12,1,1,0,0,2,30
+B39,2008-11-07T00:00:00Z,Kumsham,Pakistan,North Waziristan,11,16,6,11,0,0,17,17
+B40,2008-11-14T00:00:00Z,Garyom,Pakistan,North Waziristan,11,13,3,12,0,0,2,2
+B41,2008-11-19T00:00:00Z,Jani Khel,Pakistan,Bannu Frontier Region,3,6,0,3,0,0,7,7
+B42,2008-11-22T00:00:00Z,Ali Khel,Pakistan,North Waziristan,4,6,0,1,0,0,6,6
+B43,2008-11-27T00:00:00Z,Wana,Pakistan,South Waziristan,5,5,0,0,0,0,0,0
+B44,2008-11-29T00:00:00Z,Chashma,Pakistan,North Waziristan,2,3,0,3,0,0,2,3
+B45,2008-12-05T00:00:00Z,Kateera,Pakistan,North Waziristan,3,4,0,0,0,0,2,2
+B46,2008-12-11T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,6,7,0,7,0,0,0,0
+B47,2008-12-15T00:00:00Z,Tapi Tool,Pakistan,North Waziristan,2,3,0,3,0,0,3,3
+B48,2008-12-22T00:00:00Z,Kari Kot,Pakistan,South Waziristan,3,3,0,0,0,0,5,5
+B49,2008-12-22T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,2,4,0,0,0,0,4,4
+B50,2009-01-01T00:00:00Z,Kari Kot,Pakistan,South Waziristan,3,5,0,0,0,0,1,2
+B51,2009-01-02T00:00:00Z,Madin Village,Pakistan,South Waziristan,3,4,0,0,0,0,3,5
+Ob1,2009-01-23T00:00:00Z,Zharki,Pakistan,North Waziristan,7,15,9,11,1,1,1,1
+Ob2,2009-01-23T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,5,10,5,10,3,4,2,2
+Ob3,2009-02-14T00:00:00Z,Narsi Khel,Pakistan,South Waziristan,25,35,1,9,1,1,11,15
+Ob4,2009-02-16T00:00:00Z,Sur Pul,Pakistan,Kurram Agency,18,31,0,0,0,0,3,7
+Ob5,2009-03-01T00:00:00Z,Sararogha,Pakistan,South Waziristan,3,12,0,0,0,0,1,3
+Ob6,2009-03-12T00:00:00Z,Barjo,Pakistan,Kurram Agency,14,26,0,0,0,0,9,50
+Ob7,2009-03-15T00:00:00Z,Jani Khel,Pakistan,Bannu Frontier Region,2,6,0,0,0,0,3,3
+Ob8,2009-03-25T00:00:00Z,Makeen,Pakistan,South Waziristan,6,8,0,0,0,0,5,5
+Ob9,2009-03-26T00:00:00Z,Sokhel,Pakistan,North Waziristan,4,5,0,5,0,0,5,5
+Ob10,2009-04-01T00:00:00Z,Khadezai,Pakistan,Orakzai Agency,10,14,5,5,3,3,4,16
+Ob11,2009-04-04T00:00:00Z,Datta Khel,Pakistan,North Waziristan,13,15,8,13,3,5,1,1
+Ob12,2009-04-08T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,3,4,0,0,0,0,2,5
+Ob13,2009-04-19T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,0,8,0,8,0,0,3,5
+Ob14,2009-04-29T00:00:00Z,Kaniguram,Pakistan,South Waziristan,1,10,0,4,0,0,4,4
+Ob15,2009-05-09T00:00:00Z,Tabbi Langhar Khel,Pakistan,South Waziristan,6,25,0,4,0,0,7,10
+Ob16,2009-05-12T00:00:00Z,Sara Khwara,Pakistan,South Waziristan,5,9,0,0,0,0,4,4
+Ob17,2009-05-16T00:00:00Z,Khesoor,Pakistan,North Waziristan,25,40,9,9,0,0,2,2
+Ob18,2009-06-14T00:00:00Z,Marda Algad,Pakistan,South Waziristan,3,5,0,3,0,0,0,0
+Ob19,2009-06-18T00:00:00Z,Wana,Pakistan,South Waziristan,12,18,4,4,0,0,10,10
+Ob20,2009-06-23T00:00:00Z,Makeen,Pakistan,South Waziristan,5,6,0,0,0,0,7,7
+Ob21,2009-06-23T00:00:00Z,Makeen,Pakistan,South Waziristan,60,83,18,50,10,10,27,27
+Ob22,2009-07-03T00:00:00Z,Mantoi,Pakistan,South Waziristan,0,5,0,5,0,0,0,0
+Ob23,2009-07-03T00:00:00Z,Zamarai Nairai,Pakistan,South Waziristan,10,17,0,0,0,0,27,35
+Ob24,2009-07-07T00:00:00Z,Makeen,Pakistan,South Waziristan,14,18,0,0,0,0,10,10
+Ob25,2009-07-08T00:00:00Z,Ladha,Pakistan,South Waziristan,8,10,0,0,0,0,5,12
+Ob26,2009-07-08T00:00:00Z,Ladha,Pakistan,South Waziristan,35,40,0,0,0,0,1,1
+Ob27,2009-07-10T00:00:00Z,Painda Khel,Pakistan,South Waziristan,3,5,0,0,0,0,3,3
+Ob28,2009-07-17T00:00:00Z,Gariwam,Pakistan,North Waziristan,5,6,0,0,0,0,4,6
+Ob29,2009-08-05T00:00:00Z,Ladha,Pakistan,South Waziristan,1,12,1,4,0,0,5,5
+Ob30,2009-08-11T00:00:00Z,Ladha,Pakistan,South Waziristan,12,25,0,6,4,4,5,7
+Ob31,2009-08-21T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,17,21,9,13,6,6,2,2
+Ob32,2009-08-27T00:00:00Z,Taparghai,Pakistan,South Waziristan,8,10,0,0,0,0,6,9
+Ob33,2009-09-07T00:00:00Z,Machi Khel,Pakistan,North Waziristan,5,8,3,3,0,0,2,7
+Ob34,2009-09-08T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,10,15,5,5,3,3,4,5
+Ob35,2009-09-14T00:00:00Z,Toorikhel,Pakistan,North Waziristan,5,5,0,0,0,0,2,3
+Ob36,2009-09-24T00:00:00Z,Mir Ali,Pakistan,North Waziristan,10,12,0,12,0,0,5,5
+Ob37,2009-09-29T00:00:00Z,Sararogha,Pakistan,South Waziristan,5,6,0,0,0,0,2,6
+Ob38,2009-09-29T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,4,9,0,4,0,0,2,6
+Ob39,2009-09-30T00:00:00Z,Norak,Pakistan,North Waziristan,6,9,0,0,0,0,2,5
+Ob40,2009-10-15T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,3,4,0,0,0,0,7,7
+Ob41,2009-10-21T00:00:00Z,Spalaga,Pakistan,North Waziristan,3,3,0,0,0,0,8,8
+Ob42,2009-10-24T00:00:00Z,Damadola,Pakistan,Bajaur Agency,20,30,0,0,0,0,8,8
+Ob43,2009-11-05T00:00:00Z,Norak,Pakistan,North Waziristan,4,6,0,0,0,0,8,8
+Ob44,2009-11-18T00:00:00Z,Shanakorah,Pakistan,North Waziristan,3,6,0,0,0,0,2,15
+Ob45,2009-11-20T00:00:00Z,Machi Khel,Pakistan,North Waziristan,3,14,3,3,1,1,2,12
+Ob46,2009-12-08T00:00:00Z,Spalaga,Pakistan,North Waziristan,3,4,0,0,0,0,3,3
+Ob47,2009-12-10T00:00:00Z,Ladha,Pakistan,South Waziristan,6,6,0,0,0,0,8,8
+Ob48,2009-12-17T00:00:00Z,Datta Khel,Pakistan,North Waziristan,2,2,0,0,0,0,0,0
+Ob49,2009-12-17T00:00:00Z,Ambar Shaga,Pakistan,North Waziristan,12,16,6,6,0,0,0,0
+Ob50,2009-12-18T00:00:00Z,Babrak Ziarat,Pakistan,North Waziristan,5,8,5,5,0,0,4,5
+Ob51,2009-12-26T00:00:00Z,Saidgai,Pakistan,North Waziristan,13,20,6,6,0,0,12,12
+Ob52,2009-12-31T00:00:00Z,Machi Khel,Pakistan,North Waziristan,3,7,3,3,1,1,2,2
+Ob53,2010-01-01T00:00:00Z,Ghundikala,Pakistan,North Waziristan,2,3,0,0,0,0,3,4
+Ob54,2010-01-03T00:00:00Z,Mosaki,Pakistan,North Waziristan,5,5,1,2,1,1,2,2
+Ob55,2010-01-06T00:00:00Z,Sanzali,Pakistan,North Waziristan,5,7,0,6,0,0,5,5
+Ob56,2010-01-06T00:00:00Z,Sanzali,Pakistan,North Waziristan,5,9,5,5,0,0,3,3
+Ob57,2010-01-08T00:00:00Z,Tappi,Pakistan,North Waziristan,5,6,5,5,1,1,3,3
+Ob58,2010-01-09T00:00:00Z,Ismail Khel,Pakistan,North Waziristan,4,5,0,0,0,0,5,5
+Ob59,2010-01-09T00:00:00Z,Shaktoi,Pakistan,North Waziristan,15,18,0,0,0,0,7,14
+Ob60,2010-01-15T00:00:00Z,Zanani,Pakistan,North Waziristan,5,10,0,0,0,0,3,3
+Ob61,2010-01-15T00:00:00Z,Shaktoi,Pakistan,North Waziristan,6,10,0,0,0,0,0,0
+Ob62,2010-01-17T00:00:00Z,Shaktoi,Pakistan,North Waziristan,14,20,0,0,0,0,4,4
+Ob63,2010-01-19T00:00:00Z,Deegan,Pakistan,North Waziristan,5,9,0,0,0,0,4,4
+Ob64,2010-01-29T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,2,15,0,0,0,0,4,4
+Ob65,2010-02-02T00:00:00Z,Toor Narai,Pakistan,North Waziristan,23,24,0,0,0,0,0,0
+Ob66,2010-02-02T00:00:00Z,Deegan,Pakistan,North Waziristan,0,0,0,0,0,0,0,0
+Ob67,2010-02-02T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,0,0,0,0,0,0,0,0
+Ob68,2010-02-02T00:00:00Z,Pai Khel,Pakistan,North Waziristan,9,9,5,5,0,0,0,0
+Ob69,2010-02-14T00:00:00Z,Mir Ali,Pakistan,North Waziristan,5,7,0,0,0,0,4,4
+Ob70,2010-02-15T00:00:00Z,Tappi,Pakistan,North Waziristan,4,5,0,0,0,0,0,0
+Ob71,2010-02-17T00:00:00Z,Tabbi,Pakistan,North Waziristan,4,4,0,0,0,0,2,3
+Ob72,2010-02-18T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,3,5,0,0,0,0,4,4
+Ob73,2010-02-24T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,5,13,5,6,1,1,6,6
+Ob74,2010-03-08T00:00:00Z,Miram Shah,Pakistan,North Waziristan,9,9,0,0,0,0,2,2
+Ob75,2010-03-10T00:00:00Z,Mizar Madakhel,Pakistan,North Waziristan,7,8,0,0,0,0,12,12
+Ob76,2010-03-10T00:00:00Z,Mizar Madakhel,Pakistan,North Waziristan,7,7,4,7,0,0,0,0
+Ob77,2010-03-16T00:00:00Z,Datta Khel,Pakistan,North Waziristan,7,11,0,0,0,0,2,2
+Ob78,2010-03-17T00:00:00Z,Hamzoni,Pakistan,North Waziristan,3,5,0,0,0,0,4,4
+Ob79,2010-03-17T00:00:00Z,Mizar Madakhel,Pakistan,North Waziristan,5,5,0,0,0,0,0,0
+Ob80,2010-03-21T00:00:00Z,Inzar,Pakistan,North Waziristan,5,8,0,0,0,0,0,0
+Ob81,2010-03-23T00:00:00Z,Machis,Pakistan,North Waziristan,6,6,0,0,0,0,3,3
+Ob82,2010-03-27T00:00:00Z,Hurmuz,Pakistan,North Waziristan,4,4,0,4,0,0,5,5
+Ob83,2010-03-31T00:00:00Z,Tappi,Pakistan,North Waziristan,5,6,5,6,1,1,2,2
+Ob84,2010-04-12T00:00:00Z,Boya,Pakistan,North Waziristan,13,13,8,13,2,2,2,3
+Ob85,2010-04-14T00:00:00Z,Ambar Shaga,Pakistan,North Waziristan,4,5,0,0,0,0,1,3
+Ob86,2010-04-16T00:00:00Z,Toorikhel,Pakistan,North Waziristan,3,4,0,0,0,0,2,2
+Ob87,2010-04-24T00:00:00Z,Machi Khel,Pakistan,North Waziristan,7,9,0,0,0,0,0,0
+Ob88,2010-04-26T00:00:00Z,Khushali,Pakistan,North Waziristan,3,8,0,0,0,0,3,3
+Ob89,2010-05-03T00:00:00Z,Machi Khel,Pakistan,North Waziristan,4,6,0,2,0,0,0,0
+Ob90,2010-05-09T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,10,0,4,0,0,4,4
+Ob91,2010-05-11T00:00:00Z,Datta Khel,Pakistan,North Waziristan,8,14,0,4,0,0,12,12
+Ob92,2010-05-11T00:00:00Z,Gurwak,Pakistan,North Waziristan,7,15,0,0,0,0,4,4
+Ob93,2010-05-15T00:00:00Z,Khyber,Pakistan,Khyber Agency,5,15,0,2,0,0,15,15
+Ob94,2010-05-21T00:00:00Z,Boya,Pakistan,North Waziristan,11,11,10,10,7,7,7,10
+Ob95,2010-05-28T00:00:00Z,Mizai Nari,Pakistan,South Waziristan,8,12,0,11,0,0,4,4
+Ob96,2010-06-10T00:00:00Z,Norak,Pakistan,North Waziristan,2,7,4,4,0,0,3,3
+Ob97,2010-06-11T00:00:00Z,Maizer,Pakistan,North Waziristan,10,15,0,0,0,0,10,12
+Ob98,2010-06-19T00:00:00Z,Haider Khel,Pakistan,North Waziristan,16,17,0,0,0,0,10,18
+Ob99,2010-06-26T00:00:00Z,Khushali,Pakistan,North Waziristan,2,4,0,0,0,0,1,3
+Ob100,2010-06-27T00:00:00Z,Tabbi,Pakistan,North Waziristan,5,6,0,0,0,0,4,4
+Ob101,2010-06-29T00:00:00Z,Kari Kot,Pakistan,South Waziristan,7,10,0,0,0,0,1,4
+Ob102,2010-07-15T00:00:00Z,Sheerani,Pakistan,North Waziristan,9,14,0,7,0,0,3,3
+Ob103,2010-07-24T00:00:00Z,Dwasarak,Pakistan,South Waziristan,16,18,0,0,0,0,24,24
+Ob104,2010-07-25T00:00:00Z,Shaktoi,Pakistan,North Waziristan,14,32,0,0,0,0,7,12
+Ob105,2010-07-25T00:00:00Z,Tabbi,Pakistan,North Waziristan,4,12,0,0,0,0,2,4
+Ob106,2010-07-25T00:00:00Z,Sararogha,Pakistan,South Waziristan,4,4,0,0,0,0,5,5
+Ob107,2010-08-14T00:00:00Z,Issori,Pakistan,North Waziristan,13,14,7,7,1,1,5,6
+Ob108,2010-08-21T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,4,6,0,4,0,0,2,2
+Ob109,2010-08-23T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,20,20,7,9,3,3,15,15
+Ob110,2010-08-23T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,5,7,0,0,0,0,3,12
+Ob111,2010-08-27T00:00:00Z,Shahidano,Pakistan,Kurram Agency,3,9,0,0,0,0,2,2
+Ob112,2010-08-27T00:00:00Z,Badshah Kot,Pakistan,Kurram Agency,0,0,0,0,0,0,0,0
+Ob113,2010-08-27T00:00:00Z,Taaloo Ganj,Pakistan,Kurram Agency,2,3,0,3,0,0,0,0
+Ob114,2010-09-03T00:00:00Z,Miram Shah,Pakistan,North Waziristan,6,9,0,0,0,0,2,3
+Ob115,2010-09-03T00:00:00Z,Datta Khel,Pakistan,North Waziristan,2,4,0,0,0,0,2,2
+Ob116,2010-09-04T00:00:00Z,Datta Khel,Pakistan,North Waziristan,7,8,0,0,0,0,12,12
+Ob117,2010-09-06T00:00:00Z,Khar Qamar,Pakistan,North Waziristan,3,6,0,0,0,0,1,1
+Ob118,2010-09-08T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,5,10,4,4,4,4,2,2
+Ob119,2010-09-08T00:00:00Z,Ambar Shaga,Pakistan,North Waziristan,3,4,0,4,0,0,1,2
+Ob120,2010-09-08T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,10,10,0,0,0,0,2,5
+Ob121,2010-09-09T00:00:00Z,Miram Shah,Pakistan,North Waziristan,3,6,0,0,0,0,3,5
+Ob122,2010-09-12T00:00:00Z,Newey Adda,Pakistan,North Waziristan,5,7,0,0,0,0,2,3
+Ob123,2010-09-14T00:00:00Z,Bushnarai,Pakistan,North Waziristan,11,12,0,0,0,0,4,4
+Ob124,2010-09-14T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,1,4,0,0,0,0,4,4
+Ob125,2010-09-15T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,11,15,5,5,0,0,1,5
+Ob126,2010-09-15T00:00:00Z,Pai Khel,Pakistan,North Waziristan,4,7,0,0,0,0,3,3
+Ob127,2010-09-19T00:00:00Z,Deegan,Pakistan,North Waziristan,3,9,5,5,0,0,0,0
+Ob128,2010-09-20T00:00:00Z,Darazinda,Pakistan,North Waziristan,3,6,0,3,0,0,0,0
+Ob129,2010-09-21T00:00:00Z,Khand Morsak,Pakistan,South Waziristan,7,8,0,0,0,0,4,5
+Ob130,2010-09-21T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,0,16,0,0,0,0,0,0
+Ob131,2010-09-25T00:00:00Z,Datta Khel,Pakistan,North Waziristan,2,4,0,0,0,0,0,0
+Ob132,2010-09-26T00:00:00Z,Lawra Mandi,Pakistan,North Waziristan,4,5,0,0,0,0,2,2
+Ob133,2010-09-26T00:00:00Z,Miram Shah,Pakistan,North Waziristan,3,5,0,0,0,0,1,2
+Ob134,2010-09-26T00:00:00Z,Sheerani,Pakistan,North Waziristan,2,3,0,0,0,0,0,0
+Ob135,2010-09-27T00:00:00Z,Khushali,Pakistan,North Waziristan,3,4,0,0,0,0,0,0
+Ob136,2010-09-28T00:00:00Z,Zeba,Pakistan,South Waziristan,4,4,0,0,0,0,2,2
+Ob137,2010-10-02T00:00:00Z,Asar Village,Pakistan,North Waziristan,8,10,0,0,0,0,2,4
+Ob138,2010-10-02T00:00:00Z,Inzarkas,Pakistan,North Waziristan,7,14,0,0,0,0,2,2
+Ob139,2010-10-04T00:00:00Z,Mir Ali,Pakistan,North Waziristan,5,9,0,3,0,0,2,2
+Ob140,2010-10-06T00:00:00Z,Miram Shah,Pakistan,North Waziristan,5,11,0,0,0,0,4,4
+Ob141,2010-10-06T00:00:00Z,Hurmuz,Pakistan,North Waziristan,3,5,0,0,0,0,3,3
+Ob142,2010-10-07T00:00:00Z,Khaisoori,Pakistan,North Waziristan,4,4,0,0,0,0,2,2
+Ob143,2010-10-08T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,4,6,0,0,0,0,0,0
+Ob144,2010-10-08T00:00:00Z,Char Khel,Pakistan,North Waziristan,5,8,0,4,0,0,0,0
+Ob145,2010-10-10T00:00:00Z,Shiva,Pakistan,North Waziristan,4,9,0,0,0,0,3,3
+Ob146,2010-10-13T00:00:00Z,Datta Khel,Pakistan,North Waziristan,6,14,3,6,0,0,0,0
+Ob147,2010-10-15T00:00:00Z,Aziz Khel,Pakistan,North Waziristan,4,6,0,0,0,0,3,3
+Ob148,2010-10-15T00:00:00Z,Machi Khel,Pakistan,North Waziristan,3,5,0,0,0,0,0,0
+Ob149,2010-10-18T00:00:00Z,Datta Khel,Pakistan,North Waziristan,6,7,1,1,1,1,1,6
+Ob150,2010-10-27T00:00:00Z,Mir Ali,Pakistan,North Waziristan,2,5,0,0,0,0,1,1
+Ob151,2010-10-27T00:00:00Z,Deegan,Pakistan,North Waziristan,2,4,0,0,0,0,1,1
+Ob152,2010-10-28T00:00:00Z,Ismail Khel,Pakistan,North Waziristan,4,8,0,4,0,0,0,0
+Ob153,2010-11-01T00:00:00Z,Haider Khel,Pakistan,North Waziristan,5,6,0,0,0,0,2,2
+Ob154,2010-11-03T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0
+Ob155,2010-11-03T00:00:00Z,Khaso Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0
+Ob156,2010-11-03T00:00:00Z,Pai Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0
+Ob157,2010-11-07T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,8,9,0,0,0,0,2,2
+Ob158,2010-11-07T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,6,0,0,0,0,1,4
+Ob159,2010-11-11T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,5,8,0,0,0,0,5,6
+Ob160,2010-11-13T00:00:00Z,Miram Shah,Pakistan,North Waziristan,4,4,0,4,0,0,1,1
+Ob161,2010-11-16T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,20,20,0,9,0,0,0,0
+Ob162,2010-11-19T00:00:00Z,Norak,Pakistan,North Waziristan,2,4,0,0,0,0,1,1
+Ob163,2010-11-21T00:00:00Z,Khaddi,Pakistan,North Waziristan,5,9,0,3,0,0,0,0
+Ob164,2010-11-22T00:00:00Z,Khesoor,Pakistan,North Waziristan,3,6,0,0,0,0,2,3
+Ob165,2010-11-26T00:00:00Z,Pir Kelev,Pakistan,North Waziristan,2,4,1,4,1,1,0,0
+Ob166,2010-11-28T00:00:00Z,Hassan Khel,Pakistan,North Waziristan,0,4,0,0,0,0,0,0
+Ob167,2010-12-06T00:00:00Z,Khushali,Pakistan,North Waziristan,3,5,0,2,0,0,3,3
+Ob168,2010-12-06T00:00:00Z,Kushali,Pakistan,North Waziristan,2,4,0,0,0,0,0,0
+Ob169,2010-12-10T00:00:00Z,Khadar Khel,Pakistan,North Waziristan,4,4,0,0,0,0,2,2
+Ob170,2010-12-14T00:00:00Z,Spalaga,Pakistan,North Waziristan,3,4,0,4,0,0,0,0
+Ob171,2010-12-16T00:00:00Z,Tirah Valley,Pakistan,Khyber Agency,7,7,0,0,0,0,0,0
+Ob172,2010-12-17T00:00:00Z,Sandana,Pakistan,Khyber Agency,7,15,0,0,0,0,7,11
+Ob173,2010-12-17T00:00:00Z,Nakai,Pakistan,Khyber Agency,11,15,0,0,0,0,2,2
+Ob174,2010-12-17T00:00:00Z,Speen Drang,Pakistan,Khyber Agency,32,32,2,2,0,0,0,0
+Ob175,2010-12-27T00:00:00Z,Shera Tala,Pakistan,North Waziristan,18,22,0,0,0,0,0,0
+Ob176,2010-12-27T00:00:00Z,Machi Khel,Pakistan,North Waziristan,4,4,0,0,0,0,0,0
+Ob177,2010-12-28T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,5,7,0,0,0,0,2,2
+Ob178,2010-12-28T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,5,12,2,4,0,0,3,3
+Ob179,2010-12-28T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,9,10,0,0,0,0,6,6
+Ob180,2010-12-31T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,4,8,0,0,0,0,0,0
+Ob181,2011-01-01T00:00:00Z,Mandi Khel,Pakistan,North Waziristan,8,10,0,0,0,0,0,0
+Ob182,2011-01-01T00:00:00Z,Mandi Khel,Pakistan,North Waziristan,4,6,0,0,0,0,0,0
+Ob183,2011-01-01T00:00:00Z,Datta Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0
+Ob184,2011-01-01T00:00:00Z,Boya,Pakistan,North Waziristan,4,4,0,0,0,0,4,4
+Ob185,2011-01-07T00:00:00Z,Ghar Laley,Pakistan,North Waziristan,1,6,0,0,0,0,0,0
+Ob186,2011-01-12T00:00:00Z,Haider Khel,Pakistan,North Waziristan,3,6,0,0,0,0,2,15
+Ob187,2011-01-18T00:00:00Z,"Assar Madd Khel, Datta Khel",Pakistan,North Waziristan,3,7,0,0,0,0,3,3
+Ob188,2011-01-23T00:00:00Z,Doga Mada Khel,Pakistan,North Waziristan,2,5,0,0,0,0,0,0
+Ob189,2011-01-23T00:00:00Z,Doga Mada Khel,Pakistan,North Waziristan,2,3,0,0,0,0,0,0
+Ob190,2011-01-23T00:00:00Z,Razmak,Pakistan,North Waziristan,4,6,0,0,0,0,3,3
+Ob191,2011-02-20T00:00:00Z,"Kazha Punga area, Tehsil Birmal",Pakistan,South Waziristan,6,8,0,0,0,0,2,2
+Ob192,2011-02-21T00:00:00Z,Malik Jashdar,Pakistan,North Waziristan,7,14,0,11,0,0,10,10
+Ob193,2011-02-24T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,4,7,0,0,0,0,3,2
+Ob194,2011-03-08T00:00:00Z,Landidog,Pakistan,South Waziristan,2,5,0,5,0,0,2,2
+Ob195,2011-03-09T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,5,0,0,0,0,2,3
+Ob196,2011-03-11T00:00:00Z,Khesoor,Pakistan,North Waziristan,4,12,5,5,0,0,0,0
+Ob197,2011-03-11T00:00:00Z,Ghoroski,Pakistan,North Waziristan,4,4,0,0,0,0,0,0
+Ob198,2011-03-13T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,0,4,0,0,0,0,0,5
+Ob199,2011-03-13T00:00:00Z,"Ishar Morr area, Qutab Khel, Miranshah",Pakistan,North Waziristan,4,7,0,0,0,0,5,5
+Ob200,2011-03-14T00:00:00Z,Malik Jashdar,Pakistan,North Waziristan,3,6,0,0,0,0,0,0
+Ob201,2011-03-16T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,5,0,0,0,0,0,0
+Ob202,2011-03-17T00:00:00Z,Datta Khel,Pakistan,North Waziristan,26,42,19,41,0,1,9,14
+Ob203,2011-04-13T00:00:00Z,Angor Adda,Pakistan,South Waziristan,4,7,0,7,0,0,6,10
+Ob204,2011-04-22T00:00:00Z,Spinwan,Pakistan,North Waziristan,20,26,5,9,3,5,5,10
+Ob205,2011-05-06T00:00:00Z,Dwa Tooe,Pakistan,North Waziristan,7,18,6,6,0,0,4,4
+Ob206,2011-05-10T00:00:00Z,Angor Adda,Pakistan,South Waziristan,3,5,0,0,0,0,4,4
+Ob207,2011-05-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,8,0,0,0,0,1,1
+Ob208,2011-05-13T00:00:00Z,Doga Mada Khel,Pakistan,North Waziristan,3,5,0,0,0,0,0,0
+Ob209,2011-05-16T00:00:00Z,"Khushali Village, Mir Ail",Pakistan,North Waziristan,4,10,0,0,0,0,2,4
+Ob210,2011-05-16T00:00:00Z,"Khisoor Village, Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,0,0
+Ob211,2011-05-20T00:00:00Z,Tappi,Pakistan,North Waziristan,4,6,0,0,0,0,0,0
+Ob212,2011-05-23T00:00:00Z,Mir Ali,Pakistan,North Waziristan,4,7,0,0,0,0,2,2
+Ob213,2011-06-03T00:00:00Z,Ghwa Khwa,Pakistan,South Waziristan,5,12,0,0,0,0,1,3
+Ob214,2011-06-06T00:00:00Z,"Tigger, Toji Khel Wazir",Pakistan,South Waziristan,7,9,0,0,0,0,2,2
+Ob215,2011-06-06T00:00:00Z,Wacha Dana,Pakistan,South Waziristan,8,10,0,7,0,0,3,3
+Ob216,2011-06-06T00:00:00Z,Darnashtra,Pakistan,South Waziristan,3,5,0,0,0,0,0,0
+Ob217,2011-06-08T00:00:00Z,Zoynari,Pakistan,South Waziristan,18,23,0,0,0,0,6,6
+Ob218,2011-06-08T00:00:00Z,Shawal,Pakistan,South Waziristan,4,4,0,0,0,0,0,0
+Ob219,2011-06-15T00:00:00Z,Wana,Pakistan,South Waziristan,2,10,0,0,0,0,2,2
+Ob220,2011-06-15T00:00:00Z,Karez,Pakistan,South Waziristan,0,0,0,0,0,0,0,0
+Ob221,2011-06-15T00:00:00Z,Mir Ali,Pakistan,North Waziristan,5,6,5,6,0,0,0,0
+Ob222,2011-06-20T00:00:00Z,Khardand,Pakistan,Kurram Agency,5,7,2,7,0,0,0,3
+Ob223,2011-06-20T00:00:00Z,Zarakai,Pakistan,Kurram Agency,2,5,0,0,0,0,0,0
+Ob224,2011-06-27T00:00:00Z,Shawal,Pakistan,South Waziristan,6,12,0,0,0,0,0,0
+Ob225,2011-06-27T00:00:00Z,Shakai,Pakistan,South Waziristan,12,21,0,20,0,0,2,2
+Ob226,2011-07-05T00:00:00Z,Mir Ali,Pakistan,North Waziristan,4,6,0,3,0,2,5,5
+Ob227,2011-07-11T00:00:00Z,Gurwak,Pakistan,North Waziristan,4,12,0,0,0,0,2,2
+Ob228,2011-07-12T00:00:00Z,Gurwak,Pakistan,North Waziristan,12,25,0,0,0,0,0,0
+Ob229,2011-07-12T00:00:00Z,Barmal,Pakistan,South Waziristan,5,13,0,0,0,0,3,5
+Ob230,2011-07-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,13,15,0,4,0,0,0,0
+Ob231,2011-07-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,1,9,1,1,0,0,3,5
+Ob232,2011-07-20T00:00:00Z,Mir Ali,Pakistan,North Waziristan,4,4,0,0,0,0,2,2
+Ob233,2011-08-01T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,3,6,0,6,0,0,2,7
+Ob234,2011-08-02T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,3,4,0,0,0,0,0,0
+Ob235,2011-08-10T00:00:00Z,Miram Shah,Pakistan,North Waziristan,8,25,0,0,0,0,3,8
+Ob236,2011-08-16T00:00:00Z,Miram Shah,Pakistan,North Waziristan,2,7,3,4,1,1,2,2
+Ob237,2011-08-19T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,3,4,0,0,0,0,2,2
+Ob238,2011-08-22T00:00:00Z,"Mir Koon Khel, Mir Ali",Pakistan,North Waziristan,3,7,0,4,0,0,3,3
+Ob239,2011-09-11T00:00:00Z,Hisokhel,Pakistan,North Waziristan,1,5,0,0,0,0,1,3
+Ob240,2011-09-23T00:00:00Z,Khushali,Pakistan,North Waziristan,3,8,0,0,0,0,3,4
+Ob241,2011-09-27T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,0,4,0,0,0,0,0,2
+Ob242,2011-09-30T00:00:00Z,Baghar,Pakistan,South Waziristan,3,4,0,0,0,0,1,5
+Ob243,2011-10-13T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,1,6,0,0,0,0,4,4
+Ob244,2011-10-13T00:00:00Z,"Chashma Nala, Birmal",Pakistan,South Waziristan,3,6,0,0,0,0,3,3
+Ob245,2011-10-14T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,3,6,0,0,0,0,0,0
+Ob246,2011-10-15T00:00:00Z,Angor Adda,Pakistan,South Waziristan,3,6,0,0,0,0,3,7
+Ob247,2011-10-26T00:00:00Z,"Shana Wana, Birmal",Pakistan,South Waziristan,13,22,0,0,0,0,6,6
+Ob248,2011-10-27T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,4,6,0,0,0,0,3,4
+Ob249,2011-10-27T00:00:00Z,Hisokhel,Pakistan,North Waziristan,4,6,0,0,0,0,3,3
+Ob250,2011-10-30T00:00:00Z,"Khar Khama, Datta Khel",Pakistan,North Waziristan,4,6,4,4,0,0,2,3
+Ob251,2011-10-31T00:00:00Z,Norak,Pakistan,North Waziristan,2,4,2,2,2,2,3,3
+Ob252,2011-11-03T00:00:00Z,"Sarai Darpa Khel, Miranshah",Pakistan,North Waziristan,2,3,0,0,0,0,3,3
+Ob253,2011-11-15T00:00:00Z,Miram Shah,Pakistan,North Waziristan,3,7,0,0,0,0,2,4
+Ob254,2011-11-16T00:00:00Z,Babar Ghar,Pakistan,South Waziristan,4,22,0,0,0,0,6,12
+Ob255,2011-11-17T00:00:00Z,Shawal,Pakistan,North Waziristan,7,9,0,0,0,0,3,5
+Ob256,2012-01-10T00:00:00Z,Miram Shah,Pakistan,North Waziristan,1,4,0,0,0,0,2,2
+Ob257,2012-01-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,9,0,0,0,0,2,3
+Ob258,2012-01-23T00:00:00Z,Deegan,Pakistan,North Waziristan,2,5,0,0,0,0,1,3
+Ob259,2012-01-23T00:00:00Z,"Char Khel, Datta Khel",Pakistan,North Waziristan,0,2,0,0,0,0,0,0
+Ob260,2012-02-08T00:00:00Z,Miranshah,Pakistan,North Waziristan,9,10,0,0,0,0,2,12
+Ob261,2012-02-09T00:00:00Z,Miranshah,Pakistan,North Waziristan,3,8,0,3,0,1,3,3
+Ob262,2012-02-16T00:00:00Z,Miranshah,Pakistan,North Waziristan,5,6,0,0,0,0,4,7
+Ob263,2012-02-16T00:00:00Z,"Jalar Zakar Khel, Mir Ali",Pakistan,North Waziristan,8,15,0,0,0,0,3,3
+Ob264,2012-03-09T00:00:00Z,Shaktoi Mandao,Pakistan,South Waziristan,4,15,0,0,0,0,0,3
+Ob265,2012-03-09T00:00:00Z,Nishpa,Pakistan,South Waziristan,6,6,0,0,0,0,0,0
+Ob266,2012-03-13T00:00:00Z,"Wagdalai, Tehsil Birmal",Pakistan,South Waziristan,6,8,0,0,0,0,2,4
+Ob267,2012-03-13T00:00:00Z,Shawa,Pakistan,North/South Waziristan,6,7,0,0,0,0,3,3
+Ob268,2012-03-30T00:00:00Z,"Sarai Bazaar, Miranshah",Pakistan,North Waziristan,3,4,0,0,0,0,3,3
+Ob269,2012-04-29T00:00:00Z,Miranshah Bazaar,Pakistan,North Waziristan,3,6,0,0,0,0,1,3
+Ob270,2012-05-05T00:00:00Z,"Guldar Kot, Dre Nishtar area",Pakistan,North Waziristan,8,10,0,0,0,0,1,3
+Ob271,2012-05-23T00:00:00Z,Datta Khel Kalai,Pakistan,North Waziristan,1,5,0,0,0,0,1,2
+Ob272,2012-05-24T00:00:00Z,Khassokhel near Mir Ali,Pakistan,North Waziristan,5,12,0,8,0,0,3,4
+Ob273,2012-05-26T00:00:00Z,Miranshah,Pakistan,North Waziristan,1,4,0,0,0,0,1,2
+Ob274,2012-05-28T00:00:00Z,Khassokhel near Mir Ali,Pakistan,North Waziristan,4,10,0,0,0,0,4,4
+Ob275,2012-05-28T00:00:00Z,"Degan, Datta Khel",Pakistan,North Waziristan,2,5,0,0,0,0,0,0
+Ob276,2012-06-02T00:00:00Z,"Khawashi Khel, near Wana",Pakistan,South Waziristan,2,4,0,0,0,0,0,0
+Ob277,2012-06-03T00:00:00Z,"Landai Warai, Tehsil Birmal",Pakistan,South Waziristan,0,10,0,0,0,0,4,10
+Ob278,2012-06-04T00:00:00Z,"Khushali, Tehsil Mir Ali",Pakistan,North Waziristan,14,18,0,6,0,0,3,6
+Ob279,2012-06-13T00:00:00Z,"Isha, near Miranshah",Pakistan,North Waziristan,2,4,0,0,0,0,0,0
+Ob280,2012-06-14T00:00:00Z,Miranshah,Pakistan,North Waziristan,1,4,0,0,0,0,2,3
+Ob281,2012-06-26T00:00:00Z,Shawal,Pakistan,North Waziristan,4,7,0,0,0,0,2,7
+Ob282,2012-07-01T00:00:00Z,Dre Nishter/Shawal,Pakistan,North Waziristan,6,9,0,0,0,0,2,3
+Ob283,2012-07-06T00:00:00Z,Maizer,Pakistan,North Waziristan,13,24,3,18,0,0,2,22
+Ob284,2012-07-23T00:00:00Z,Dre Nishter/Shawal,Pakistan,North Waziristan,11,14,6,14,0,0,2,11
+Ob285,2012-07-29T00:00:00Z,Kushhali Turkhel,Pakistan,North Waziristan,4,7,0,3,0,0,4,4
+Ob286,2012-08-18T00:00:00Z,"Mammon Narai, Shuweda",Pakistan,North Waziristan,5,12,1,1,0,0,2,9
+Ob287,2012-08-19T00:00:00Z,"Mana, Shawal",Pakistan,North Waziristan,4,7,0,0,0,0,2,3
+Ob288,2012-08-19T00:00:00Z,"Mana, Shawal",Pakistan,North Waziristan,2,3,0,0,0,0,2,2
+Ob289,2012-08-21T00:00:00Z,"Shnakhura, Datta Khel",Pakistan,North Waziristan,4,25,1,3,1,1,2,2
+Ob290,2012-08-24T00:00:00Z,"Makai/Maki Ghar, Shawal",Pakistan,North Waziristan,13,22,0,0,0,0,4,14
+Ob291,2012-08-24T00:00:00Z,"Dara, Shawal",Pakistan,North Waziristan,0,0,0,0,0,0,0,0
+Ob292,2012-08-24T00:00:00Z,"Dre Nishter, Shawal",Pakistan,North Waziristan,0,0,0,0,0,0,0,0
+Ob293,2012-09-01T00:00:00Z,Degan,Pakistan,North Waziristan,4,6,0,0,0,0,2,3
+Ob294,2012-09-21T00:00:00Z,Mohammed Khel/Datta Khel,Pakistan,North Waziristan,3,4,0,0,0,0,2,3
+Ob295,2012-09-24T00:00:00Z,"Mosaki - Inzar Abad, Tehsil Mir Ali",Pakistan,North Waziristan,3,8,0,0,0,0,2,2
+Ob296,2012-10-01T00:00:00Z,Khadar Khel,Pakistan,North Waziristan,2,4,0,0,0,0,0,0
+Ob297,2012-10-10T00:00:00Z,"Hurmaz, Teshil Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,3,3
+Ob298,2012-10-11T00:00:00Z,Buland Khel,Pakistan,Orakzai Agency,16,26,0,2,0,0,5,15
+Ob299,2012-10-24T00:00:00Z,Village Ghundi Killi Daur Tappi area of Tehsil Miranshah,Pakistan,North Waziristan,1,1,1,1,0,0,6,9
+Ob300,2012-11-29T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,1,4,0,0,0,0,3,4
+Ob301,2012-12-01T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,1,4,0,0,0,0,3,3
+Ob302,2012-12-06T00:00:00Z,"Noorak Mubarak Shahi area, Tehsil Mir Ali",Pakistan,North Waziristan,2,11,1,1,0,0,1,6
+Ob303,2012-12-09T00:00:00Z,"Tabbi Tor Khel, Tehisl Ghulam Khan",Pakistan,North Waziristan,2,4,0,3,0,0,0,0
+Ob304,2012-12-21T00:00:00Z,"Hassokhel, near Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,2,2
+Ob305,2012-12-29T00:00:00Z,"Gurbaz, Shawal",Pakistan,North Waziristan,4,5,0,0,0,0,2,2
+Ob306,2013-01-02T00:00:00Z,"Lajhmarai area, Tehsil Birmal",Pakistan,South Waziristan,6,11,0,0,0,0,0,0
+Ob307,2013-01-03T00:00:00Z,"Ghundi Killi, Tappi area, Tehsil Miranshah",Pakistan,North Waziristan,3,6,0,0,0,0,1,1
+Ob308,2013-01-06T00:00:00Z,"Smal Narai area, Tehsil Ladha",Pakistan,South Waziristan,8,18,0,0,0,0,3,7
+Ob309,2013-01-08T00:00:00Z,"Haiderkhel, near Mir Ali",Pakistan,North Waziristan,4,9,0,2,0,1,1,4
+Ob310,2013-01-08T00:00:00Z,"Malangan Hassokhel, Tehsil Mir Ali",Pakistan,North Waziristan,0,9,0,0,0,0,1,4
+Ob311,2013-01-10T00:00:00Z,"Hassokhel, near Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,0,0
+Ob312,2013-02-06T00:00:00Z,Spinwam,Pakistan,North Waziristan,3,5,0,2,0,0,1,1
+Ob313,2013-02-08T00:00:00Z,Babar Ghar,Pakistan,South Waziristan,6,9,0,0,0,0,2,6
+Ob314,2013-03-10T00:00:00Z,Datta Khel,Pakistan,North Waziristan,1,3,0,0,0,0,1,1
+Ob315,2013-03-22T00:00:00Z,"New Adda, Tehsil Datta Khel",Pakistan,North Waziristan,1,4,0,0,0,0,1,1
+Ob316,2013-04-14T00:00:00Z,Datta Khel,Pakistan,North Waziristan,4,6,0,0,0,0,2,2
+Ob317,2013-04-17T00:00:00Z,"Pobar, Tehsil Ladha",Pakistan,South Waziristan,4,6,0,0,0,0,2,7
+Ob318,2013-05-29T00:00:00Z,"Qazi Kot, Tehsil Miranshah",Pakistan,North Waziristan,3,7,0,0,0,0,1,4
+Ob319,2013-06-07T00:00:00Z,"Shui Khel Mandi, Tehsil Shawal",Pakistan,North Waziristan,7,11,0,0,0,0,3,4
+Ob320,2013-07-03T00:00:00Z,"Shui Khel Mandi, Tehsil Shawal",Pakistan,North Waziristan,16,18,0,0,0,0,5,5
+Ob321,2013-07-13T00:00:00Z,Khray Chila Mossaki area of Mir Ali,Pakistan,North Waziristan,2,3,0,0,0,0,0,0
+Ob322,2013-07-28T00:00:00Z,"Zoi Nair, Tehsil Shawal",Pakistan,North Waziristan,5,8,0,0,0,0,2,4
+Ob323,2013-08-31T00:00:00Z,"Mossaki, Tehsil Mir Ali",Pakistan,North Waziristan,3,4,0,0,0,0,1,3
+Ob324,2013-09-06T00:00:00Z,"Tabi, Tehsil Ghulam Khan",Pakistan,North Waziristan,5,7,0,0,0,0,3,7
+Ob325,2013-09-22T00:00:00Z,"ShawalPalgai area, Thesil Makin",Pakistan,North/South Waziristan,6,7,0,0,0,0,2,4
+Ob326,2013-09-29T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,3,6,0,0,0,0,1,3
+Ob327,2013-09-30T00:00:00Z,"Land Char Khel, Tehsil Datta Khel",Pakistan,North Waziristan,1,4,0,0,0,0,2,4
+Ob328,2013-10-31T00:00:00Z,Miranshah,Pakistan,North Waziristan,0,5,0,0,0,0,3,3
+Ob329,2013-11-01T00:00:00Z,Dandi Darpakhel,Pakistan,North Waziristan,4,7,0,0,0,0,2,2
+Ob330,2013-11-21T00:00:00Z,"Tal, Hangu District",Pakistan,Khyber Pakhtunkhwa province,6,9,0,0,0,0,1,9
+Ob331,2013-11-29T00:00:00Z,Miranshah,Pakistan,North Waziristan,2,3,0,0,0,0,1,2
+Ob332,2013-12-25T00:00:00Z,"Qutab Khel, Miranshah",Pakistan,North Waziristan,3,4,0,0,0,0,1,1
+Ob333,2014-06-11T00:00:00Z,Tabi Tolkhel or Darga Mandi,Pakistan,North Waziristan,4,6,0,0,0,0,0,0
+Ob334,2014-06-12T00:00:00Z,"Darga Mandi, Dande Darpakhel or Ghulam Khan",Pakistan,North Waziristan,6,10,0,0,0,0,4,4
+Ob335,2014-06-18T00:00:00Z,"Darga Mandi, Dande Darpakhel or Miranshah",Pakistan,North Waziristan,4,8,0,0,0,0,2,4
+Ob336,2014-07-10T00:00:00Z,"Madakhel village, Datta Khel Tehsil",Pakistan,North Waziristan,6,7,0,0,0,0,2,3
+Ob337,2014-07-16T00:00:00Z,"Saidgai, Datta Khel tehsil",Pakistan,North Waziristan,15,24,0,0,0,0,4,6
+Ob338,2014-07-19T00:00:00Z,"Doga Madakhel, Datta Khel tehsil",Pakistan,North Waziristan,11,15,0,0,0,0,0,0
+Ob339,2014-08-05T00:00:00Z,"Lawara Mandi village, Datta Khel tehsil",Pakistan,North Waziristan,5,7,0,0,0,0,2,3
+Ob340,2014-09-24T00:00:00Z,"Alwara Mandi village, Datta Khel tehsil",Pakistan,North Waziristan,5,11,0,0,0,0,0,0
+Ob341,2014-09-28T00:00:00Z,Wana,Pakistan,South Waziristan,2,4,0,0,0,0,1,4
+Ob342,2014-10-05T00:00:00Z,"Kundhgar, Shawal",Pakistan,South Waziristan,4,5,0,0,0,0,2,3
+Ob343,2014-10-06T00:00:00Z,"Mangrotai, Shawal",Pakistan,South Waziristan,4,8,0,0,0,0,4,6
+Ob344,2014-10-07T00:00:00Z,"Kundhgar, Shawal",Pakistan,South Waziristan,4,7,0,0,0,0,5,11
+Ob345,2014-10-07T00:00:00Z,"Kundser, Datta Khel",Pakistan,North Waziristan,2,4,0,0,0,0,5,5
+Ob346,2014-10-08T00:00:00Z,"Loman, Datta Khel",Pakistan,North Waziristan,2,4,0,0,0,0,1,3
+Ob347,2014-10-09T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,4,0,0,0,0,0,0
+Ob348,2014-10-11T00:00:00Z,Tirah Valley,Pakistan,Khyber Agency,4,6,0,0,0,0,2,2
+Ob349,2014-10-11T00:00:00Z,"Marga, Shawal",Pakistan,North Waziristan,2,4,0,0,0,0,0,0
+Ob350,2014-10-30T00:00:00Z,"Nargas village, Azam Warsak",Pakistan,South Waziristan,4,7,0,0,0,0,2,2
+Ob351,2014-11-11T00:00:00Z,"Dawa Toi, Datta Khel",Pakistan,North Waziristan,4,7,0,2,0,2,2,3
+Ob352,2014-11-20T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,8,0,0,0,0,2,3
+Ob353,2014-11-26T00:00:00Z,"Garga, Shawal",Pakistan,North Waziristan,4,9,0,0,0,0,2,3
+Ob354,2014-12-07T00:00:00Z,"Khar Tangi, Datta Khel",Pakistan,North Waziristan,4,6,0,0,0,0,2,2
+Ob355,2014-12-20T00:00:00Z,Datta Khel,Pakistan,North Waziristan,4,6,0,0,0,0,0,0
+Ob356,2014-12-26T00:00:00Z,"Kund/Kundghar village, Shawal",Pakistan,North Waziristan,4,5,0,0,0,0,0,0
+Ob357,2014-12-26T00:00:00Z,"Kund/Kundghar village, Shawal",Pakistan,North Waziristan,3,4,0,0,0,0,0,0
+Ob358,2015-01-04T00:00:00Z,"Alwara Mandi, Datta Khel or Shawal",Pakistan,North Waziristan,6,10,0,0,0,0,0,0
+Ob359,2015-01-15T00:00:00Z,Shawal,Pakistan,North Waziristan,5,7,2,2,0,0,0,0
+Ob360,2015-01-15T00:00:00Z,Ladha district,Pakistan,South Waziristan,4,7,0,0,0,0,3,4
+Ob361,2015-01-19T00:00:00Z,"Shahi Khel, Shawal",Pakistan,North Waziristan,5,7,0,0,0,0,4,6
+Ob362,2015-01-28T00:00:00Z,Shawal,Pakistan,North Waziristan,6,7,0,0,0,0,2,4
+Ob363,2015-03-18T00:00:00Z,Shabak,Pakistan,Kurram Agency,3,3,0,0,0,0,0,0
+Ob364,2015-04-12T00:00:00Z,Shawal,Pakistan,North Waziristan,4,4,0,0,0,0,2,2
+Ob365,2015-05-16T00:00:00Z,"Wara Mandi, Shawal",Pakistan,North Waziristan,4,7,0,0,0,0,2,2
+Ob366,2015-05-18T00:00:00Z,"Zoy Nari, Shawal",Pakistan,North Waziristan,3,6,0,0,0,0,2,3
+Ob367,2015-06-01T00:00:00Z,Shawal,Pakistan,North Waziristan,4,5,0,0,0,0,0,0
+Ob368,2015-06-06T00:00:00Z,Shawal or Datta Khel,Pakistan,North Waziristan,7,9,0,3,0,0,4,4
+Ob369,2015-08-06T00:00:00Z,"Alwara Mandi area, Datta Khel",Pakistan,North Waziristan,4,7,0,0,0,0,2,3
+Ob370,2015-09-01T00:00:00Z,"Karwanda village, Manzarkhel area, Dattakhel sub-division or Lawara Banga area of Shawal valley",Pakistan,North Waziristan,5,6,0,0,0,0,4,4
+Ob371,2016-01-09T00:00:00Z,"Mangrooti village, Shawal valley, Datta Khel tehsil",Pakistan,North Waziristan,5,5,0,0,0,0,2,2
+Ob372,2016-02-22T00:00:00Z,"Shahidano Dhand, Lower Kurram",Pakistan,Kurram Agency,4,5,0,0,0,0,1,4
+Ob373,2016-05-21T00:00:00Z,Ahmad Wal,Pakistan,Balochistan,2,2,1,1,0,0,0,0
+T001,2017-03-02T00:00:00Z,Unknown,Pakistan,Kurram Agency,2,2,0,0,0,0,0,0
+T002,2017-04-26T00:00:00Z,Zuwai,Pakistan,North Waziristan,7,11,0,3,0,0,0,0
+T003,2017-05-24T00:00:00Z,Unknown,Pakistan,North Waziristan,2,3,0,0,0,0,0,0
+T004,2017-06-13T00:00:00Z,Hangu district,Pakistan,Khyber Pakhtunkhwa province,1,3,0,0,0,0,0,3
+T005,2017-09-15T00:00:00Z,Ghuz Ghari village,Pakistan,Kurram Agency,3,3,0,0,0,0,1,2
+T006,2018-01-24T00:00:00Z,Unclear,Pakistan,Unclear,1,3,0,0,0,0,0,0

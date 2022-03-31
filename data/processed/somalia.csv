@@ -1,0 +1,196 @@
+strike_id,date,location,area,country,confirm_possible,air_strike,drone_strike,strike_type,min_strikes,max_strikes,min_ppl_killed,max_ppl_killed,min_civil_killed,max_civil_killed,min_child_killed,max_child_killed,min_injured,max_injured
+SOM001,2007-01-07T00:00:00Z,Ras Kamboni,NA,Somalia,Confirmed,TRUE,FALSE,Air assault - AC-130 Gunship,1,1,8,10,2,2,0,1,1,3
+SOM002,2007-01-09T00:00:00Z,"Hayo, Garer, Bankajirow and Badmadow, Ras Kamboni",NA,Somalia,Confirmed,TRUE,FALSE,Air assault - AC-130 Gunship,1,1,5,10,0,0,0,0,4,5
+SOM003,2007-01-09T00:00:00Z,Hayo,NA,Somalia,Possible,TRUE,FALSE,Air assault - helicopter,1,1,4,31,4,31,0,1,0,0
+SOM004,2007-01-23T00:00:00Z,Waldena,NA,Somalia,Confirmed,TRUE,FALSE,"Air assault - AC-130 Gunship
+Ground operation - capture mission",1,1,8,8,0,0,0,0,0,0
+SOM005,2007-06-01T00:00:00Z,Bargal,NA,Somalia,Confirmed,FALSE,FALSE,Naval operation - USS Chafee shore bombardment,1,1,8,12,0,0,0,0,0,0
+SOM006,2008-03-03T00:00:00Z,Dhobley,NA,Somalia,Confirmed,FALSE,FALSE,"Naval operation - cruise missile
+Possible air operation - AC-130 Gunship",1,1,0,6,0,4,0,0,3,8
+SOM007,2008-05-01T00:00:00Z,Dusa Marreb,NA,Somalia,Confirmed,FALSE,FALSE,"Naval operation - cruise missiles
+Possible air assault - AC-130 Gunship",1,1,8,15,5,10,0,0,0,0
+SOM008,2009-09-14T00:00:00Z,Barawe,NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - helicopter
+Ground assault - body retrieval",1,1,2,6,0,0,0,0,2,2
+SOM009,2011-04-03T00:00:00Z,Dhobley,NA,Somalia,Possible,TRUE,FALSE,Air operation - airstrike,1,1,1,36,0,0,0,0,0,0
+SOM010,2011-06-23T00:00:00Z,Kismayo,NA,Somalia,Confirmed,TRUE,TRUE,"Air operation - drone strike
+Helicopter raid",1,1,2,2,0,0,0,0,2,3
+SOM011,2011-07-06T00:00:00Z,Juba,NA,Somalia,Possible,TRUE,TRUE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM012,2011-09-25T00:00:00Z,Kismayo,NA,Somalia,Possible,TRUE,TRUE,Air operation - drone strike,1,1,0,0,0,0,0,0,0,0
+SOM013,2011-11-14T00:00:00Z,Afgoye,NA,Somalia,Possible,TRUE,TRUE,Air operation - drone strike,1,1,0,2,0,0,0,0,0,0
+SOM014,2012-01-21T00:00:00Z,Elasha Biyaha,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,1,1,0,0,0,0,0,0
+SOM015,2012-02-24T00:00:00Z,Lower Shabelle,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,3,7,0,1,0,0,0,0
+SOM016,2012-04-17T00:00:00Z,"Gumh, Puntland",NA,Somalia,Possible,TRUE,FALSE,Air operation - airstrike,1,1,0,0,0,0,0,0,2,2
+SOM017,2013-10-05T00:00:00Z,"Barawe, Shabeellaha Hoose",NA,Somalia,Confirmed,FALSE,FALSE,Ground operation - amphibious assault,1,1,1,7,0,0,0,0,1,1
+SOM018,2013-10-28T00:00:00Z,"Jillib, Middle Juba",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,2,3,0,0,0,0,0,0
+SOM019,2014-01-26T00:00:00Z,"Hawai, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,2,9,0,2,0,2,0,1
+SOM020,2014-08-01T00:00:00Z,"Barawe, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,6,6,0,0,0,0,0,0
+SOM021,2014-12-29T00:00:00Z,Saakow,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,2,3,0,0,0,0,0,0
+SOM022,2015-01-31T00:00:00Z,"Dugule, Lower Shabelle",NA,Somalia,Possible,TRUE,TRUE,Air operation - drone strike,1,1,40,60,0,0,0,0,0,0
+SOM023,2015-01-31T00:00:00Z,"Dinsoor, Bay Region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,2,9,0,4,0,0,0,4
+SOM024,2015-03-12T00:00:00Z,"Abaq Xaluul village, Baardheere, Gedo region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,3,3,0,0,0,0,0,0
+SOM025,2015-07-15T00:00:00Z,"Baardheere, Gedo Region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,2,3,0,0,0,0,0,0
+SOM026,2015-07-15T00:00:00Z,"Baardheere, Gedo Region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,5,5,0,0,0,0,0,0,0,0
+SOM027,2015-11-21T00:00:00Z,"Balad Amin, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,5,10,0,0,0,0,0,0
+SOM028,2015-11-29T00:00:00Z,"Yasooman, Ceeldheer and Ceel Lahelay villages, Hiraan region",NA,Somalia,Possible,TRUE,FALSE,Air operation - airstrike,1,1,0,0,0,0,0,0,0,0
+SOM029,2015-12-02T00:00:00Z,"Kunyo-Barow, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,3,3,0,0,0,0,0,0
+SOM030,2015-12-21T00:00:00Z,"Kuntuwarey district, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,5,5,0,0,0,0,0,0
+SOM031,2016-03-05T00:00:00Z,"Raso Camp, Hiraaan",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,150,200,0,0,0,0,0,0
+SOM032,2016-03-08T00:00:00Z,"Awdhegle, Lower Shabelle",NA,Somalia,Confirmed,FALSE,FALSE,Ground operation - Joint US-Somali helicopter assault,1,1,19,19,0,0,0,0,0,0
+SOM033,2016-03-31T00:00:00Z,"Jillib, Middle Juba",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,3,3,0,0,0,0,0,0
+SOM034,2016-04-01T00:00:00Z,Unknown,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,0,22,0,0,0,0,0,0
+SOM035,2016-04-02T00:00:00Z,Unknown,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,6,6,0,0,0,0,0,0
+SOM036,2016-04-06T00:00:00Z,"Jillib, Middle Juba",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,8,8,0,0,0,0,0,0
+SOM037,2016-04-11T00:00:00Z,Lower Juba,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,8,12,3,3,0,0,0,0
+SOM038,2016-05-12T00:00:00Z,"Afgoye, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1,5,5,0,0,0,0,0,0
+SOM039,2016-05-27T00:00:00Z,South-central Somalia,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,1,1,0,0,0,0,0,0
+SOM040,2016-06-21T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,3,3,0,0,0,0,0,0
+SOM041,2016-08-30T00:00:00Z,Near Gobanale,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,2,2,0,0,0,0,0,0
+SOM042,2016-09-05T00:00:00Z,Tortoroow,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,2,2,4,4,0,0,0,0,0,0
+SOM043,2016-09-26T00:00:00Z,"Caba, near Kismayo",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,4,4,0,0,0,0,0,0
+SOM044,2016-09-28T00:00:00Z,"Galcayo, Galmudug",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,10,22,0,2,0,0,3,16
+SOM045,2017-01-07T00:00:00Z,Gaduug,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM046,2017-05-04T00:00:00Z,"Dar es Salam village, Lower Shabelle",NA,Somalia,Confirmed,FALSE,FALSE,"Ground operation - Somali-led or joint operation, ambushed before reaching target",1,1,4,9,0,0,0,0,0,0
+SOM047,2017-06-11T00:00:00Z,"Sakow, Middle Juba region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,8,8,0,0,0,0,0,0
+SOM048,2017-07-02T00:00:00Z,"Kunyo Barrow, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,1,1,0,0,0,0,0,0
+SOM049,2017-07-04T00:00:00Z,"Luglaw, Jubba region",NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1,10,13,0,0,0,0,10,10
+SOM050,2017-07-13T00:00:00Z,"Kunyo Barrow, Lower Shabelle",NA,Somalia,Confirmed,FALSE,FALSE,Ground operation - US-Somali air assault,1,1,0,0,0,0,0,0,0,0
+SOM051,2017-07-15T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1,0,0,0,0,0,0,0,0
+SOM052,2017-07-20T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1,0,0,0,0,0,0,0,0
+SOM053,2017-07-21T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1,0,0,0,0,0,0,0,0
+SOM054,2017-07-28T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1,0,0,0,0,0,0,0,0
+SOM055,2017-07-29T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1,0,0,0,0,0,0,0,0
+SOM056,2017-07-29T00:00:00Z,"Tortoroow, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,1,1,0,0,0,0,0,0
+SOM057,2017-08-10T00:00:00Z,Banadiir region,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,2,2,0,1,0,0,0,0,0,0
+SOM058,2017-08-16T00:00:00Z,"Jillib, Middle Juba",NA,Somalia,Confirmed,TRUE,FALSE,"Air operation - drone or airstrike, US-Somali ground troops",1,1,7,7,0,7,0,0,0,0
+SOM059,2017-08-25T00:00:00Z,"Bariire, Lower Shabelle region",NA,Somalia,Confirmed,FALSE,FALSE,Ground operation - Somali-led or joint operation,1,1,0,10,0,10,0,3,0,0
+SOM060,2017-08-31T00:00:00Z,"Barawe, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,1,1,0,0,0,0,1,1
+SOM061,2017-09-05T00:00:00Z,Bay region,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,3,3,0,0,0,0,0,0
+SOM062,2017-09-07T00:00:00Z,"Barawe, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,1,1,0,0,0,0,0,0
+SOM063,2017-09-13T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,6,6,0,0,0,0,0,0
+SOM064,2017-09-30T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM065,2017-10-02T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM066,2017-10-16T00:00:00Z,"Bariire, Lower Shabelle region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,0,5,0,2,0,0,0,8
+SOM067,2017-11-03T00:00:00Z,"Qandala town, Puntland",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,2,2,3,20,0,0,0,0,0,0
+SOM068,2017-11-09T00:00:00Z,Bay region,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,3,3,0,0,0,0,0,0
+SOM069,2017-11-10T00:00:00Z,"Basra village, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,13,13,0,3,0,0,0,0
+SOM070,2017-11-11T00:00:00Z,Gaduud,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,1,1,0,0,0,0,0,0
+SOM071,2017-11-12T00:00:00Z,Lower Shabelle,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,3,3,0,3,0,0,0,0
+SOM072,2017-11-12T00:00:00Z,Puntland,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,23,23,0,0,0,0,0,0
+SOM073,2017-11-13T00:00:00Z,"Awhiigle, Gaduud",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM074,2017-11-14T00:00:00Z,"Idow Jalad, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,6,6,0,0,0,0,0,0
+SOM075,2017-11-21T00:00:00Z,Bay region,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,100,100,0,0,0,0,0,0
+SOM076,2017-11-27T00:00:00Z,Northeastern,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,1,1,0,0,0,0,0,0
+SOM077,2017-12-12T00:00:00Z,"Mubarak, Lower Shabelle",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM078,2017-12-15T00:00:00Z,30 miles northwest of Kismayo,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,8,8,0,0,0,0,0,0
+SOM079,2017-12-24T00:00:00Z,Southern Somalia,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,13,13,0,0,0,0,0,0
+SOM080,2017-12-27T00:00:00Z,25 kilometers west of Mogadishu,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,4,4,0,0,0,0,0,0
+SOM081,2018-01-02T00:00:00Z,50 kilometers west of Mogadishu,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,2,2,0,0,0,0,0,0
+SOM082,2018-01-18T00:00:00Z,51 kilometers northwest of Kismayo,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,4,4,0,0,0,0,0,0
+SOM083,2018-01-18T00:00:00Z,Middle Shabelle region,NA,Somalia,Confirmed,FALSE,FALSE,Ground operation - Somali-led or joint operation,1,1,0,5,0,0,0,5,0,6
+SOM084,2018-02-06T00:00:00Z,"Kunyo Barrow, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM085,2018-02-19T00:00:00Z,"Jilib, Middle Juba Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,3,3,0,0,0,0,0,0
+SOM086,2018-02-21T00:00:00Z,"Jamaame, Lower Juba region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,4,5,0,2,0,0,0,0
+SOM087,2018-02-26T00:00:00Z,"Jilib, Middle Juba Region",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,2,2,0,0,0,0,1,1
+SOM088,2018-03-12T00:00:00Z,"Kamsuuma, Lower Juba region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM089,2018-03-13T00:00:00Z,"Jamecco, Middle Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,12,12,0,0,0,0,15,15
+SOM090,2018-03-19T00:00:00Z,"Mubarak, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,2,2,0,0,0,0,3,3
+SOM091,2018-04-01T00:00:00Z,"El Burr, Galmudug",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1,6,6,2,2,1,1,0,0
+SOM092,2018-04-05T00:00:00Z,"Jilib, Middle Juba Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,3,3,0,0,0,0,0,0
+SOM093,2018-04-11T00:00:00Z,"Jana Cabdalle, Kismayo",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM094,2018-04-16T00:00:00Z,"Leego, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM095,2018-05-09T00:00:00Z,Lower Shabelle,NA,Somalia,Confirmed,FALSE,FALSE,Ground operation - Somali-led operation,1,1,0,5,0,5,0,0,0,0
+SOM096,2018-05-23T00:00:00Z,Lower Shabelle,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,10,10,0,0,0,0,0,0
+SOM097,2018-05-31T00:00:00Z,30 miles southwest of Mogadishu,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,12,12,0,0,0,0,0,0
+SOM098,2018-06-02T00:00:00Z,26 miles southwest of Bosasso,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,27,27,0,0,0,0,0,0
+SOM099,2018-06-03T00:00:00Z,24 miles southwest of Bosasso,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1,0,0,0,0,0,0,0,0
+SOM100,2018-06-08T00:00:00Z,Jubaland,NA,Somalia,Confirmed,FALSE,FALSE,Ground operation,1,1,1,1,0,0,0,0,5,5
+SOM101,2018-07-23T00:00:00Z,50 kilometres north of Kismayo,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM102,2018-08-02T00:00:00Z,74 miles northwest of Mogadishu,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,4,4,0,3,0,0,0,0
+SOM103,2018-08-21T00:00:00Z,46 kilometres northeast of Kismayo,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM104,2018-08-27T00:00:00Z,40 kilometers southwest of Mogadishu,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM105,2018-09-11T00:00:00Z,"Mubaraak, 37 miles west of Mogadishu",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,1,1
+SOM106,2018-09-21T00:00:00Z,"50 kilometres northwest of Kismayo, Lower Juba",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,18,18,0,0,0,0,0,0
+SOM107,2018-10-01T00:00:00Z,40 kilometres northeast of Kismayo,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,9,9,0,0,0,0,1,1
+SOM108,2018-10-06T00:00:00Z,"Near Kunya Barrow, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM109,2018-10-12T00:00:00Z,"Haradere, Galmudug",NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or air strike,1,1,60,60,0,0,0,0,0,0
+SOM110,2018-10-14T00:00:00Z,"Vicinity of Araara, Lower Juba region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,4,4,0,0,0,0,0,0
+SOM111,2018-10-25T00:00:00Z,Vicinity of Kunya Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM112,2018-11-19T00:00:00Z,Vicinity of Debatscile,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or air strike,1,1,27,27,0,0,0,0,0,0
+SOM113,2018-11-19T00:00:00Z,Vicinity of Debatscile,NA,Somalia,Confirmed,TRUE,TRUE,Air operation - drone or air strike,1,1,10,10,0,0,0,0,0,0
+SOM114,2018-11-20T00:00:00Z,"Vicinity of Quy Cad, Mudug",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,7,7,0,0,0,0,0,0
+SOM115,2018-11-21T00:00:00Z,"Vicinity of Haradere, Galmudug",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,6,6,0,0,0,0,0,0
+SOM116,2018-11-21T00:00:00Z,"Vicinity of Haradere, Galmudug",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM117,2018-11-27T00:00:00Z,"Vicinity of Quy Cad, Near Debatscile, Mudug region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM118,2018-11-30T00:00:00Z,Near Lebede,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,9,9,0,0,0,0,0,0
+SOM119,2018-12-04T00:00:00Z,"Vicinity of Awdheegle, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,4,4,0,0,0,0,0,0
+SOM120,2018-12-08T00:00:00Z,Vicinity of Basra,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,4,4,0,1,0,0,0,1
+SOM121,2018-12-15T00:00:00Z,Vicinity of Gandarshe,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,4,4,34,34,0,0,0,0,0,0
+SOM122,2018-12-16T00:00:00Z,Vicinity of Gandarshe,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,28,28,0,0,0,0,0,0
+SOM123,2018-12-19T00:00:00Z,Vicinity of Beled Amin South​,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,11,11,0,0,0,0,0,0
+SOM124,2019-01-02T00:00:00Z,"Vicinity of Dheerow Sanle, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,10,10,0,0,0,0,0,0
+SOM125,2019-01-06T00:00:00Z,"Vicinity of Dheerow Sanle, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,6,6,0,0,0,0,0,0
+SOM126,2019-01-07T00:00:00Z,"Vicinity of Baqdaad, Lower Juba region​",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,4,4,0,0,0,0,0,0
+SOM127,2019-01-08T00:00:00Z,"Vicinity of Yaaq Braawe, Bay Region​",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,6,6,0,0,0,0,0,0
+SOM128,2019-01-19T00:00:00Z,"Near Jilib, Middle Juba region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,52,52,0,0,0,0,0,0
+SOM129,2019-01-23T00:00:00Z,"Near Jilib, Middle Juba region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,0,0,0,0,0,0,0,0
+SOM130,2019-01-30T00:00:00Z,"Vicinity of Shebeeley, Hiran Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,24,24,0,0,0,0,0,0
+SOM131,2019-02-01T00:00:00Z,"Vicinity of Gandarshe, Lower Shabelle Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,13,13,0,0,0,0,0,0
+SOM132,2019-02-03T00:00:00Z,"Vicinity of Gandarshe, Lower Shabelle Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM133,2019-02-05T00:00:00Z,"Vicinity of Leego, Bay Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM134,2019-02-06T00:00:00Z,"Gandarshe, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,11,11,0,0,0,0,0,0
+SOM135,2019-02-07T00:00:00Z,"Bariire, Lower Shabelle region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,4,4,0,0,0,0,0,0
+SOM136,2019-02-08T00:00:00Z,Kobon,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,8,8,0,0,0,0,0,0
+SOM137,2019-02-11T00:00:00Z,"Janaale, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,12,13,0,13,0,0,0,0
+SOM138,2019-02-23T00:00:00Z,"Kunyow Barrow, 250km southwest of Mogadishu",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,2,4,0,3,0,1,0,0
+SOM139,2019-02-23T00:00:00Z,"Vicinity of Awdeegle, 50 km west of Mogadishu",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,3,0,0,0,0,0,0
+SOM140,2019-02-23T00:00:00Z,"Vicinity of Janaale, 75 km southwest of Mogadishu",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,2,0,0,0,0,0,0
+SOM141,2019-02-24T00:00:00Z,"Rural location, 23 miles east of Beledweyne, Hiran Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,35,35,0,0,0,0,0,0
+SOM142,2019-02-25T00:00:00Z,"Vicinity of Shebeeley, Hiran Region, Somalia",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,20,20,0,0,0,0,0,0
+SOM143,2019-02-28T00:00:00Z,Vicinity of Hiran,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,26,26,0,0,0,0,0,0
+SOM144,2019-03-11T00:00:00Z,"Vicinity of Dara Salaam, Lower Shabelle Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,8,8,0,7,0,0,0,1
+SOM145,2019-03-12T00:00:00Z,"Vicinity of Huley, Lower Shabelle region.",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM146,2019-03-13T00:00:00Z,"Vicinity of Malayle, Lower Juba region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM147,2019-03-18T00:00:00Z,"Awdheegle, lower Shabelle region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,7,0,4,0,0,0,0
+SOM148,2019-04-09T00:00:00Z,"Jilib, Middle Juba Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM149,2019-04-11T00:00:00Z,"Garowle, Lower Shabelle region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM150,2019-04-14T00:00:00Z,"Vicinity of Xiriiro, Bari region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM151,2019-04-19T00:00:00Z,"Vicinity of Jamaame, Lower Juba Region",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM152,2019-04-26T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM153,2019-05-05T00:00:00Z,Vicinity of Tortoroow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM154,2019-05-08T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,13,13,0,0,0,0,0,0
+SOM155,2019-05-09T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,4,4,0,0,0,0,0,0
+SOM156,2019-05-22T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM157,2019-05-22T00:00:00Z,"Baled Amin, lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM158,2019-05-24T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM159,2019-05-26T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM160,2019-06-04T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,6,6,0,0,0,0,0,0
+SOM161,2019-06-05T00:00:00Z,Vicinity of Tortoroow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM162,2019-06-16T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,2,2,0,0,0,0,0,0
+SOM163,2019-06-24T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM164,2019-06-25T00:00:00Z,Vicinity of Kunyo Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM165,2019-07-27T00:00:00Z,Golis Mountains,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM166,2019-08-20T00:00:00Z,Vicinity of Kunyo Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM167,2019-09-03T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,1,1,0,0,0,0,0,0
+SOM168,2019-09-17T00:00:00Z,"Northwest of Kismayo, lower Juba province",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM168a,2019-09-24T00:00:00Z,"near Ugungi, Lower Shabelle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM169,2019-09-30T00:00:00Z,"Baledogle Military Airfield (BMA) complex, Baledogle",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,10,10,0,0,0,0,0,0
+SOM170,2019-09-30T00:00:00Z,Near Kunyo Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM171,2019-10-25T00:00:00Z,"Ameyra village, Golis Mountains",NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,2,0,0,0,1
+SOM172,2019-11-12T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM173,2019-11-19T00:00:00Z,near Qunyo Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM174,2019-11-30T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM175,2019-12-09T00:00:00Z,Vicinity of Saakow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM176,2019-12-16T00:00:00Z,Vicinity of Dujuuma,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM177,2019-12-29T00:00:00Z,Qunyo Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,2,2,0,0,0,0,0,0
+SOM178,2019-12-29T00:00:00Z,Caliyoow Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM179,2020-01-03T00:00:00Z,Bacaw,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM180,2020-01-16T00:00:00Z,Vicinity of Qunyo Barrow,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,2,2,0,0,0,0,0,0
+SOM181,2020-01-19T00:00:00Z,Near Bangeeni,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0
+SOM182,2020-01-26T00:00:00Z,Near Jamaame,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM183,2020-01-27T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,1,0,0,0,0
+SOM184,2020-01-29T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM185,2020-02-02T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,2,0,1,0,0,0,2
+SOM186,2020-02-04T00:00:00Z,Vicinity of Beer Xaani,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,1,1,0,0,0,0,0,0
+SOM187,2020-02-06T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2,0,0,0,0,0,0,2,2
+SOM188,2020-02-17T00:00:00Z,Vicinity of Jilib,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,0,0,0,0,0,0,0,0
+SOM189,2020-02-19T00:00:00Z,Vicinity of Wadajir,NA,Somalia,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1,3,3,0,0,0,0,0,0

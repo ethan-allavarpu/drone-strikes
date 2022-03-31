@@ -1,0 +1,1075 @@
+strike_id,date,location,country,area,min_ppl_killed,max_ppl_killed,min_civil_killed,max_civil_killed,min_child_killed,max_child_killed,min_injured,max_injured,confirm_possible,air_strike,drone_strike,strike_type,min_strikes,max_strikes
+YEM001,2002-11-03T00:00:00Z,Unknown,Yemen,Marib,6,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+B1,2004-06-17T00:00:00Z,Wana,Pakistan,South Waziristan,6,8,2,2,2,2,1,1,NA,NA,NA,NA,NA,NA
+B2,2005-05-08T00:00:00Z,Toorikhel,Pakistan,North Waziristan,2,2,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+B3,2005-11-05T00:00:00Z,Mosaki,Pakistan,North Waziristan,8,8,3,8,2,3,1,1,NA,NA,NA,NA,NA,NA
+B4,2005-12-01T00:00:00Z,Haisori,Pakistan,North Waziristan,6,6,2,3,2,2,0,0,NA,NA,NA,NA,NA,NA
+B5,2006-01-13T00:00:00Z,Damadola,Pakistan,Bajaur Agency,13,22,10,18,5,6,0,0,NA,NA,NA,NA,NA,NA
+B6,2006-10-30T00:00:00Z,Chenegai,Pakistan,Bajaur Agency,81,83,80,82,68,70,3,3,NA,NA,NA,NA,NA,NA
+SOM001,2007-01-07T00:00:00Z,Ras Kamboni,Somalia,NA,8,10,2,2,0,1,1,3,Confirmed,TRUE,FALSE,Air assault - AC-130 Gunship,1,1
+SOM002,2007-01-09T00:00:00Z,"Hayo, Garer, Bankajirow and Badmadow, Ras Kamboni",Somalia,NA,5,10,0,0,0,0,4,5,Confirmed,TRUE,FALSE,Air assault - AC-130 Gunship,1,1
+SOM003,2007-01-09T00:00:00Z,Hayo,Somalia,NA,4,31,4,31,0,1,0,0,Possible,TRUE,FALSE,Air assault - helicopter,1,1
+B7,2007-01-16T00:00:00Z,Zamazola,Pakistan,South Waziristan,8,8,8,8,1,1,0,0,NA,NA,NA,NA,NA,NA
+SOM004,2007-01-23T00:00:00Z,Waldena,Somalia,NA,8,8,0,0,0,0,0,0,Confirmed,TRUE,FALSE,"Air assault - AC-130 Gunship
+Ground operation - capture mission",1,1
+B8,2007-04-27T00:00:00Z,Saidgai,Pakistan,North Waziristan,3,4,3,4,0,0,3,9,NA,NA,NA,NA,NA,NA
+SOM005,2007-06-01T00:00:00Z,Bargal,Somalia,NA,8,12,0,0,0,0,0,0,Confirmed,FALSE,FALSE,Naval operation - USS Chafee shore bombardment,1,1
+B9,2007-06-19T00:00:00Z,Mami Rogha,Pakistan,North Waziristan,20,34,0,34,0,0,10,15,NA,NA,NA,NA,NA,NA
+B10,2007-11-02T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,5,10,0,0,0,0,6,12,NA,NA,NA,NA,NA,NA
+B11,2007-12-03T00:00:00Z,Jani Khel,Pakistan,Bannu Frontier Region,0,0,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+B12,2008-01-29T00:00:00Z,Mir Ali,Pakistan,North Waziristan,12,15,4,6,2,3,1,2,NA,NA,NA,NA,NA,NA
+B13,2008-02-28T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,10,13,0,0,0,0,6,16,NA,NA,NA,NA,NA,NA
+SOM006,2008-03-03T00:00:00Z,Dhobley,Somalia,NA,0,6,0,4,0,0,3,8,Confirmed,FALSE,FALSE,"Naval operation - cruise missile
+Possible air operation - AC-130 Gunship",1,1
+B14,2008-03-16T00:00:00Z,Dhook Pir Bagh,Pakistan,South Waziristan,18,20,0,4,0,0,5,9,NA,NA,NA,NA,NA,NA
+SOM007,2008-05-01T00:00:00Z,Dusa Marreb,Somalia,NA,8,15,5,10,0,0,0,0,Confirmed,FALSE,FALSE,"Naval operation - cruise missiles
+Possible air assault - AC-130 Gunship",1,1
+B15,2008-05-14T00:00:00Z,Damadola,Pakistan,Bajaur Agency,12,20,4,6,1,4,9,9,NA,NA,NA,NA,NA,NA
+B16,2008-06-14T00:00:00Z,Makeen,Pakistan,South Waziristan,1,1,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA
+B17,2008-07-28T00:00:00Z,Zeralita,Pakistan,South Waziristan,7,12,1,5,0,2,3,3,NA,NA,NA,NA,NA,NA
+B18,2008-08-12T00:00:00Z,Bhaggar,Pakistan,South Waziristan,12,25,0,5,0,0,0,4,NA,NA,NA,NA,NA,NA
+B19,2008-08-20T00:00:00Z,Zari Noor,Pakistan,South Waziristan,6,12,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+B20,2008-08-27T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,0,0,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+B21,2008-08-30T00:00:00Z,Korzai,Pakistan,South Waziristan,4,5,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+B22,2008-08-30T00:00:00Z,Miram Shah,Pakistan,North Waziristan,6,11,2,9,1,4,2,8,NA,NA,NA,NA,NA,NA
+B23,2008-09-02T00:00:00Z,Unknown,Pakistan,North Waziristan,0,10,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA
+B24,2008-09-04T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,5,7,0,0,0,0,3,4,NA,NA,NA,NA,NA,NA
+B25,2008-09-05T00:00:00Z,Gurwak,Pakistan,North Waziristan,5,12,5,7,3,4,0,0,NA,NA,NA,NA,NA,NA
+B26,2008-09-08T00:00:00Z,Miram Shah,Pakistan,North Waziristan,17,23,11,20,5,8,14,25,NA,NA,NA,NA,NA,NA
+B27,2008-09-12T00:00:00Z,Tol Khel,Pakistan,North Waziristan,12,15,3,5,2,2,14,14,NA,NA,NA,NA,NA,NA
+B28,2008-09-17T00:00:00Z,Baghar Cheena,Pakistan,South Waziristan,4,7,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+B29,2008-09-30T00:00:00Z,Khushali,Pakistan,South Waziristan,4,8,0,0,0,0,5,9,NA,NA,NA,NA,NA,NA
+B30,2008-10-03T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,3,3,3,1,1,5,5,NA,NA,NA,NA,NA,NA
+B31,2008-10-03T00:00:00Z,Datta Khel,Pakistan,North Waziristan,17,21,7,14,3,3,0,0,NA,NA,NA,NA,NA,NA
+B32,2008-10-09T00:00:00Z,Tati,Pakistan,North Waziristan,5,9,1,9,1,4,2,2,NA,NA,NA,NA,NA,NA
+B33,2008-10-11T00:00:00Z,Miram Shah,Pakistan,North Waziristan,4,5,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+B34,2008-10-16T00:00:00Z,Taparghai,Pakistan,South Waziristan,2,9,0,4,0,0,1,7,NA,NA,NA,NA,NA,NA
+B35,2008-10-23T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,8,11,7,10,7,7,6,11,NA,NA,NA,NA,NA,NA
+B36,2008-10-26T00:00:00Z,Mandata,Pakistan,South Waziristan,18,20,0,4,0,3,2,2,NA,NA,NA,NA,NA,NA
+B37,2008-10-31T00:00:00Z,Asori,Pakistan,North Waziristan,4,25,1,20,0,0,0,0,NA,NA,NA,NA,NA,NA
+B38,2008-10-31T00:00:00Z,Kari Kot,Pakistan,South Waziristan,4,12,1,1,0,0,2,30,NA,NA,NA,NA,NA,NA
+B39,2008-11-07T00:00:00Z,Kumsham,Pakistan,North Waziristan,11,16,6,11,0,0,17,17,NA,NA,NA,NA,NA,NA
+B40,2008-11-14T00:00:00Z,Garyom,Pakistan,North Waziristan,11,13,3,12,0,0,2,2,NA,NA,NA,NA,NA,NA
+B41,2008-11-19T00:00:00Z,Jani Khel,Pakistan,Bannu Frontier Region,3,6,0,3,0,0,7,7,NA,NA,NA,NA,NA,NA
+B42,2008-11-22T00:00:00Z,Ali Khel,Pakistan,North Waziristan,4,6,0,1,0,0,6,6,NA,NA,NA,NA,NA,NA
+B43,2008-11-27T00:00:00Z,Wana,Pakistan,South Waziristan,5,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+B44,2008-11-29T00:00:00Z,Chashma,Pakistan,North Waziristan,2,3,0,3,0,0,2,3,NA,NA,NA,NA,NA,NA
+B45,2008-12-05T00:00:00Z,Kateera,Pakistan,North Waziristan,3,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+B46,2008-12-11T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,6,7,0,7,0,0,0,0,NA,NA,NA,NA,NA,NA
+B47,2008-12-15T00:00:00Z,Tapi Tool,Pakistan,North Waziristan,2,3,0,3,0,0,3,3,NA,NA,NA,NA,NA,NA
+B48,2008-12-22T00:00:00Z,Kari Kot,Pakistan,South Waziristan,3,3,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+B49,2008-12-22T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,2,4,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+B50,2009-01-01T00:00:00Z,Kari Kot,Pakistan,South Waziristan,3,5,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA
+B51,2009-01-02T00:00:00Z,Madin Village,Pakistan,South Waziristan,3,4,0,0,0,0,3,5,NA,NA,NA,NA,NA,NA
+Ob1,2009-01-23T00:00:00Z,Zharki,Pakistan,North Waziristan,7,15,9,11,1,1,1,1,NA,NA,NA,NA,NA,NA
+Ob2,2009-01-23T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,5,10,5,10,3,4,2,2,NA,NA,NA,NA,NA,NA
+Ob3,2009-02-14T00:00:00Z,Narsi Khel,Pakistan,South Waziristan,25,35,1,9,1,1,11,15,NA,NA,NA,NA,NA,NA
+Ob4,2009-02-16T00:00:00Z,Sur Pul,Pakistan,Kurram Agency,18,31,0,0,0,0,3,7,NA,NA,NA,NA,NA,NA
+Ob5,2009-03-01T00:00:00Z,Sararogha,Pakistan,South Waziristan,3,12,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+Ob6,2009-03-12T00:00:00Z,Barjo,Pakistan,Kurram Agency,14,26,0,0,0,0,9,50,NA,NA,NA,NA,NA,NA
+Ob7,2009-03-15T00:00:00Z,Jani Khel,Pakistan,Bannu Frontier Region,2,6,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob8,2009-03-25T00:00:00Z,Makeen,Pakistan,South Waziristan,6,8,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob9,2009-03-26T00:00:00Z,Sokhel,Pakistan,North Waziristan,4,5,0,5,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob10,2009-04-01T00:00:00Z,Khadezai,Pakistan,Orakzai Agency,10,14,5,5,3,3,4,16,NA,NA,NA,NA,NA,NA
+Ob11,2009-04-04T00:00:00Z,Datta Khel,Pakistan,North Waziristan,13,15,8,13,3,5,1,1,NA,NA,NA,NA,NA,NA
+Ob12,2009-04-08T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,3,4,0,0,0,0,2,5,NA,NA,NA,NA,NA,NA
+Ob13,2009-04-19T00:00:00Z,Ganki Khel,Pakistan,South Waziristan,0,8,0,8,0,0,3,5,NA,NA,NA,NA,NA,NA
+Ob14,2009-04-29T00:00:00Z,Kaniguram,Pakistan,South Waziristan,1,10,0,4,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob15,2009-05-09T00:00:00Z,Tabbi Langhar Khel,Pakistan,South Waziristan,6,25,0,4,0,0,7,10,NA,NA,NA,NA,NA,NA
+Ob16,2009-05-12T00:00:00Z,Sara Khwara,Pakistan,South Waziristan,5,9,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob17,2009-05-16T00:00:00Z,Khesoor,Pakistan,North Waziristan,25,40,9,9,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob18,2009-06-14T00:00:00Z,Marda Algad,Pakistan,South Waziristan,3,5,0,3,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob19,2009-06-18T00:00:00Z,Wana,Pakistan,South Waziristan,12,18,4,4,0,0,10,10,NA,NA,NA,NA,NA,NA
+Ob20,2009-06-23T00:00:00Z,Makeen,Pakistan,South Waziristan,5,6,0,0,0,0,7,7,NA,NA,NA,NA,NA,NA
+Ob21,2009-06-23T00:00:00Z,Makeen,Pakistan,South Waziristan,60,83,18,50,10,10,27,27,NA,NA,NA,NA,NA,NA
+Ob22,2009-07-03T00:00:00Z,Mantoi,Pakistan,South Waziristan,0,5,0,5,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob23,2009-07-03T00:00:00Z,Zamarai Nairai,Pakistan,South Waziristan,10,17,0,0,0,0,27,35,NA,NA,NA,NA,NA,NA
+Ob24,2009-07-07T00:00:00Z,Makeen,Pakistan,South Waziristan,14,18,0,0,0,0,10,10,NA,NA,NA,NA,NA,NA
+Ob25,2009-07-08T00:00:00Z,Ladha,Pakistan,South Waziristan,8,10,0,0,0,0,5,12,NA,NA,NA,NA,NA,NA
+Ob26,2009-07-08T00:00:00Z,Ladha,Pakistan,South Waziristan,35,40,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob27,2009-07-10T00:00:00Z,Painda Khel,Pakistan,South Waziristan,3,5,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob28,2009-07-17T00:00:00Z,Gariwam,Pakistan,North Waziristan,5,6,0,0,0,0,4,6,NA,NA,NA,NA,NA,NA
+Ob29,2009-08-05T00:00:00Z,Ladha,Pakistan,South Waziristan,1,12,1,4,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob30,2009-08-11T00:00:00Z,Ladha,Pakistan,South Waziristan,12,25,0,6,4,4,5,7,NA,NA,NA,NA,NA,NA
+Ob31,2009-08-21T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,17,21,9,13,6,6,2,2,NA,NA,NA,NA,NA,NA
+Ob32,2009-08-27T00:00:00Z,Taparghai,Pakistan,South Waziristan,8,10,0,0,0,0,6,9,NA,NA,NA,NA,NA,NA
+Ob33,2009-09-07T00:00:00Z,Machi Khel,Pakistan,North Waziristan,5,8,3,3,0,0,2,7,NA,NA,NA,NA,NA,NA
+Ob34,2009-09-08T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,10,15,5,5,3,3,4,5,NA,NA,NA,NA,NA,NA
+Ob35,2009-09-14T00:00:00Z,Toorikhel,Pakistan,North Waziristan,5,5,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+SOM008,2009-09-14T00:00:00Z,Barawe,Somalia,NA,2,6,0,0,0,0,2,2,Confirmed,TRUE,FALSE,"Air operation - helicopter
+Ground assault - body retrieval",1,1
+Ob36,2009-09-24T00:00:00Z,Mir Ali,Pakistan,North Waziristan,10,12,0,12,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob37,2009-09-29T00:00:00Z,Sararogha,Pakistan,South Waziristan,5,6,0,0,0,0,2,6,NA,NA,NA,NA,NA,NA
+Ob38,2009-09-29T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,4,9,0,4,0,0,2,6,NA,NA,NA,NA,NA,NA
+Ob39,2009-09-30T00:00:00Z,Norak,Pakistan,North Waziristan,6,9,0,0,0,0,2,5,NA,NA,NA,NA,NA,NA
+Ob40,2009-10-15T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,3,4,0,0,0,0,7,7,NA,NA,NA,NA,NA,NA
+Ob41,2009-10-21T00:00:00Z,Spalaga,Pakistan,North Waziristan,3,3,0,0,0,0,8,8,NA,NA,NA,NA,NA,NA
+Ob42,2009-10-24T00:00:00Z,Damadola,Pakistan,Bajaur Agency,20,30,0,0,0,0,8,8,NA,NA,NA,NA,NA,NA
+Ob43,2009-11-05T00:00:00Z,Norak,Pakistan,North Waziristan,4,6,0,0,0,0,8,8,NA,NA,NA,NA,NA,NA
+Ob44,2009-11-18T00:00:00Z,Shanakorah,Pakistan,North Waziristan,3,6,0,0,0,0,2,15,NA,NA,NA,NA,NA,NA
+Ob45,2009-11-20T00:00:00Z,Machi Khel,Pakistan,North Waziristan,3,14,3,3,1,1,2,12,NA,NA,NA,NA,NA,NA
+Ob46,2009-12-08T00:00:00Z,Spalaga,Pakistan,North Waziristan,3,4,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob47,2009-12-10T00:00:00Z,Ladha,Pakistan,South Waziristan,6,6,0,0,0,0,8,8,NA,NA,NA,NA,NA,NA
+Ob48,2009-12-17T00:00:00Z,Datta Khel,Pakistan,North Waziristan,2,2,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob49,2009-12-17T00:00:00Z,Ambar Shaga,Pakistan,North Waziristan,12,16,6,6,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM002,2009-12-17T00:00:00Z,Al Majala,Yemen,Abyan,55,58,44,44,21,22,9,9,Confirmed,FALSE,FALSE,Cruise missile strike,1,1
+YEM003,2009-12-17T00:00:00Z,Arhab,Yemen,Sanaa,0,0,0,0,0,0,0,0,Confirmed,FALSE,FALSE,"US-Yemen ground operation
+Possible drone strike",1,1
+Ob50,2009-12-18T00:00:00Z,Babrak Ziarat,Pakistan,North Waziristan,5,8,5,5,0,0,4,5,NA,NA,NA,NA,NA,NA
+YEM004,2009-12-24T00:00:00Z,Rafd,Yemen,Shabwa,30,34,0,0,0,0,0,0,Confirmed,TRUE,FALSE,"Airstrike
+Possible cruise missile strike",1,1
+Ob51,2009-12-26T00:00:00Z,Saidgai,Pakistan,North Waziristan,13,20,6,6,0,0,12,12,NA,NA,NA,NA,NA,NA
+Ob52,2009-12-31T00:00:00Z,Machi Khel,Pakistan,North Waziristan,3,7,3,3,1,1,2,2,NA,NA,NA,NA,NA,NA
+Ob53,2010-01-01T00:00:00Z,Ghundikala,Pakistan,North Waziristan,2,3,0,0,0,0,3,4,NA,NA,NA,NA,NA,NA
+Ob54,2010-01-03T00:00:00Z,Mosaki,Pakistan,North Waziristan,5,5,1,2,1,1,2,2,NA,NA,NA,NA,NA,NA
+Ob55,2010-01-06T00:00:00Z,Sanzali,Pakistan,North Waziristan,5,7,0,6,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob56,2010-01-06T00:00:00Z,Sanzali,Pakistan,North Waziristan,5,9,5,5,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob57,2010-01-08T00:00:00Z,Tappi,Pakistan,North Waziristan,5,6,5,5,1,1,3,3,NA,NA,NA,NA,NA,NA
+Ob58,2010-01-09T00:00:00Z,Ismail Khel,Pakistan,North Waziristan,4,5,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob59,2010-01-09T00:00:00Z,Shaktoi,Pakistan,North Waziristan,15,18,0,0,0,0,7,14,NA,NA,NA,NA,NA,NA
+YEM005,2010-01-12T00:00:00Z,Unknown,Yemen,Shabwa,1,2,0,0,0,0,0,0,Possible,FALSE,FALSE,"Yemen ground operation
+Possible US assistance",1,1
+Ob60,2010-01-15T00:00:00Z,Zanani,Pakistan,North Waziristan,5,10,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob61,2010-01-15T00:00:00Z,Shaktoi,Pakistan,North Waziristan,6,10,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM006,2010-01-15T00:00:00Z,Al Ajashir,Yemen,Saada,0,6,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+Ob62,2010-01-17T00:00:00Z,Shaktoi,Pakistan,North Waziristan,14,20,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob63,2010-01-19T00:00:00Z,Deegan,Pakistan,North Waziristan,5,9,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+YEM007,2010-01-20T00:00:00Z,Erq al Shawan,Yemen,Marib,2,2,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,4,4
+Ob64,2010-01-29T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,2,15,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+YEM008,2010-01-31T00:00:00Z,N/A,Yemen,Across Yemen,0,0,0,0,0,0,0,0,Possible,FALSE,FALSE,US ground operations,24,24
+Ob65,2010-02-02T00:00:00Z,Toor Narai,Pakistan,North Waziristan,23,24,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob66,2010-02-02T00:00:00Z,Deegan,Pakistan,North Waziristan,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob67,2010-02-02T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob68,2010-02-02T00:00:00Z,Pai Khel,Pakistan,North Waziristan,9,9,5,5,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob69,2010-02-14T00:00:00Z,Mir Ali,Pakistan,North Waziristan,5,7,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob70,2010-02-15T00:00:00Z,Tappi,Pakistan,North Waziristan,4,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob71,2010-02-17T00:00:00Z,Tabbi,Pakistan,North Waziristan,4,4,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob72,2010-02-18T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,3,5,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob73,2010-02-24T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,5,13,5,6,1,1,6,6,NA,NA,NA,NA,NA,NA
+Ob74,2010-03-08T00:00:00Z,Miram Shah,Pakistan,North Waziristan,9,9,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob75,2010-03-10T00:00:00Z,Mizar Madakhel,Pakistan,North Waziristan,7,8,0,0,0,0,12,12,NA,NA,NA,NA,NA,NA
+Ob76,2010-03-10T00:00:00Z,Mizar Madakhel,Pakistan,North Waziristan,7,7,4,7,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM009,2010-03-14T00:00:00Z,"Jeezat al Qotn
+Moudia district",Yemen,Abyan,2,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Airstrike,1,1
+YEM010,2010-03-15T00:00:00Z,Moudia,Yemen,Abyan,7,20,0,20,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+Ob77,2010-03-16T00:00:00Z,Datta Khel,Pakistan,North Waziristan,7,11,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob78,2010-03-17T00:00:00Z,Hamzoni,Pakistan,North Waziristan,3,5,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob79,2010-03-17T00:00:00Z,Mizar Madakhel,Pakistan,North Waziristan,5,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob80,2010-03-21T00:00:00Z,Inzar,Pakistan,North Waziristan,5,8,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob81,2010-03-23T00:00:00Z,Machis,Pakistan,North Waziristan,6,6,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob82,2010-03-27T00:00:00Z,Hurmuz,Pakistan,North Waziristan,4,4,0,4,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob83,2010-03-31T00:00:00Z,Tappi,Pakistan,North Waziristan,5,6,5,6,1,1,2,2,NA,NA,NA,NA,NA,NA
+Ob84,2010-04-12T00:00:00Z,Boya,Pakistan,North Waziristan,13,13,8,13,2,2,2,3,NA,NA,NA,NA,NA,NA
+Ob85,2010-04-14T00:00:00Z,Ambar Shaga,Pakistan,North Waziristan,4,5,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+Ob86,2010-04-16T00:00:00Z,Toorikhel,Pakistan,North Waziristan,3,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob87,2010-04-24T00:00:00Z,Machi Khel,Pakistan,North Waziristan,7,9,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob88,2010-04-26T00:00:00Z,Khushali,Pakistan,North Waziristan,3,8,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob89,2010-05-03T00:00:00Z,Machi Khel,Pakistan,North Waziristan,4,6,0,2,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob90,2010-05-09T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,10,0,4,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob91,2010-05-11T00:00:00Z,Datta Khel,Pakistan,North Waziristan,8,14,0,4,0,0,12,12,NA,NA,NA,NA,NA,NA
+Ob92,2010-05-11T00:00:00Z,Gurwak,Pakistan,North Waziristan,7,15,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob93,2010-05-15T00:00:00Z,Khyber,Pakistan,Khyber Agency,5,15,0,2,0,0,15,15,NA,NA,NA,NA,NA,NA
+Ob94,2010-05-21T00:00:00Z,Boya,Pakistan,North Waziristan,11,11,10,10,7,7,7,10,NA,NA,NA,NA,NA,NA
+YEM011,2010-05-24T00:00:00Z,Unknown,Yemen,Marib,3,4,3,4,0,0,2,3,Confirmed,TRUE,FALSE,Airstrike,1,1
+Ob95,2010-05-28T00:00:00Z,Mizai Nari,Pakistan,South Waziristan,8,12,0,11,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob96,2010-06-10T00:00:00Z,Norak,Pakistan,North Waziristan,2,7,4,4,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob97,2010-06-11T00:00:00Z,Maizer,Pakistan,North Waziristan,10,15,0,0,0,0,10,12,NA,NA,NA,NA,NA,NA
+Ob98,2010-06-19T00:00:00Z,Haider Khel,Pakistan,North Waziristan,16,17,0,0,0,0,10,18,NA,NA,NA,NA,NA,NA
+Ob99,2010-06-26T00:00:00Z,Khushali,Pakistan,North Waziristan,2,4,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+Ob100,2010-06-27T00:00:00Z,Tabbi,Pakistan,North Waziristan,5,6,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob101,2010-06-29T00:00:00Z,Kari Kot,Pakistan,South Waziristan,7,10,0,0,0,0,1,4,NA,NA,NA,NA,NA,NA
+Ob102,2010-07-15T00:00:00Z,Sheerani,Pakistan,North Waziristan,9,14,0,7,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob103,2010-07-24T00:00:00Z,Dwasarak,Pakistan,South Waziristan,16,18,0,0,0,0,24,24,NA,NA,NA,NA,NA,NA
+Ob104,2010-07-25T00:00:00Z,Shaktoi,Pakistan,North Waziristan,14,32,0,0,0,0,7,12,NA,NA,NA,NA,NA,NA
+Ob105,2010-07-25T00:00:00Z,Tabbi,Pakistan,North Waziristan,4,12,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+Ob106,2010-07-25T00:00:00Z,Sararogha,Pakistan,South Waziristan,4,4,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob107,2010-08-14T00:00:00Z,Issori,Pakistan,North Waziristan,13,14,7,7,1,1,5,6,NA,NA,NA,NA,NA,NA
+Ob108,2010-08-21T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,4,6,0,4,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob109,2010-08-23T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,20,20,7,9,3,3,15,15,NA,NA,NA,NA,NA,NA
+Ob110,2010-08-23T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,5,7,0,0,0,0,3,12,NA,NA,NA,NA,NA,NA
+Ob111,2010-08-27T00:00:00Z,Shahidano,Pakistan,Kurram Agency,3,9,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob112,2010-08-27T00:00:00Z,Badshah Kot,Pakistan,Kurram Agency,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob113,2010-08-27T00:00:00Z,Taaloo Ganj,Pakistan,Kurram Agency,2,3,0,3,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob114,2010-09-03T00:00:00Z,Miram Shah,Pakistan,North Waziristan,6,9,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob115,2010-09-03T00:00:00Z,Datta Khel,Pakistan,North Waziristan,2,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob116,2010-09-04T00:00:00Z,Datta Khel,Pakistan,North Waziristan,7,8,0,0,0,0,12,12,NA,NA,NA,NA,NA,NA
+Ob117,2010-09-06T00:00:00Z,Khar Qamar,Pakistan,North Waziristan,3,6,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob118,2010-09-08T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,5,10,4,4,4,4,2,2,NA,NA,NA,NA,NA,NA
+Ob119,2010-09-08T00:00:00Z,Ambar Shaga,Pakistan,North Waziristan,3,4,0,4,0,0,1,2,NA,NA,NA,NA,NA,NA
+Ob120,2010-09-08T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,10,10,0,0,0,0,2,5,NA,NA,NA,NA,NA,NA
+Ob121,2010-09-09T00:00:00Z,Miram Shah,Pakistan,North Waziristan,3,6,0,0,0,0,3,5,NA,NA,NA,NA,NA,NA
+Ob122,2010-09-12T00:00:00Z,Newey Adda,Pakistan,North Waziristan,5,7,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob123,2010-09-14T00:00:00Z,Bushnarai,Pakistan,North Waziristan,11,12,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob124,2010-09-14T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,1,4,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob125,2010-09-15T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,11,15,5,5,0,0,1,5,NA,NA,NA,NA,NA,NA
+Ob126,2010-09-15T00:00:00Z,Pai Khel,Pakistan,North Waziristan,4,7,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob127,2010-09-19T00:00:00Z,Deegan,Pakistan,North Waziristan,3,9,5,5,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob128,2010-09-20T00:00:00Z,Darazinda,Pakistan,North Waziristan,3,6,0,3,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob129,2010-09-21T00:00:00Z,Khand Morsak,Pakistan,South Waziristan,7,8,0,0,0,0,4,5,NA,NA,NA,NA,NA,NA
+Ob130,2010-09-21T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,0,16,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob131,2010-09-25T00:00:00Z,Datta Khel,Pakistan,North Waziristan,2,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob132,2010-09-26T00:00:00Z,Lawra Mandi,Pakistan,North Waziristan,4,5,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob133,2010-09-26T00:00:00Z,Miram Shah,Pakistan,North Waziristan,3,5,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA
+Ob134,2010-09-26T00:00:00Z,Sheerani,Pakistan,North Waziristan,2,3,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob135,2010-09-27T00:00:00Z,Khushali,Pakistan,North Waziristan,3,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob136,2010-09-28T00:00:00Z,Zeba,Pakistan,South Waziristan,4,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob137,2010-10-02T00:00:00Z,Asar Village,Pakistan,North Waziristan,8,10,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+Ob138,2010-10-02T00:00:00Z,Inzarkas,Pakistan,North Waziristan,7,14,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob139,2010-10-04T00:00:00Z,Mir Ali,Pakistan,North Waziristan,5,9,0,3,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob140,2010-10-06T00:00:00Z,Miram Shah,Pakistan,North Waziristan,5,11,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob141,2010-10-06T00:00:00Z,Hurmuz,Pakistan,North Waziristan,3,5,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob142,2010-10-07T00:00:00Z,Khaisoori,Pakistan,North Waziristan,4,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob143,2010-10-08T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,4,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob144,2010-10-08T00:00:00Z,Char Khel,Pakistan,North Waziristan,5,8,0,4,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob145,2010-10-10T00:00:00Z,Shiva,Pakistan,North Waziristan,4,9,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob146,2010-10-13T00:00:00Z,Datta Khel,Pakistan,North Waziristan,6,14,3,6,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob147,2010-10-15T00:00:00Z,Aziz Khel,Pakistan,North Waziristan,4,6,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob148,2010-10-15T00:00:00Z,Machi Khel,Pakistan,North Waziristan,3,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob149,2010-10-18T00:00:00Z,Datta Khel,Pakistan,North Waziristan,6,7,1,1,1,1,1,6,NA,NA,NA,NA,NA,NA
+Ob150,2010-10-27T00:00:00Z,Mir Ali,Pakistan,North Waziristan,2,5,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob151,2010-10-27T00:00:00Z,Deegan,Pakistan,North Waziristan,2,4,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob152,2010-10-28T00:00:00Z,Ismail Khel,Pakistan,North Waziristan,4,8,0,4,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob153,2010-11-01T00:00:00Z,Haider Khel,Pakistan,North Waziristan,5,6,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob154,2010-11-03T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob155,2010-11-03T00:00:00Z,Khaso Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob156,2010-11-03T00:00:00Z,Pai Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob157,2010-11-07T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,8,9,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob158,2010-11-07T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,6,0,0,0,0,1,4,NA,NA,NA,NA,NA,NA
+Ob159,2010-11-11T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,5,8,0,0,0,0,5,6,NA,NA,NA,NA,NA,NA
+Ob160,2010-11-13T00:00:00Z,Miram Shah,Pakistan,North Waziristan,4,4,0,4,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob161,2010-11-16T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,20,20,0,9,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob162,2010-11-19T00:00:00Z,Norak,Pakistan,North Waziristan,2,4,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob163,2010-11-21T00:00:00Z,Khaddi,Pakistan,North Waziristan,5,9,0,3,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob164,2010-11-22T00:00:00Z,Khesoor,Pakistan,North Waziristan,3,6,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob165,2010-11-26T00:00:00Z,Pir Kelev,Pakistan,North Waziristan,2,4,1,4,1,1,0,0,NA,NA,NA,NA,NA,NA
+Ob166,2010-11-28T00:00:00Z,Hassan Khel,Pakistan,North Waziristan,0,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob167,2010-12-06T00:00:00Z,Khushali,Pakistan,North Waziristan,3,5,0,2,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob168,2010-12-06T00:00:00Z,Kushali,Pakistan,North Waziristan,2,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob169,2010-12-10T00:00:00Z,Khadar Khel,Pakistan,North Waziristan,4,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob170,2010-12-14T00:00:00Z,Spalaga,Pakistan,North Waziristan,3,4,0,4,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob171,2010-12-16T00:00:00Z,Tirah Valley,Pakistan,Khyber Agency,7,7,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob172,2010-12-17T00:00:00Z,Sandana,Pakistan,Khyber Agency,7,15,0,0,0,0,7,11,NA,NA,NA,NA,NA,NA
+Ob173,2010-12-17T00:00:00Z,Nakai,Pakistan,Khyber Agency,11,15,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob174,2010-12-17T00:00:00Z,Speen Drang,Pakistan,Khyber Agency,32,32,2,2,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob175,2010-12-27T00:00:00Z,Shera Tala,Pakistan,North Waziristan,18,22,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob176,2010-12-27T00:00:00Z,Machi Khel,Pakistan,North Waziristan,4,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob177,2010-12-28T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,5,7,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob178,2010-12-28T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,5,12,2,4,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob179,2010-12-28T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,9,10,0,0,0,0,6,6,NA,NA,NA,NA,NA,NA
+Ob180,2010-12-31T00:00:00Z,Ghulam Khan,Pakistan,North Waziristan,4,8,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob181,2011-01-01T00:00:00Z,Mandi Khel,Pakistan,North Waziristan,8,10,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob182,2011-01-01T00:00:00Z,Mandi Khel,Pakistan,North Waziristan,4,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob183,2011-01-01T00:00:00Z,Datta Khel,Pakistan,North Waziristan,4,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob184,2011-01-01T00:00:00Z,Boya,Pakistan,North Waziristan,4,4,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob185,2011-01-07T00:00:00Z,Ghar Laley,Pakistan,North Waziristan,1,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob186,2011-01-12T00:00:00Z,Haider Khel,Pakistan,North Waziristan,3,6,0,0,0,0,2,15,NA,NA,NA,NA,NA,NA
+Ob187,2011-01-18T00:00:00Z,"Assar Madd Khel, Datta Khel",Pakistan,North Waziristan,3,7,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob188,2011-01-23T00:00:00Z,Doga Mada Khel,Pakistan,North Waziristan,2,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob189,2011-01-23T00:00:00Z,Doga Mada Khel,Pakistan,North Waziristan,2,3,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob190,2011-01-23T00:00:00Z,Razmak,Pakistan,North Waziristan,4,6,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob191,2011-02-20T00:00:00Z,"Kazha Punga area, Tehsil Birmal",Pakistan,South Waziristan,6,8,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob192,2011-02-21T00:00:00Z,Malik Jashdar,Pakistan,North Waziristan,7,14,0,11,0,0,10,10,NA,NA,NA,NA,NA,NA
+Ob193,2011-02-24T00:00:00Z,Mohammad Khel,Pakistan,North Waziristan,4,7,0,0,0,0,3,2,NA,NA,NA,NA,NA,NA
+Ob194,2011-03-08T00:00:00Z,Landidog,Pakistan,South Waziristan,2,5,0,5,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob195,2011-03-09T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,5,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob196,2011-03-11T00:00:00Z,Khesoor,Pakistan,North Waziristan,4,12,5,5,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob197,2011-03-11T00:00:00Z,Ghoroski,Pakistan,North Waziristan,4,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob198,2011-03-13T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,0,4,0,0,0,0,0,5,NA,NA,NA,NA,NA,NA
+Ob199,2011-03-13T00:00:00Z,"Ishar Morr area, Qutab Khel, Miranshah",Pakistan,North Waziristan,4,7,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob200,2011-03-14T00:00:00Z,Malik Jashdar,Pakistan,North Waziristan,3,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob201,2011-03-16T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob202,2011-03-17T00:00:00Z,Datta Khel,Pakistan,North Waziristan,26,42,19,41,0,1,9,14,NA,NA,NA,NA,NA,NA
+SOM009,2011-04-03T00:00:00Z,Dhobley,Somalia,NA,1,36,0,0,0,0,0,0,Possible,TRUE,FALSE,Air operation - airstrike,1,1
+Ob203,2011-04-13T00:00:00Z,Angor Adda,Pakistan,South Waziristan,4,7,0,7,0,0,6,10,NA,NA,NA,NA,NA,NA
+Ob204,2011-04-22T00:00:00Z,Spinwan,Pakistan,North Waziristan,20,26,5,9,3,5,5,10,NA,NA,NA,NA,NA,NA
+YEM012,2011-05-05T00:00:00Z,Unknown,Yemen,Shabwa,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"Drone strike
+Airstrike with US conventional aircraft",1,1
+Ob205,2011-05-06T00:00:00Z,Dwa Tooe,Pakistan,North Waziristan,7,18,6,6,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob206,2011-05-10T00:00:00Z,Angor Adda,Pakistan,South Waziristan,3,5,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob207,2011-05-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,8,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob208,2011-05-13T00:00:00Z,Doga Mada Khel,Pakistan,North Waziristan,3,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob209,2011-05-16T00:00:00Z,"Khushali Village, Mir Ail",Pakistan,North Waziristan,4,10,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+Ob210,2011-05-16T00:00:00Z,"Khisoor Village, Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob211,2011-05-20T00:00:00Z,Tappi,Pakistan,North Waziristan,4,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob212,2011-05-23T00:00:00Z,Mir Ali,Pakistan,North Waziristan,4,7,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob213,2011-06-03T00:00:00Z,Ghwa Khwa,Pakistan,South Waziristan,5,12,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+YEM013,2011-06-03T00:00:00Z,Zinjibar,Yemen,Abyan,7,7,4,4,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob214,2011-06-06T00:00:00Z,"Tigger, Toji Khel Wazir",Pakistan,South Waziristan,7,9,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob215,2011-06-06T00:00:00Z,Wacha Dana,Pakistan,South Waziristan,8,10,0,7,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob216,2011-06-06T00:00:00Z,Darnashtra,Pakistan,South Waziristan,3,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob217,2011-06-08T00:00:00Z,Zoynari,Pakistan,South Waziristan,18,23,0,0,0,0,6,6,NA,NA,NA,NA,NA,NA
+Ob218,2011-06-08T00:00:00Z,Shawal,Pakistan,South Waziristan,4,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM014,2011-06-10T00:00:00Z,Zinjibar,Yemen,Abyan,1,1,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM015,2011-06-10T00:00:00Z,Raia,Yemen,Abyan,2,3,2,3,1,1,0,1,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,3
+Ob219,2011-06-15T00:00:00Z,Wana,Pakistan,South Waziristan,2,10,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob220,2011-06-15T00:00:00Z,Karez,Pakistan,South Waziristan,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob221,2011-06-15T00:00:00Z,Mir Ali,Pakistan,North Waziristan,5,6,5,6,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM016,2011-06-18T00:00:00Z,Jaar,Yemen,Abyan,0,0,0,0,0,0,6,6,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob222,2011-06-20T00:00:00Z,Khardand,Pakistan,Kurram Agency,5,7,2,7,0,0,0,3,NA,NA,NA,NA,NA,NA
+Ob223,2011-06-20T00:00:00Z,Zarakai,Pakistan,Kurram Agency,2,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+SOM010,2011-06-23T00:00:00Z,Kismayo,Somalia,NA,2,2,0,0,0,0,2,3,Confirmed,TRUE,TRUE,"Air operation - drone strike
+Helicopter raid",1,1
+Ob224,2011-06-27T00:00:00Z,Shawal,Pakistan,South Waziristan,6,12,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob225,2011-06-27T00:00:00Z,Shakai,Pakistan,South Waziristan,12,21,0,20,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob226,2011-07-05T00:00:00Z,Mir Ali,Pakistan,North Waziristan,4,6,0,3,0,2,5,5,NA,NA,NA,NA,NA,NA
+SOM011,2011-07-06T00:00:00Z,Juba,Somalia,NA,0,0,0,0,0,0,0,0,Possible,TRUE,TRUE,Air operation - drone or airstrike,1,1
+Ob227,2011-07-11T00:00:00Z,Gurwak,Pakistan,North Waziristan,4,12,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob228,2011-07-12T00:00:00Z,Gurwak,Pakistan,North Waziristan,12,25,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob229,2011-07-12T00:00:00Z,Barmal,Pakistan,South Waziristan,5,13,0,0,0,0,3,5,NA,NA,NA,NA,NA,NA
+Ob230,2011-07-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,13,15,0,4,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob231,2011-07-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,1,9,1,1,0,0,3,5,NA,NA,NA,NA,NA,NA
+YEM017,2011-07-14T00:00:00Z,"Wadeea district
+Mudiya",Yemen,Abyan,6,50,30,30,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM018,2011-07-14T00:00:00Z,Unknown,Yemen,Abyan,0,0,0,0,0,0,0,0,Possible,TRUE,TRUE,Drone strike,1,1
+Ob232,2011-07-20T00:00:00Z,Mir Ali,Pakistan,North Waziristan,4,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM019,2011-07-27T00:00:00Z,"Karadeef
+Zinjibar",Yemen,Abyan,5,5,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob233,2011-08-01T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,3,6,0,6,0,0,2,7,NA,NA,NA,NA,NA,NA
+YEM020,2011-08-01T00:00:00Z,Al Khamila,Yemen,Abyan,13,16,0,0,0,0,12,17,Confirmed,TRUE,TRUE,"Drone strike
+Possible Yemen Air Force airstrike",2,4
+Ob234,2011-08-02T00:00:00Z,Qutab Khel,Pakistan,North Waziristan,3,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob235,2011-08-10T00:00:00Z,Miram Shah,Pakistan,North Waziristan,8,25,0,0,0,0,3,8,NA,NA,NA,NA,NA,NA
+Ob236,2011-08-16T00:00:00Z,Miram Shah,Pakistan,North Waziristan,2,7,3,4,1,1,2,2,NA,NA,NA,NA,NA,NA
+Ob237,2011-08-19T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,3,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob238,2011-08-22T00:00:00Z,"Mir Koon Khel, Mir Ali",Pakistan,North Waziristan,3,7,0,4,0,0,3,3,NA,NA,NA,NA,NA,NA
+YEM021,2011-08-24T00:00:00Z,Zinjibar,Yemen,Abyan,30,30,0,0,0,0,40,40,Possible,TRUE,FALSE,Airstrike,1,1
+YEM022,2011-08-24T00:00:00Z,Arkoub,Yemen,Abyan,6,6,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM023,2011-08-25T00:00:00Z,Wadi Hassan,Yemen,Abyan,8,8,0,0,0,0,3,3,Possible,TRUE,FALSE,Airstrike,1,1
+YEM024,2011-08-31T00:00:00Z,Unknown,Yemen,Abyan,30,30,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Airstrike,2,2
+YEM025,2011-09-05T00:00:00Z,Jaar,Yemen,Abyan,3,7,3,7,0,0,4,4,Possible,TRUE,FALSE,Airstrike,1,1
+YEM026,2011-09-05T00:00:00Z,Jaar,Yemen,Abyan,9,11,1,1,1,1,2,2,Possible,TRUE,FALSE,Airstrike,2,2
+YEM027,2011-09-07T00:00:00Z,Mahfed,Yemen,Abyan,3,10,0,0,0,0,2,24,Confirmed,TRUE,TRUE,Drone strike,2,3
+Ob239,2011-09-11T00:00:00Z,Hisokhel,Pakistan,North Waziristan,1,5,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+YEM028,2011-09-21T00:00:00Z,Mahfed,Yemen,Abyan,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM029,2011-09-21T00:00:00Z,Shaqra,Yemen,Abyan,6,7,0,0,0,0,3,3,Possible,TRUE,FALSE,Airstrike,1,1
+Ob240,2011-09-23T00:00:00Z,Khushali,Pakistan,North Waziristan,3,8,0,0,0,0,3,4,NA,NA,NA,NA,NA,NA
+SOM012,2011-09-25T00:00:00Z,Kismayo,Somalia,NA,0,0,0,0,0,0,0,0,Possible,TRUE,TRUE,Air operation - drone strike,1,1
+Ob241,2011-09-27T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,0,4,0,0,0,0,0,2,NA,NA,NA,NA,NA,NA
+Ob242,2011-09-30T00:00:00Z,Baghar,Pakistan,South Waziristan,3,4,0,0,0,0,1,5,NA,NA,NA,NA,NA,NA
+YEM030,2011-09-30T00:00:00Z,Unknown,Yemen,Jawf,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM031,2011-10-05T00:00:00Z,Al Arqoub,Yemen,Abyan,5,5,0,0,0,0,7,7,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob243,2011-10-13T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,1,6,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob244,2011-10-13T00:00:00Z,"Chashma Nala, Birmal",Pakistan,South Waziristan,3,6,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob245,2011-10-14T00:00:00Z,Danda Darpakhel,Pakistan,North Waziristan,3,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM032,2011-10-14T00:00:00Z,Azzan,Yemen,Shabwa,0,0,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM033,2011-10-14T00:00:00Z,Azzan,Yemen,Shabwa,7,9,2,2,2,2,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM034,2011-10-14T00:00:00Z,Unknown,Yemen,Southern Yemen,15,17,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM035,2011-10-14T00:00:00Z,Azzan,Yemen,Shabwa,2,2,1,2,1,1,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob246,2011-10-15T00:00:00Z,Angor Adda,Pakistan,South Waziristan,3,6,0,0,0,0,3,7,NA,NA,NA,NA,NA,NA
+Ob247,2011-10-26T00:00:00Z,"Shana Wana, Birmal",Pakistan,South Waziristan,13,22,0,0,0,0,6,6,NA,NA,NA,NA,NA,NA
+Ob248,2011-10-27T00:00:00Z,Azam Warsak,Pakistan,South Waziristan,4,6,0,0,0,0,3,4,NA,NA,NA,NA,NA,NA
+Ob249,2011-10-27T00:00:00Z,Hisokhel,Pakistan,North Waziristan,4,6,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob250,2011-10-30T00:00:00Z,"Khar Khama, Datta Khel",Pakistan,North Waziristan,4,6,4,4,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob251,2011-10-31T00:00:00Z,Norak,Pakistan,North Waziristan,2,4,2,2,2,2,3,3,NA,NA,NA,NA,NA,NA
+Ob252,2011-11-03T00:00:00Z,"Sarai Darpa Khel, Miranshah",Pakistan,North Waziristan,2,3,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+SOM013,2011-11-14T00:00:00Z,Afgoye,Somalia,NA,0,2,0,0,0,0,0,0,Possible,TRUE,TRUE,Air operation - drone strike,1,1
+Ob253,2011-11-15T00:00:00Z,Miram Shah,Pakistan,North Waziristan,3,7,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+Ob254,2011-11-16T00:00:00Z,Babar Ghar,Pakistan,South Waziristan,4,22,0,0,0,0,6,12,NA,NA,NA,NA,NA,NA
+Ob255,2011-11-17T00:00:00Z,Shawal,Pakistan,North Waziristan,7,9,0,0,0,0,3,5,NA,NA,NA,NA,NA,NA
+YEM036,2011-12-22T00:00:00Z,Zinjibar,Yemen,Abyan,1,1,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob256,2012-01-10T00:00:00Z,Miram Shah,Pakistan,North Waziristan,1,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob257,2012-01-12T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,9,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+SOM014,2012-01-21T00:00:00Z,Elasha Biyaha,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+Ob258,2012-01-23T00:00:00Z,Deegan,Pakistan,North Waziristan,2,5,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+Ob259,2012-01-23T00:00:00Z,"Char Khel, Datta Khel",Pakistan,North Waziristan,0,2,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM037,2012-01-31T00:00:00Z,Lawder,Yemen,Abyan,10,14,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM038,2012-01-31T00:00:00Z,Unknown,Yemen,Abyan,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Airstrike,3,3
+Ob260,2012-02-08T00:00:00Z,Miranshah,Pakistan,North Waziristan,9,10,0,0,0,0,2,12,NA,NA,NA,NA,NA,NA
+Ob261,2012-02-09T00:00:00Z,Miranshah,Pakistan,North Waziristan,3,8,0,3,0,1,3,3,NA,NA,NA,NA,NA,NA
+Ob262,2012-02-16T00:00:00Z,Miranshah,Pakistan,North Waziristan,5,6,0,0,0,0,4,7,NA,NA,NA,NA,NA,NA
+Ob263,2012-02-16T00:00:00Z,"Jalar Zakar Khel, Mir Ali",Pakistan,North Waziristan,8,15,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+SOM015,2012-02-24T00:00:00Z,Lower Shabelle,Somalia,NA,3,7,0,1,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+Ob264,2012-03-09T00:00:00Z,Shaktoi Mandao,Pakistan,South Waziristan,4,15,0,0,0,0,0,3,NA,NA,NA,NA,NA,NA
+Ob265,2012-03-09T00:00:00Z,Nishpa,Pakistan,South Waziristan,6,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM039,2012-03-09T00:00:00Z,Unknown,Yemen,Bayda,23,34,2,2,0,0,0,55,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM040,2012-03-10T00:00:00Z,Jaar and Zinjibar,Yemen,Abyan,24,24,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,2,2
+YEM041,2012-03-11T00:00:00Z,"Jebel Khanfar
+Near Jaar",Yemen,Abyan,3,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob266,2012-03-13T00:00:00Z,"Wagdalai, Tehsil Birmal",Pakistan,South Waziristan,6,8,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+Ob267,2012-03-13T00:00:00Z,Shawa,Pakistan,North/South Waziristan,6,7,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+YEM042,2012-03-13T00:00:00Z,Unknown,Yemen,Bayda,4,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,7
+YEM043,2012-03-18T00:00:00Z,Zinjibar,Yemen,Abyan,14,18,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,2
+YEM044,2012-03-18T00:00:00Z,Jaar,Yemen,Abyan,8,8,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+YEM045,2012-03-22T00:00:00Z,Zinjibar,Yemen,Abyan,29,30,0,0,0,0,24,24,Confirmed,TRUE,TRUE,"Drone strike
+Possible naval bombardment",3,4
+Ob268,2012-03-30T00:00:00Z,"Sarai Bazaar, Miranshah",Pakistan,North Waziristan,3,4,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+YEM046,2012-03-30T00:00:00Z,Azzan,Yemen,Shabwa,5,5,1,1,0,0,6,9,Confirmed,TRUE,TRUE,Drone strike,2,2
+YEM047,2012-04-07T00:00:00Z,Unknown,Yemen,Shabwa,0,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM048,2012-04-08T00:00:00Z,Unknown,Yemen,Abyan,16,16,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike - joint Yemeni and US
+Possible drone strike",2,2
+YEM049,2012-04-11T00:00:00Z,Lawder,Yemen,Abyan,10,14,0,0,0,0,10,10,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM050,2012-04-14T00:00:00Z,Al Zahir,Yemen,Bayda,3,7,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM051,2012-04-16T00:00:00Z,Azzan,Yemen,Shabwa,5,7,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,5
+SOM016,2012-04-17T00:00:00Z,"Gumh, Puntland",Somalia,NA,0,0,0,0,0,0,2,2,Possible,TRUE,FALSE,Air operation - airstrike,1,1
+YEM052,2012-04-18T00:00:00Z,Lawder and Jaar,Yemen,Abyan,6,10,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,3
+YEM053,2012-04-21T00:00:00Z,Lawder,Yemen,Abyan,12,17,0,0,0,0,0,5,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",2,2
+YEM054,2012-04-22T00:00:00Z,Sanda,Yemen,Marib,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM055,2012-04-23T00:00:00Z,Nasab,Yemen,Shabwa,3,3,0,0,0,0,2,2,Confirmed,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM056,2012-04-23T00:00:00Z,Lawder,Yemen,Abyan,0,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM057,2012-04-26T00:00:00Z,Moudia,Yemen,Abyan,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob269,2012-04-29T00:00:00Z,Miranshah Bazaar,Pakistan,North Waziristan,3,6,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+YEM058,2012-04-29T00:00:00Z,Unknown,Yemen,Jawf,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM059,2012-04-30T00:00:00Z,Lawder,Yemen,Abyan,4,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM060,2012-04-30T00:00:00Z,Jaar,Yemen,Abyan,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM061,2012-05-02T00:00:00Z,Zinjibar,Yemen,Abyan,10,15,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob270,2012-05-05T00:00:00Z,"Guldar Kot, Dre Nishtar area",Pakistan,North Waziristan,8,10,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+YEM062,2012-05-06T00:00:00Z,Wadi Rafad,Yemen,Shabwa,2,4,1,1,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM063,2012-05-10T00:00:00Z,Jaar,Yemen,Abyan,5,12,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",2,2
+YEM064,2012-05-10T00:00:00Z,Shaqra,Yemen,Abyan,2,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,1
+YEM065,2012-05-12T00:00:00Z,Al Hosoon,Yemen,Marib,6,7,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM066,2012-05-12T00:00:00Z,Unknown,Yemen,Between Marib and Shabwa,10,10,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM067,2012-05-12T00:00:00Z,Al Ain,Yemen,Shabwa/Hadramout,6,10,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM068,2012-05-14T00:00:00Z,Shaqra,Yemen,Abyan,10,10,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM069,2012-05-14T00:00:00Z,Lawder,Yemen,Abyan,6,6,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM070,2012-05-14T00:00:00Z,Jaar,Yemen,Abyan,0,0,0,0,0,0,2,2,Possible,TRUE,FALSE,Airstrike,1,1
+YEM071,2012-05-15T00:00:00Z,Jaar,Yemen,Abyan,14,42,14,26,0,0,20,21,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",2,4
+YEM072,2012-05-16T00:00:00Z,Moudia,Yemen,Abyan,16,16,0,0,0,0,5,14,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,2
+YEM073,2012-05-17T00:00:00Z,Shibam,Yemen,Hadhramout,2,3,0,0,0,0,0,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM074,2012-05-17T00:00:00Z,Shaqra,Yemen,Abyan,5,6,0,2,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+YEM075,2012-05-19T00:00:00Z,Jaar,Yemen,Abyan,3,5,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+YEM076,2012-05-19T00:00:00Z,Unknown,Yemen,Bayda,2,2,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM077,2012-05-20T00:00:00Z,Jaar,Yemen,Abyan,0,9,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+Ob271,2012-05-23T00:00:00Z,Datta Khel Kalai,Pakistan,North Waziristan,1,5,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA
+Ob272,2012-05-24T00:00:00Z,Khassokhel near Mir Ali,Pakistan,North Waziristan,5,12,0,8,0,0,3,4,NA,NA,NA,NA,NA,NA
+Ob273,2012-05-26T00:00:00Z,Miranshah,Pakistan,North Waziristan,1,4,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA
+Ob274,2012-05-28T00:00:00Z,Khassokhel near Mir Ali,Pakistan,North Waziristan,4,10,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+Ob275,2012-05-28T00:00:00Z,"Degan, Datta Khel",Pakistan,North Waziristan,2,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM078,2012-05-28T00:00:00Z,Manaseh,Yemen,Bayda,3,5,0,2,0,0,4,4,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM079,2012-05-28T00:00:00Z,Mukalla,Yemen,Abyan,5,5,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,1
+YEM080,2012-06-01T00:00:00Z,Mahfed,Yemen,Abyan,11,12,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob276,2012-06-02T00:00:00Z,"Khawashi Khel, near Wana",Pakistan,South Waziristan,2,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob277,2012-06-03T00:00:00Z,"Landai Warai, Tehsil Birmal",Pakistan,South Waziristan,0,10,0,0,0,0,4,10,NA,NA,NA,NA,NA,NA
+Ob278,2012-06-04T00:00:00Z,"Khushali, Tehsil Mir Ali",Pakistan,North Waziristan,14,18,0,6,0,0,3,6,NA,NA,NA,NA,NA,NA
+YEM081,2012-06-07T00:00:00Z,Moudia,Yemen,Abyan,2,2,0,0,0,0,7,7,Possible,TRUE,FALSE,Airstrike,1,1
+YEM082,2012-06-07T00:00:00Z,Jaar,Yemen,Abyan,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM083,2012-06-07T00:00:00Z,Jaar,Yemen,Abyan,5,5,0,0,0,0,3,3,Possible,TRUE,FALSE,Airstrike,1,1
+YEM084,2012-06-11T00:00:00Z,Azzan,Yemen,Shabwa,16,16,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+Ob279,2012-06-13T00:00:00Z,"Isha, near Miranshah",Pakistan,North Waziristan,2,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM085,2012-06-13T00:00:00Z,Jaar,Yemen,Abyan,10,18,0,0,0,0,1,1,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,4
+YEM086,2012-06-13T00:00:00Z,Azzan,Yemen,Shabwa,9,9,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob280,2012-06-14T00:00:00Z,Miranshah,Pakistan,North Waziristan,1,4,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+YEM087,2012-06-15T00:00:00Z,Azzan,Yemen,Shabwa,5,5,0,0,0,0,2,2,Possible,TRUE,FALSE,Airstrike,1,1
+YEM088,2012-06-15T00:00:00Z,Shaqra,Yemen,Abyan,5,7,5,7,4,6,4,5,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM089,2012-06-19T00:00:00Z,Unknown,Yemen,Shabwa,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM090,2012-06-20T00:00:00Z,Mahfed,Yemen,Abyan,1,1,1,1,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM091,2012-06-20T00:00:00Z,Al Yafea,Yemen,Bayda,5,30,0,0,0,0,6,6,Possible,TRUE,FALSE,Airstrike,6,6
+YEM092,2012-06-25T00:00:00Z,Mahfed,Yemen,Abyan,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob281,2012-06-26T00:00:00Z,Shawal,Pakistan,North Waziristan,4,7,0,0,0,0,2,7,NA,NA,NA,NA,NA,NA
+Ob282,2012-07-01T00:00:00Z,Dre Nishter/Shawal,Pakistan,North Waziristan,6,9,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+YEM093,2012-07-03T00:00:00Z,Bayhan,Yemen,Shabwa,2,5,0,0,0,0,2,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM094,2012-07-04T00:00:00Z,Mahfed,Yemen,Abyan,3,13,0,0,0,0,7,7,Possible,TRUE,FALSE,Airstrike,1,4
+Ob283,2012-07-06T00:00:00Z,Maizer,Pakistan,North Waziristan,13,24,3,18,0,0,2,22,NA,NA,NA,NA,NA,NA
+Ob284,2012-07-23T00:00:00Z,Dre Nishter/Shawal,Pakistan,North Waziristan,11,14,6,14,0,0,2,11,NA,NA,NA,NA,NA,NA
+YEM095,2012-07-23T00:00:00Z,Mahfed,Yemen,Abyan,5,5,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+Ob285,2012-07-29T00:00:00Z,Kushhali Turkhel,Pakistan,North Waziristan,4,7,0,3,0,0,4,4,NA,NA,NA,NA,NA,NA
+YEM096,2012-08-04T00:00:00Z,Al Qotn,Yemen,Hadhramout,3,5,0,0,0,0,2,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM097,2012-08-06T00:00:00Z,Radaa,Yemen,Bayda,7,7,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM098,2012-08-07T00:00:00Z,Al Qotn,Yemen,Hadhramout,2,3,0,0,0,0,2,2,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob286,2012-08-18T00:00:00Z,"Mammon Narai, Shuweda",Pakistan,North Waziristan,5,12,1,1,0,0,2,9,NA,NA,NA,NA,NA,NA
+Ob287,2012-08-19T00:00:00Z,"Mana, Shawal",Pakistan,North Waziristan,4,7,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob288,2012-08-19T00:00:00Z,"Mana, Shawal",Pakistan,North Waziristan,2,3,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob289,2012-08-21T00:00:00Z,"Shnakhura, Datta Khel",Pakistan,North Waziristan,4,25,1,3,1,1,2,2,NA,NA,NA,NA,NA,NA
+Ob290,2012-08-24T00:00:00Z,"Makai/Maki Ghar, Shawal",Pakistan,North Waziristan,13,22,0,0,0,0,4,14,NA,NA,NA,NA,NA,NA
+Ob291,2012-08-24T00:00:00Z,"Dara, Shawal",Pakistan,North Waziristan,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob292,2012-08-24T00:00:00Z,"Dre Nishter, Shawal",Pakistan,North Waziristan,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM099,2012-08-28T00:00:00Z,Qahb al-Hisan,Yemen,Hadhramout,2,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM100,2012-08-29T00:00:00Z,Al Qotn,Yemen,Hadhramout,5,5,2,2,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM101,2012-08-31T00:00:00Z,Hawda,Yemen,Hadhramout,8,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob293,2012-09-01T00:00:00Z,Degan,Pakistan,North Waziristan,4,6,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+YEM102,2012-09-02T00:00:00Z,Radaa,Yemen,Bayda,12,12,12,12,3,3,4,11,Confirmed,TRUE,FALSE,"US airstrike
+Possible drone strike",1,1
+YEM103,2012-09-05T00:00:00Z,Al Ain,Yemen,Shabwa/Hadramout,4,6,1,4,0,0,3,3,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM104,2012-09-10T00:00:00Z,Al Ain,Yemen,Shabwa/Hadramout,6,15,0,0,0,0,3,3,Confirmed,TRUE,TRUE,Drone strike,1,2
+YEM105,2012-09-20T00:00:00Z,Mahfed,Yemen,Abyan,2,4,0,0,0,0,3,3,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,2
+Ob294,2012-09-21T00:00:00Z,Mohammed Khel/Datta Khel,Pakistan,North Waziristan,3,4,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob295,2012-09-24T00:00:00Z,"Mosaki - Inzar Abad, Tehsil Mir Ali",Pakistan,North Waziristan,3,8,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob296,2012-10-01T00:00:00Z,Khadar Khel,Pakistan,North Waziristan,2,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM106,2012-10-04T00:00:00Z,Al Saeed,Yemen,Shabwa,3,6,0,0,0,0,2,4,Confirmed,TRUE,TRUE,Drone strike,1,2
+Ob297,2012-10-10T00:00:00Z,"Hurmaz, Teshil Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob298,2012-10-11T00:00:00Z,Buland Khel,Pakistan,Orakzai Agency,16,26,0,2,0,0,5,15,NA,NA,NA,NA,NA,NA
+YEM107,2012-10-18T00:00:00Z,Jaar,Yemen,Abyan,7,9,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,2,3
+YEM108,2012-10-21T00:00:00Z,Maarib,Yemen,Marib,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob299,2012-10-24T00:00:00Z,Village Ghundi Killi Daur Tappi area of Tehsil Miranshah,Pakistan,North Waziristan,1,1,1,1,0,0,6,9,NA,NA,NA,NA,NA,NA
+YEM109,2012-10-28T00:00:00Z,Wadi al Abu Jabara,Yemen,Saada,4,4,0,0,0,0,1,1,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM110,2012-11-07T00:00:00Z,Beit al Ahan,Yemen,Sanaa,2,2,0,0,0,0,2,3,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob300,2012-11-29T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,1,4,0,0,0,0,3,4,NA,NA,NA,NA,NA,NA
+Ob301,2012-12-01T00:00:00Z,Shin Warsak,Pakistan,South Waziristan,1,4,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob302,2012-12-06T00:00:00Z,"Noorak Mubarak Shahi area, Tehsil Mir Ali",Pakistan,North Waziristan,2,11,1,1,0,0,1,6,NA,NA,NA,NA,NA,NA
+Ob303,2012-12-09T00:00:00Z,"Tabbi Tor Khel, Tehisl Ghulam Khan",Pakistan,North Waziristan,2,4,0,3,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob304,2012-12-21T00:00:00Z,"Hassokhel, near Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM111,2012-12-24T00:00:00Z,Manaseh,Yemen,Bayda,2,3,0,0,0,0,3,3,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM112,2012-12-24T00:00:00Z,Shehr,Yemen,Hadhramout,3,7,0,0,0,0,1,1,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,3
+YEM113,2012-12-28T00:00:00Z,Shehr,Yemen,Hadhramout,2,3,0,0,0,0,0,1,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,2
+Ob305,2012-12-29T00:00:00Z,"Gurbaz, Shawal",Pakistan,North Waziristan,4,5,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM114,2012-12-29T00:00:00Z,Manaseh,Yemen,Bayda,3,4,0,0,0,0,0,2,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM115,2013-01-01T00:00:00Z,Unknown,Yemen,Shabwa,1,1,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob306,2013-01-02T00:00:00Z,"Lajhmarai area, Tehsil Birmal",Pakistan,South Waziristan,6,11,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob307,2013-01-03T00:00:00Z,"Ghundi Killi, Tappi area, Tehsil Miranshah",Pakistan,North Waziristan,3,6,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+YEM116,2013-01-04T00:00:00Z,Radaa,Yemen,Bayda,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob308,2013-01-06T00:00:00Z,"Smal Narai area, Tehsil Ladha",Pakistan,South Waziristan,8,18,0,0,0,0,3,7,NA,NA,NA,NA,NA,NA
+Ob309,2013-01-08T00:00:00Z,"Haiderkhel, near Mir Ali",Pakistan,North Waziristan,4,9,0,2,0,1,1,4,NA,NA,NA,NA,NA,NA
+Ob310,2013-01-08T00:00:00Z,"Malangan Hassokhel, Tehsil Mir Ali",Pakistan,North Waziristan,0,9,0,0,0,0,1,4,NA,NA,NA,NA,NA,NA
+Ob311,2013-01-10T00:00:00Z,"Hassokhel, near Mir Ali",Pakistan,North Waziristan,3,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM117,2013-01-19T00:00:00Z,Wadi Abida,Yemen,Marib,0,0,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM118,2013-01-19T00:00:00Z,Wadi Abida,Yemen,Marib,2,4,0,3,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM119,2013-01-19T00:00:00Z,Wadi Abida,Yemen,Marib,4,6,0,4,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM120,2013-01-20T00:00:00Z,Al Kanais,Yemen,Marib,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM121,2013-01-21T00:00:00Z,Nakhla,Yemen,Marib,2,4,0,0,0,0,2,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM122,2013-01-22T00:00:00Z,Al Boka,Yemen,Jawf,3,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM123,2013-01-23T00:00:00Z,Khawlan,Yemen,Sanaa,4,4,2,2,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM124,2013-01-23T00:00:00Z,Qayfa,Yemen,Bayda,3,5,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob312,2013-02-06T00:00:00Z,Spinwam,Pakistan,North Waziristan,3,5,0,2,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob313,2013-02-08T00:00:00Z,Babar Ghar,Pakistan,South Waziristan,6,9,0,0,0,0,2,6,NA,NA,NA,NA,NA,NA
+Ob314,2013-03-10T00:00:00Z,Datta Khel,Pakistan,North Waziristan,1,3,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob315,2013-03-22T00:00:00Z,"New Adda, Tehsil Datta Khel",Pakistan,North Waziristan,1,4,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+Ob316,2013-04-14T00:00:00Z,Datta Khel,Pakistan,North Waziristan,4,6,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob317,2013-04-17T00:00:00Z,"Pobar, Tehsil Ladha",Pakistan,South Waziristan,4,6,0,0,0,0,2,7,NA,NA,NA,NA,NA,NA
+YEM125,2013-04-17T00:00:00Z,Wassab al Ali,Yemen,Damar,4,4,0,4,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM126,2013-04-21T00:00:00Z,Wadi Abida,Yemen,Marib,2,2,0,0,0,0,2,3,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM127,2013-05-18T00:00:00Z,Mahfed,Yemen,Abyan,4,9,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM128,2013-05-20T00:00:00Z,Radaa,Yemen,Bayda,2,2,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob318,2013-05-29T00:00:00Z,"Qazi Kot, Tehsil Miranshah",Pakistan,North Waziristan,3,7,0,0,0,0,1,4,NA,NA,NA,NA,NA,NA
+YEM129,2013-06-01T00:00:00Z,Mahfed,Yemen,Abyan,7,8,0,0,0,0,2,3,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,2
+Ob319,2013-06-07T00:00:00Z,"Shui Khel Mandi, Tehsil Shawal",Pakistan,North Waziristan,7,11,0,0,0,0,3,4,NA,NA,NA,NA,NA,NA
+YEM130,2013-06-09T00:00:00Z,"Al Makashma/
+Khab al Shath",Yemen,Jawf,2,7,1,1,1,1,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob320,2013-07-03T00:00:00Z,"Shui Khel Mandi, Tehsil Shawal",Pakistan,North Waziristan,16,18,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob321,2013-07-13T00:00:00Z,Khray Chila Mossaki area of Mir Ali,Pakistan,North Waziristan,2,3,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM131,2013-07-27T00:00:00Z,Mahfed,Yemen,Abyan,4,9,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob322,2013-07-28T00:00:00Z,"Zoi Nair, Tehsil Shawal",Pakistan,North Waziristan,5,8,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+YEM132,2013-07-30T00:00:00Z,Al Saeed,Yemen,Shabwa,3,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM133,2013-08-01T00:00:00Z,Wadi Ser,Yemen,Hadhramout,3,5,4,5,1,1,3,3,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM134,2013-08-06T00:00:00Z,Wadi Abida,Yemen,Marib,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM135,2013-08-07T00:00:00Z,Markha,Yemen,Shabwa,6,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM136,2013-08-08T00:00:00Z,Wadi Abida,Yemen,Marib,3,8,2,2,2,2,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM137,2013-08-08T00:00:00Z,Al Ayoun,Yemen,Hadhramout,2,7,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM138,2013-08-08T00:00:00Z,Al Qotn,Yemen,Hadhramout,3,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM139,2013-08-10T00:00:00Z,Al Askariya,Yemen,Lahj,2,5,0,0,0,0,2,5,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM140,2013-08-30T00:00:00Z,Manaseh,Yemen,Bayda,4,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob323,2013-08-31T00:00:00Z,"Mossaki, Tehsil Mir Ali",Pakistan,North Waziristan,3,4,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+Ob324,2013-09-06T00:00:00Z,"Tabi, Tehsil Ghulam Khan",Pakistan,North Waziristan,5,7,0,0,0,0,3,7,NA,NA,NA,NA,NA,NA
+Ob325,2013-09-22T00:00:00Z,"ShawalPalgai area, Thesil Makin",Pakistan,North/South Waziristan,6,7,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+Ob326,2013-09-29T00:00:00Z,Darga Mandi,Pakistan,North Waziristan,3,6,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+Ob327,2013-09-30T00:00:00Z,"Land Char Khel, Tehsil Datta Khel",Pakistan,North Waziristan,1,4,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+SOM017,2013-10-05T00:00:00Z,"Barawe, Shabeellaha Hoose",Somalia,NA,1,7,0,0,0,0,1,1,Confirmed,FALSE,FALSE,Ground operation - amphibious assault,1,1
+SOM018,2013-10-28T00:00:00Z,"Jillib, Middle Juba",Somalia,NA,2,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+Ob328,2013-10-31T00:00:00Z,Miranshah,Pakistan,North Waziristan,0,5,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA
+Ob329,2013-11-01T00:00:00Z,Dandi Darpakhel,Pakistan,North Waziristan,4,7,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM141,2013-11-19T00:00:00Z,Ghayl Bawazir,Yemen,Hadhramout,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US airstrike
+Possible drone strike",1,1
+Ob330,2013-11-21T00:00:00Z,"Tal, Hangu District",Pakistan,Khyber Pakhtunkhwa province,6,9,0,0,0,0,1,9,NA,NA,NA,NA,NA,NA
+YEM142,2013-11-26T00:00:00Z,Mahfed,Yemen,Abyan,12,12,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob331,2013-11-29T00:00:00Z,Miranshah,Pakistan,North Waziristan,2,3,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA
+YEM143,2013-12-09T00:00:00Z,Al Qotn,Yemen,Hadhramout,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM144,2013-12-12T00:00:00Z,Radaa,Yemen,Bayda,12,17,8,16,0,0,5,30,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob332,2013-12-25T00:00:00Z,"Qutab Khel, Miranshah",Pakistan,North Waziristan,3,4,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA
+YEM145,2013-12-27T00:00:00Z,Shibam,Yemen,Hadhramout,1,6,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM146,2013-12-31T00:00:00Z,Mahfed,Yemen,Abyan,2,6,0,0,0,0,0,3,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM147,2014-01-06T00:00:00Z,Radaa,Yemen,Bayda,0,0,0,0,0,0,0,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM148,2014-01-08T00:00:00Z,Al Qotn,Yemen,Hadhramout,2,2,0,0,0,0,0,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM149,2014-01-15T00:00:00Z,Shibam,Yemen,Hadhramout,1,1,1,1,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM150,2014-01-24T00:00:00Z,Wadi Abida,Yemen,Marib,3,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+SOM019,2014-01-26T00:00:00Z,"Hawai, Lower Shabelle",Somalia,NA,2,9,0,2,0,2,0,1,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+YEM151,2014-02-03T00:00:00Z,Mahfed,Yemen,Abyan,0,4,0,0,0,0,0,2,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM152,2014-03-02T00:00:00Z,Shabwan,Yemen,Marib,2,3,0,0,0,0,2,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM153,2014-03-03T00:00:00Z,Mahfed,Yemen,Abyan,1,1,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM154,2014-03-03T00:00:00Z,Radhum,Yemen,Shabwa,2,4,0,0,0,0,2,2,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM155,2014-03-05T00:00:00Z,Khalek,Yemen,Jawf,2,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM156,2014-03-10T00:00:00Z,Wadi Abida,Yemen,Marib,1,4,0,1,0,1,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM157,2014-03-12T00:00:00Z,Khab Wal Saaf,Yemen,Jawf,2,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM158,2014-04-01T00:00:00Z,Mahfed,Yemen,Abyan,3,3,0,0,0,0,4,4,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM159,2014-04-19T00:00:00Z,Sawmaa,Yemen,Bayda,13,21,3,8,0,0,1,6,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM160,2014-04-20T00:00:00Z,Mahfed,Yemen,Abyan,24,31,1,1,1,1,1,3,Confirmed,TRUE,TRUE,"Drone strike
+Yemen Air Force airstrike",1,3
+YEM161,2014-04-21T00:00:00Z,Usylan,Yemen,Shabwa,3,4,1,1,1,1,0,0,Confirmed,FALSE,FALSE,"US-Yemen ground operation
+Possible drone strike",1,1
+YEM162,2014-05-12T00:00:00Z,Wadi Abida,Yemen,Marib,4,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM163,2014-06-04T00:00:00Z,Wadi Abida,Yemen,Marib,3,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob333,2014-06-11T00:00:00Z,Tabi Tolkhel or Darga Mandi,Pakistan,North Waziristan,4,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob334,2014-06-12T00:00:00Z,"Darga Mandi, Dande Darpakhel or Ghulam Khan",Pakistan,North Waziristan,6,10,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+YEM164,2014-06-13T00:00:00Z,Mafraq al Saeed,Yemen,Marib,5,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob335,2014-06-18T00:00:00Z,"Darga Mandi, Dande Darpakhel or Miranshah",Pakistan,North Waziristan,4,8,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+YEM165,2014-06-21T00:00:00Z,Unknown,Yemen,Bayda,0,0,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob336,2014-07-10T00:00:00Z,"Madakhel village, Datta Khel Tehsil",Pakistan,North Waziristan,6,7,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob337,2014-07-16T00:00:00Z,"Saidgai, Datta Khel tehsil",Pakistan,North Waziristan,15,24,0,0,0,0,4,6,NA,NA,NA,NA,NA,NA
+Ob338,2014-07-19T00:00:00Z,"Doga Madakhel, Datta Khel tehsil",Pakistan,North Waziristan,11,15,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+SOM020,2014-08-01T00:00:00Z,"Barawe, Lower Shabelle",Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+Ob339,2014-08-05T00:00:00Z,"Lawara Mandi village, Datta Khel tehsil",Pakistan,North Waziristan,5,7,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+YEM166,2014-08-09T00:00:00Z,Wadi Abida,Yemen,Marib,3,3,0,0,0,0,2,2,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM167,2014-08-16T00:00:00Z,Unknown,Yemen,Hadhramout,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM168,2014-09-11T00:00:00Z,Unknown,Yemen,Shabwa,4,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob340,2014-09-24T00:00:00Z,"Alwara Mandi village, Datta Khel tehsil",Pakistan,North Waziristan,5,11,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM169,2014-09-25T00:00:00Z,"Nasab
+Near Ataq",Yemen,Shabwa,4,5,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM170,2014-09-26T00:00:00Z,Khasaf,Yemen,Jawf,2,3,0,0,0,0,3,3,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+Ob341,2014-09-28T00:00:00Z,Wana,Pakistan,South Waziristan,2,4,0,0,0,0,1,4,NA,NA,NA,NA,NA,NA
+Ob342,2014-10-05T00:00:00Z,"Kundhgar, Shawal",Pakistan,South Waziristan,4,5,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob343,2014-10-06T00:00:00Z,"Mangrotai, Shawal",Pakistan,South Waziristan,4,8,0,0,0,0,4,6,NA,NA,NA,NA,NA,NA
+Ob344,2014-10-07T00:00:00Z,"Kundhgar, Shawal",Pakistan,South Waziristan,4,7,0,0,0,0,5,11,NA,NA,NA,NA,NA,NA
+Ob345,2014-10-07T00:00:00Z,"Kundser, Datta Khel",Pakistan,North Waziristan,2,4,0,0,0,0,5,5,NA,NA,NA,NA,NA,NA
+Ob346,2014-10-08T00:00:00Z,"Loman, Datta Khel",Pakistan,North Waziristan,2,4,0,0,0,0,1,3,NA,NA,NA,NA,NA,NA
+Ob347,2014-10-09T00:00:00Z,Datta Khel,Pakistan,North Waziristan,3,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob348,2014-10-11T00:00:00Z,Tirah Valley,Pakistan,Khyber Agency,4,6,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob349,2014-10-11T00:00:00Z,"Marga, Shawal",Pakistan,North Waziristan,2,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM171,2014-10-15T00:00:00Z,"Bani Assaf
+Mayfaa",Yemen,Shabwa,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+YEM172,2014-10-24T00:00:00Z,Radaa,Yemen,Bayda,3,10,0,10,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM173,2014-10-26T00:00:00Z,Radaa,Yemen,Bayda,12,20,2,10,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike
+Yemeni air and ground operations",1,1
+Ob350,2014-10-30T00:00:00Z,"Nargas village, Azam Warsak",Pakistan,South Waziristan,4,7,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM174,2014-11-04T00:00:00Z,Radaa,Yemen,Bayda,9,20,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,3,3
+Ob351,2014-11-11T00:00:00Z,"Dawa Toi, Datta Khel",Pakistan,North Waziristan,4,7,0,2,0,2,2,3,NA,NA,NA,NA,NA,NA
+YEM175,2014-11-12T00:00:00Z,Azzan,Yemen,Shabwa,6,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Drone strike,1,1
+Ob352,2014-11-20T00:00:00Z,Datta Khel,Pakistan,North Waziristan,5,8,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+Ob353,2014-11-26T00:00:00Z,"Garga, Shawal",Pakistan,North Waziristan,4,9,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+YEM176,2014-11-26T00:00:00Z,Hagr al Saiaar,Yemen,Hadhramout,7,7,0,0,0,0,0,0,Confirmed,FALSE,FALSE,US-Yemen ground operation,1,1
+YEM177,2014-12-06T00:00:00Z,Nasab,Yemen,Shabwa,9,10,0,0,0,0,3,3,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM178,2014-12-06T00:00:00Z,Dafaar,Yemen,Shabwa,11,11,8,8,1,1,0,0,Confirmed,FALSE,FALSE,"US ground operation
+Possible US air and drone strike",1,1
+Ob354,2014-12-07T00:00:00Z,"Khar Tangi, Datta Khel",Pakistan,North Waziristan,4,6,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+Ob355,2014-12-20T00:00:00Z,Datta Khel,Pakistan,North Waziristan,4,6,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob356,2014-12-26T00:00:00Z,"Kund/Kundghar village, Shawal",Pakistan,North Waziristan,4,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob357,2014-12-26T00:00:00Z,"Kund/Kundghar village, Shawal",Pakistan,North Waziristan,3,4,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+SOM021,2014-12-29T00:00:00Z,Saakow,Somalia,NA,2,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+Ob358,2015-01-04T00:00:00Z,"Alwara Mandi, Datta Khel or Shawal",Pakistan,North Waziristan,6,10,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob359,2015-01-15T00:00:00Z,Shawal,Pakistan,North Waziristan,5,7,2,2,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob360,2015-01-15T00:00:00Z,Ladha district,Pakistan,South Waziristan,4,7,0,0,0,0,3,4,NA,NA,NA,NA,NA,NA
+Ob361,2015-01-19T00:00:00Z,"Shahi Khel, Shawal",Pakistan,North Waziristan,5,7,0,0,0,0,4,6,NA,NA,NA,NA,NA,NA
+YEM179,2015-01-26T00:00:00Z,Hareeb,Yemen,Shabwa/Mareb border,3,3,1,2,1,1,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+Ob362,2015-01-28T00:00:00Z,Shawal,Pakistan,North Waziristan,6,7,0,0,0,0,2,4,NA,NA,NA,NA,NA,NA
+SOM022,2015-01-31T00:00:00Z,"Dugule, Lower Shabelle",Somalia,NA,40,60,0,0,0,0,0,0,Possible,TRUE,TRUE,Air operation - drone strike,1,1
+SOM023,2015-01-31T00:00:00Z,"Dinsoor, Bay Region",Somalia,NA,2,9,0,4,0,0,0,4,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+YEM180,2015-01-31T00:00:00Z,Al Saeed,Yemen,Shabwa,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM181,2015-02-02T00:00:00Z,Unknown,Yemen,Bayda,3,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM182,2015-02-20T00:00:00Z,Al Houta,Yemen,Shabwa,2,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM183,2015-02-28T00:00:00Z,Bihan region,Yemen,Shabwa,3,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+YEM184,2015-03-01T00:00:00Z,Markha district,Yemen,Shabwa,2,3,0,0,0,0,3,3,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1
+SOM024,2015-03-12T00:00:00Z,"Abaq Xaluul village, Baardheere, Gedo region",Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+Ob363,2015-03-18T00:00:00Z,Shabak,Pakistan,Kurram Agency,3,3,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+Ob364,2015-04-12T00:00:00Z,Shawal,Pakistan,North Waziristan,4,4,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM185,2015-04-12T00:00:00Z,Mukalla,Yemen,Hadhramout,3,7,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM186,2015-04-17T00:00:00Z,Habban,Yemen,Shabwa,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM187,2015-04-19T00:00:00Z,Saeed district,Yemen,Shabwa,2,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM188,2015-04-21T00:00:00Z,Mukalla,Yemen,Hadramout,5,7,0,1,0,1,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,2
+YEM189,2015-05-08T00:00:00Z,Mafraq,Yemen,Shabwa,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1
+YEM190,2015-05-10T00:00:00Z,Ataq,Yemen,Shabwa,1,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1
+YEM191,2015-05-11T00:00:00Z,Mukalla,Yemen,Hadramout,4,4,0,0,0,0,2,2,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+Ob365,2015-05-16T00:00:00Z,"Wara Mandi, Shawal",Pakistan,North Waziristan,4,7,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM192,2015-05-16T00:00:00Z,Unknown,Yemen,Shabwa,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+Ob366,2015-05-18T00:00:00Z,"Zoy Nari, Shawal",Pakistan,North Waziristan,3,6,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+YEM193,2015-05-22T00:00:00Z,Unknown,Yemen,Shabwa,3,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+Ob367,2015-06-01T00:00:00Z,Shawal,Pakistan,North Waziristan,4,5,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM194,2015-06-02T00:00:00Z,Unknown,Yemen,Jawf,5,20,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1
+Ob368,2015-06-06T00:00:00Z,Shawal or Datta Khel,Pakistan,North Waziristan,7,9,0,3,0,0,4,4,NA,NA,NA,NA,NA,NA
+YEM195,2015-06-09T00:00:00Z,Mukalla,Yemen,Hadramout,3,3,0,0,0,0,2,2,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM196,2015-06-25T00:00:00Z,Mukalla,Yemen,Hadramout,4,5,0,0,0,0,2,2,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM197,2015-06-26T00:00:00Z,Rafadh,Yemen,Shabwa,4,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1
+YEM198,2015-06-26T00:00:00Z,Mukalla,Yemen,Hadramout,4,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1
+YEM199,2015-07-03T00:00:00Z,Mukalla,Yemen,Hadramout,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM200,2015-07-11T00:00:00Z,Mukalla,Yemen,Hadramout,3,10,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+SOM025,2015-07-15T00:00:00Z,"Baardheere, Gedo Region",Somalia,NA,2,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+SOM026,2015-07-15T00:00:00Z,"Baardheere, Gedo Region",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,5,5
+YEM201,2015-07-29T00:00:00Z,Wadi Dikha,Yemen,Abyan,4,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+Ob369,2015-08-06T00:00:00Z,"Alwara Mandi area, Datta Khel",Pakistan,North Waziristan,4,7,0,0,0,0,2,3,NA,NA,NA,NA,NA,NA
+YEM202,2015-08-12T00:00:00Z,Mukalla-Rukob road,Yemen,Hadramout,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM203,2015-08-21T00:00:00Z,Harib,Yemen,Marib,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1
+YEM204,2015-08-23T00:00:00Z,Mukalla,Yemen,Hadaramout,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM205,2015-08-26T00:00:00Z,Mukalla,Yemen,Hadramout,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+Ob370,2015-09-01T00:00:00Z,"Karwanda village, Manzarkhel area, Dattakhel sub-division or Lawara Banga area of Shawal valley",Pakistan,North Waziristan,5,6,0,0,0,0,4,4,NA,NA,NA,NA,NA,NA
+YEM206,2015-09-09T00:00:00Z,Mukalla,Yemen,Hadramout,3,6,0,4,0,0,2,2,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM207,2015-09-11T00:00:00Z,Unknown,Yemen,Jawf-Mareb border,4,4,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1
+YEM208,2015-09-12T00:00:00Z,Mukalla,Yemen,Hadramout,4,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM209,2015-09-21T00:00:00Z,Marib city,Yemen,Marib,2,2,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1
+SOM027,2015-11-21T00:00:00Z,"Balad Amin, Lower Shabelle",Somalia,NA,5,10,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+SOM028,2015-11-29T00:00:00Z,"Yasooman, Ceeldheer and Ceel Lahelay villages, Hiraan region",Somalia,NA,0,0,0,0,0,0,0,0,Possible,TRUE,FALSE,Air operation - airstrike,1,1
+SOM029,2015-12-02T00:00:00Z,"Kunyo-Barow, Lower Shabelle",Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+SOM030,2015-12-21T00:00:00Z,"Kuntuwarey district, Lower Shabelle",Somalia,NA,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+YEM210,2015-12-22T00:00:00Z,Nata district,Yemen,Bayda-Shabwa border,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+Ob371,2016-01-09T00:00:00Z,"Mangrooti village, Shawal valley, Datta Khel tehsil",Pakistan,North Waziristan,5,5,0,0,0,0,2,2,NA,NA,NA,NA,NA,NA
+YEM211,2016-01-15T00:00:00Z,Rafadh,Yemen,Shabwa,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM212,2016-01-19T00:00:00Z,Sayoun,Yemen,Hadramout,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM213,2016-02-03T00:00:00Z,Rawda city,Yemen,Shabwa,6,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM214,2016-02-03T00:00:00Z,Maraquesha,Yemen,Abyan,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+YEM215,2016-02-15T00:00:00Z,Huta,Yemen,Lahij,3,3,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1
+Ob372,2016-02-22T00:00:00Z,"Shahidano Dhand, Lower Kurram",Pakistan,Kurram Agency,4,5,0,0,0,0,1,4,NA,NA,NA,NA,NA,NA
+YEM216,2016-02-29T00:00:00Z,Unknown,Yemen,Hadramout,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone or air strike
+",1,1
+YEM217,2016-03-04T00:00:00Z,Radhum,Yemen,Shabwa,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone strike
+",1,1
+SOM031,2016-03-05T00:00:00Z,"Raso Camp, Hiraaan",Somalia,NA,150,200,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+SOM032,2016-03-08T00:00:00Z,"Awdhegle, Lower Shabelle",Somalia,NA,19,19,0,0,0,0,0,0,Confirmed,FALSE,FALSE,Ground operation - Joint US-Somali helicopter assault,1,1
+YEM218,2016-03-22T00:00:00Z,Hajr (75km W of Mukalla),Yemen,Hadramout,50,71,0,0,0,0,28,30,Confirmed,TRUE,FALSE,US air strike,1,1
+YEM219,2016-03-26T00:00:00Z,Al Hudhn and Naqeel al Hayala villages,Yemen,Abyan,8,8,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",2,2
+YEM220,2016-03-26T00:00:00Z,Zinjibar,Yemen,Abyan,6,6,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1
+YEM221,2016-03-28T00:00:00Z,Mukalla,Yemen,Hadramout,5,5,3,3,0,0,0,0,Possible,TRUE,FALSE,Airstrike,1,1
+YEM222,2016-03-30T00:00:00Z,Azzan,Yemen,Shabwa,2,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM223,2016-03-30T00:00:00Z,Mukalla,Yemen,Hadramout,0,0,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,3,3
+SOM033,2016-03-31T00:00:00Z,"Jillib, Middle Juba",Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+SOM034,2016-04-01T00:00:00Z,Unknown,Somalia,NA,0,22,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+SOM035,2016-04-02T00:00:00Z,Unknown,Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+YEM224,2016-04-03T00:00:00Z,Mukalla,Yemen,Hadramout,0,0,0,0,0,0,0,0,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",4,5
+YEM225,2016-04-05T00:00:00Z,Zinjibar,Yemen,Abyan,0,0,0,0,0,0,0,0,Possible,TRUE,FALSE,Airstrike,2,2
+SOM036,2016-04-06T00:00:00Z,"Jillib, Middle Juba",Somalia,NA,8,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+SOM037,2016-04-11T00:00:00Z,Lower Juba,Somalia,NA,8,12,3,3,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+YEM226,2016-04-23T00:00:00Z,Alemien,Yemen,Mareb,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM227,2016-04-25T00:00:00Z,Zinjibar,Yemen,Abyan,3,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM228,2016-04-25T00:00:00Z,Azzan,Yemen,Shabwa,2,10,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM229,2016-04-28T00:00:00Z,Unknown,Yemen,Shabwa,4,4,0,0,0,0,1,1,Confirmed,TRUE,TRUE,US drone strike,1,1
+SOM038,2016-05-12T00:00:00Z,"Afgoye, Lower Shabelle",Somalia,NA,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone strike,1,1
+YEM230,2016-05-19T00:00:00Z,Unknown,Yemen,Shabwa,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+Ob373,2016-05-21T00:00:00Z,Ahmad Wal,Pakistan,Balochistan,2,2,1,1,0,0,0,0,NA,NA,NA,NA,NA,NA
+SOM039,2016-05-27T00:00:00Z,South-central Somalia,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM231,2016-06-09T00:00:00Z,Unknown,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM232,2016-06-10T00:00:00Z,Unknown,Yemen,Mareb,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM233,2016-06-12T00:00:00Z,Haban,Yemen,Shabwa,2,3,0,0,0,0,1,1,Confirmed,TRUE,TRUE,US drone strike,1,1
+SOM040,2016-06-21T00:00:00Z,Southern Somalia,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM234,2016-07-01T00:00:00Z,Gardan,Yemen,Shabwa,3,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM235,2016-07-04T00:00:00Z,Musaina,Yemen,Shabwa,2,3,0,0,0,0,0,1,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM236,2016-07-08T00:00:00Z,Unknown,Yemen,Central Yemen,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM237,2016-07-10T00:00:00Z,Jabul,Yemen,Mareb,0,0,0,0,0,0,4,4,Possible,TRUE,TRUE,US drone strike,1,1
+YEM238,2016-07-16T00:00:00Z,Al Uqlah,Yemen,Shabwa,2,4,0,0,0,0,0,2,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM239,2016-08-04T00:00:00Z,Azzan,Yemen,Shabwa,2,4,0,0,0,0,2,4,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM240,2016-08-24T00:00:00Z,Unknown,Yemen,Shabwa,4,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+SOM041,2016-08-30T00:00:00Z,Near Gobanale,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM241,2016-08-30T00:00:00Z,Unknown,Yemen,Shabwa,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM242,2016-09-04T00:00:00Z,Unknown,Yemen,Shabwa,6,9,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM042,2016-09-05T00:00:00Z,Tortoroow,Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,2,2
+YEM243,2016-09-13T00:00:00Z,Radaa area,Yemen,Bayda,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+YEM244,2016-09-20T00:00:00Z,Wadi Abida,Yemen,Marib,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,"US drone or air strike
+",1,1
+YEM245,2016-09-22T00:00:00Z,Sawmaa district,Yemen,Bayda,2,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM246,2016-09-23T00:00:00Z,Unknown,Yemen,Mareb,3,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US drone strike,1,1
+SOM043,2016-09-26T00:00:00Z,"Caba, near Kismayo",Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+SOM044,2016-09-28T00:00:00Z,"Galcayo, Galmudug",Somalia,NA,10,22,0,2,0,0,3,16,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM247,2016-09-29T00:00:00Z,Unknown,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM248,2016-10-06T00:00:00Z,Unknown,Yemen,Shabwah,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM249,2016-10-12T00:00:00Z,North of the Bab el-Mandeb strait,Yemen,-,0,0,0,0,0,0,0,0,Confirmed,FALSE,FALSE,US cruise missle strike,3,3
+YEM250,2016-10-18T00:00:00Z,Unknown,Yemen,Shabwah,3,8,0,0,0,0,2,2,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM251,2016-10-21T00:00:00Z,Unknown,Yemen,Marib,5,5,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM252,2016-11-21T00:00:00Z,Unknown,Yemen,Bayda,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM253,2016-11-24T00:00:00Z,Sawmaah,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM254,2016-11-30T00:00:00Z,Unknown,Yemen,Hadramout,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM255,2016-12-13T00:00:00Z,Unknown,Yemen,Marib/Al Jawf,4,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM256,2016-12-29T00:00:00Z,Sawmaah,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM045,2017-01-07T00:00:00Z,Gaduug,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM257,2017-01-08T00:00:00Z,Unknown,Yemen,Bayda,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM258,2017-01-20T00:00:00Z,Unknown,Yemen,Bayda,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM259,2017-01-21T00:00:00Z,Unknown,Yemen,Bayda,3,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,2
+YEM260,2017-01-22T00:00:00Z,Unknown,Yemen,Bayda,1,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,2
+YEM261,2017-01-28T00:00:00Z,Yakla,Yemen,Bayda,39,39,25,25,10,10,7,7,Confirmed,FALSE,FALSE,"US air and ground operation
+Special forces air assault and air support, possibly drone",1,1
+YEM262,2017-01-30T00:00:00Z,Baihan,Yemen,Shabwa,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+T001,2017-03-02T00:00:00Z,Unknown,Pakistan,Kurram Agency,2,2,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM263,2017-03-02T00:00:00Z,Unknown,Yemen,Across central Yemen,2,12,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strikes,25,25
+YEM264,2017-03-03T00:00:00Z,Unknown,Yemen,Yemen,1,8,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strikes,5,10
+YEM265,2017-03-04T00:00:00Z,Ahwar,Yemen,Abyan,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM266,2017-03-06T00:00:00Z,Unknown,Yemen,Multiple provinces,7,11,0,2,0,2,0,0,Confirmed,TRUE,FALSE,US air or drone strikes,9,4
+YEM267,2017-03-31T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strikes,10,10
+YEM268,2017-04-02T00:00:00Z,Unknown,Yemen,Shabwah,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strikes,20,20
+YEM269,2017-04-18T00:00:00Z,Unknown,Yemen,Marib,3,4,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM270,2017-04-23T00:00:00Z,al Said,Yemen,Shabwah,3,8,3,8,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM271,2017-04-24T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,8,8
+T002,2017-04-26T00:00:00Z,Zuwai,Pakistan,North Waziristan,7,11,0,3,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM272,2017-04-29T00:00:00Z,Unknown,Yemen,Marib,4,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM273,2017-04-29T00:00:00Z,Unknown,Yemen,Shabwah,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM046,2017-05-04T00:00:00Z,"Dar es Salam village, Lower Shabelle",Somalia,NA,4,9,0,0,0,0,0,0,Confirmed,FALSE,FALSE,"Ground operation - Somali-led or joint operation, ambushed before reaching target",1,1
+YEM274,2017-05-23T00:00:00Z,Al Sirim area,Yemen,Marib,7,12,5,5,0,1,5,6,Confirmed,FALSE,FALSE,"US air and ground operation
+Special forces raid with air strikes, possibly drone",1,1
+T003,2017-05-24T00:00:00Z,Unknown,Pakistan,North Waziristan,2,3,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+SOM047,2017-06-11T00:00:00Z,"Sakow, Middle Juba region",Somalia,NA,8,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+T004,2017-06-13T00:00:00Z,Hangu district,Pakistan,Khyber Pakhtunkhwa province,1,3,0,0,0,0,0,3,NA,NA,NA,NA,NA,NA
+YEM275,2017-06-16T00:00:00Z,Al Naqba,Yemen,Shabwah,2,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM276,2017-07-01T00:00:00Z,Al Wadei,Yemen,Abyan,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM048,2017-07-02T00:00:00Z,"Kunyo Barrow, Lower Shabelle",Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+SOM049,2017-07-04T00:00:00Z,"Luglaw, Jubba region",Somalia,NA,10,13,0,0,0,0,10,10,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1
+SOM050,2017-07-13T00:00:00Z,"Kunyo Barrow, Lower Shabelle",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,FALSE,FALSE,Ground operation - US-Somali air assault,1,1
+SOM051,2017-07-15T00:00:00Z,Southern Somalia,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1
+SOM052,2017-07-20T00:00:00Z,Southern Somalia,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1
+SOM053,2017-07-21T00:00:00Z,Southern Somalia,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1
+SOM054,2017-07-28T00:00:00Z,Southern Somalia,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1
+SOM055,2017-07-29T00:00:00Z,Southern Somalia,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,"Air operation - Somali ground force, US air support",1,1
+SOM056,2017-07-29T00:00:00Z,"Tortoroow, Lower Shabelle",Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM057,2017-08-10T00:00:00Z,Banadiir region,Somalia,NA,0,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,2,2
+YEM277,2017-08-13T00:00:00Z,Marakishah,Yemen,Abyan,0,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM058,2017-08-16T00:00:00Z,"Jillib, Middle Juba",Somalia,NA,7,7,0,7,0,0,0,0,Confirmed,TRUE,FALSE,"Air operation - drone or airstrike, US-Somali ground troops",1,1
+SOM059,2017-08-25T00:00:00Z,"Bariire, Lower Shabelle region",Somalia,NA,0,10,0,10,0,3,0,0,Confirmed,FALSE,FALSE,Ground operation - Somali-led or joint operation,1,1
+SOM060,2017-08-31T00:00:00Z,"Barawe, Lower Shabelle",Somalia,NA,1,1,0,0,0,0,1,1,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+SOM061,2017-09-05T00:00:00Z,Bay region,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM062,2017-09-07T00:00:00Z,"Barawe, Lower Shabelle",Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM278,2017-09-09T00:00:00Z,Unknown,Yemen,Bayda,2,7,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,3,3
+SOM063,2017-09-13T00:00:00Z,Southern Somalia,Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+T005,2017-09-15T00:00:00Z,Ghuz Ghari village,Pakistan,Kurram Agency,3,3,0,0,0,0,1,2,NA,NA,NA,NA,NA,NA
+YEM279,2017-09-16T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,8,6
+SOM064,2017-09-30T00:00:00Z,Southern Somalia,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM065,2017-10-02T00:00:00Z,Southern Somalia,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM280,2017-10-04T00:00:00Z,Unknown,Yemen,Bayda,1,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM281,2017-10-08T00:00:00Z,Raghwan,Yemen,Marib,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM066,2017-10-16T00:00:00Z,"Bariire, Lower Shabelle region",Somalia,NA,0,5,0,2,0,0,0,8,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM282,2017-10-16T00:00:00Z,Unknown,Yemen,Bayda,50,50,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,2,2
+YEM283,2017-10-19T00:00:00Z,Unknown,Yemen,Bayda,5,5,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM284,2017-10-19T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,7,7
+YEM285,2017-10-25T00:00:00Z,Unknown,Yemen,Bayda,9,13,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,2,2
+YEM286,2017-11-02T00:00:00Z,Al Wadi,Yemen,Marib,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM067,2017-11-03T00:00:00Z,"Qandala town, Puntland",Somalia,NA,3,20,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,2,2
+SOM068,2017-11-09T00:00:00Z,Bay region,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM069,2017-11-10T00:00:00Z,"Basra village, Lower Shabelle",Somalia,NA,13,13,0,3,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM287,2017-11-10T00:00:00Z,Unknown,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM070,2017-11-11T00:00:00Z,Gaduud,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM288,2017-11-11T00:00:00Z,Unknown,Yemen,Bayda,1,1,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM071,2017-11-12T00:00:00Z,Lower Shabelle,Somalia,NA,3,3,0,3,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM072,2017-11-12T00:00:00Z,Puntland,Somalia,NA,23,23,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM289,2017-11-12T00:00:00Z,Unknown,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM073,2017-11-13T00:00:00Z,"Awhiigle, Gaduud",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM074,2017-11-14T00:00:00Z,"Idow Jalad, Lower Shabelle",Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM290,2017-11-19T00:00:00Z,Unknown,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM291,2017-11-20T00:00:00Z,Unknown,Yemen,Bayda,5,5,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,2,2
+SOM075,2017-11-21T00:00:00Z,Bay region,Somalia,NA,100,100,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM292,2017-11-23T00:00:00Z,Unknown,Yemen,Bayda,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM293,2017-11-25T00:00:00Z,Unknown,Yemen,Shabwah,5,7,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM294,2017-11-26T00:00:00Z,Qaifa,Yemen,Bayda,3,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM076,2017-11-27T00:00:00Z,Northeastern,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM077,2017-12-12T00:00:00Z,"Mubarak, Lower Shabelle",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+SOM078,2017-12-15T00:00:00Z,30 miles northwest of Kismayo,Somalia,NA,8,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM295,2017-12-15T00:00:00Z,Unknown,Yemen,Bayda,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM296,2017-12-19T00:00:00Z,Unknown,Yemen,Marib,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM079,2017-12-24T00:00:00Z,Southern Somalia,Somalia,NA,13,13,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM080,2017-12-27T00:00:00Z,25 kilometers west of Mogadishu,Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM297,2018-01-01T00:00:00Z,Unknown,Yemen,Bayda,0,2,0,2,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM081,2018-01-02T00:00:00Z,50 kilometers west of Mogadishu,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM082,2018-01-18T00:00:00Z,51 kilometers northwest of Kismayo,Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM083,2018-01-18T00:00:00Z,Middle Shabelle region,Somalia,NA,0,5,0,0,0,5,0,6,Confirmed,FALSE,FALSE,Ground operation - Somali-led or joint operation,1,1
+T006,2018-01-24T00:00:00Z,Unclear,Pakistan,Unclear,1,3,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA
+YEM298,2018-01-26T00:00:00Z,Said,Yemen,Shabwah,7,7,7,7,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM299,2018-01-29T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,8,8
+SOM084,2018-02-06T00:00:00Z,"Kunyo Barrow, Lower Shabelle",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM300,2018-02-11T00:00:00Z,Unknown,Yemen,Bayda,6,6,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM301,2018-02-16T00:00:00Z,Unknown,Yemen,Bayda,2,3,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM085,2018-02-19T00:00:00Z,"Jilib, Middle Juba Region",Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM086,2018-02-21T00:00:00Z,"Jamaame, Lower Juba region",Somalia,NA,4,5,0,2,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+SOM087,2018-02-26T00:00:00Z,"Jilib, Middle Juba Region",Somalia,NA,2,2,0,0,0,0,1,1,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+YEM302,2018-02-28T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,4,4
+YEM303,2018-03-05T00:00:00Z,Unknown,Yemen,Hadramout,1,4,0,1,0,1,0,1,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM304,2018-03-07T00:00:00Z,Al Hudhi,Yemen,Hadramout,1,1,1,1,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+YEM305,2018-03-08T00:00:00Z,Unknown,Yemen,Hadramout,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM306,2018-03-09T00:00:00Z,Al Abr,Yemen,Hadramout,6,6,0,6,0,1,0,0,Possible,TRUE,TRUE,US air or drone strike,1,1
+SOM088,2018-03-12T00:00:00Z,"Kamsuuma, Lower Juba region",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM089,2018-03-13T00:00:00Z,"Jamecco, Middle Shabelle",Somalia,NA,12,12,0,0,0,0,15,15,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM090,2018-03-19T00:00:00Z,"Mubarak, Lower Shabelle",Somalia,NA,2,2,0,0,0,0,3,3,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM307,2018-03-22T00:00:00Z,Wadi Abida,Yemen,Marib,5,7,0,0,0,0,0,0,Possible,TRUE,TRUE,US air or drone strike,1,1
+YEM308,2018-03-26T00:00:00Z,Unknown,Yemen,Hadramout,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,3,3
+YEM309,2018-03-29T00:00:00Z,Sawmaah,Yemen,Bayda,3,4,0,3,0,0,0,2,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM091,2018-04-01T00:00:00Z,"El Burr, Galmudug",Somalia,NA,6,6,2,2,1,1,0,0,Confirmed,TRUE,TRUE,Air operation - drone or airstrike,1,1
+SOM092,2018-04-05T00:00:00Z,"Jilib, Middle Juba Region",Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM093,2018-04-11T00:00:00Z,"Jana Cabdalle, Kismayo",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM310,2018-04-11T00:00:00Z,Unknown,Yemen,Hadramout,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM094,2018-04-16T00:00:00Z,"Leego, Lower Shabelle",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+YEM311,2018-04-23T00:00:00Z,Unknown,Yemen,Bayda,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM312,2018-04-30T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,2,2
+SOM095,2018-05-09T00:00:00Z,Lower Shabelle,Somalia,NA,0,5,0,5,0,0,0,0,Confirmed,FALSE,FALSE,Ground operation - Somali-led operation,1,1
+YEM313,2018-05-14T00:00:00Z,Unknown,Yemen,Shabwah,2,3,0,1,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM096,2018-05-23T00:00:00Z,Lower Shabelle,Somalia,NA,10,10,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM097,2018-05-31T00:00:00Z,30 miles southwest of Mogadishu,Somalia,NA,12,12,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM098,2018-06-02T00:00:00Z,26 miles southwest of Bosasso,Somalia,NA,27,27,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM099,2018-06-03T00:00:00Z,24 miles southwest of Bosasso,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or airstrike,1,1
+SOM100,2018-06-08T00:00:00Z,Jubaland,Somalia,NA,1,1,0,0,0,0,5,5,Confirmed,FALSE,FALSE,Ground operation,1,1
+YEM314,2018-06-23T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM315,2018-06-30T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+YEM316,2018-07-22T00:00:00Z,Unknown,Yemen,Hadramout,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM101,2018-07-23T00:00:00Z,50 kilometres north of Kismayo,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+YEM317,2018-07-24T00:00:00Z,Unknown,Yemen,Hadramout,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM102,2018-08-02T00:00:00Z,74 miles northwest of Mogadishu,Somalia,NA,4,4,0,3,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+YEM318,2018-08-14T00:00:00Z,Unknown,Yemen,Unknown,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM103,2018-08-21T00:00:00Z,46 kilometres northeast of Kismayo,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM104,2018-08-27T00:00:00Z,40 kilometers southwest of Mogadishu,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+YEM319,2018-09-09T00:00:00Z,Ahwar,Yemen,Abyan,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM105,2018-09-11T00:00:00Z,"Mubaraak, 37 miles west of Mogadishu",Somalia,NA,2,2,0,0,0,0,1,1,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+YEM320,2018-09-18T00:00:00Z,Unknown,Yemen,Bayda,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM106,2018-09-21T00:00:00Z,"50 kilometres northwest of Kismayo, Lower Juba",Somalia,NA,18,18,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM107,2018-10-01T00:00:00Z,40 kilometres northeast of Kismayo,Somalia,NA,9,9,0,0,0,0,1,1,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM108,2018-10-06T00:00:00Z,"Near Kunya Barrow, Lower Shabelle",Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM109,2018-10-12T00:00:00Z,"Haradere, Galmudug",Somalia,NA,60,60,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or air strike,1,1
+SOM110,2018-10-14T00:00:00Z,"Vicinity of Araara, Lower Juba region",Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM111,2018-10-25T00:00:00Z,Vicinity of Kunya Barrow,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM112,2018-11-19T00:00:00Z,Vicinity of Debatscile,Somalia,NA,27,27,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or air strike,1,1
+SOM113,2018-11-19T00:00:00Z,Vicinity of Debatscile,Somalia,NA,10,10,0,0,0,0,0,0,Confirmed,TRUE,TRUE,Air operation - drone or air strike,1,1
+SOM114,2018-11-20T00:00:00Z,"Vicinity of Quy Cad, Mudug",Somalia,NA,7,7,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM115,2018-11-21T00:00:00Z,"Vicinity of Haradere, Galmudug",Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM116,2018-11-21T00:00:00Z,"Vicinity of Haradere, Galmudug",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+YEM321,2018-11-25T00:00:00Z,al Qrishia,Yemen,Bayda,5,8,0,0,0,0,0,0,Confirmed,TRUE,TRUE,US air or drone strike,1,1
+SOM117,2018-11-27T00:00:00Z,"Vicinity of Quy Cad, Near Debatscile, Mudug region",Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM118,2018-11-30T00:00:00Z,Near Lebede,Somalia,NA,9,9,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM119,2018-12-04T00:00:00Z,"Vicinity of Awdheegle, Lower Shabelle",Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM120,2018-12-08T00:00:00Z,Vicinity of Basra,Somalia,NA,4,4,0,1,0,0,0,1,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM121,2018-12-15T00:00:00Z,Vicinity of Gandarshe,Somalia,NA,34,34,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,4,4
+SOM122,2018-12-16T00:00:00Z,Vicinity of Gandarshe,Somalia,NA,28,28,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM123,2018-12-19T00:00:00Z,Vicinity of Beled Amin South​,Somalia,NA,11,11,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+YEM322,2019-01-01T00:00:00Z,Unknown,Yemen,Marib,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM124,2019-01-02T00:00:00Z,"Vicinity of Dheerow Sanle, Lower Shabelle",Somalia,NA,10,10,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM125,2019-01-06T00:00:00Z,"Vicinity of Dheerow Sanle, Lower Shabelle",Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM126,2019-01-07T00:00:00Z,"Vicinity of Baqdaad, Lower Juba region​",Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM127,2019-01-08T00:00:00Z,"Vicinity of Yaaq Braawe, Bay Region​",Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM128,2019-01-19T00:00:00Z,"Near Jilib, Middle Juba region",Somalia,NA,52,52,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM129,2019-01-23T00:00:00Z,"Near Jilib, Middle Juba region",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM130,2019-01-30T00:00:00Z,"Vicinity of Shebeeley, Hiran Region",Somalia,NA,24,24,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM131,2019-02-01T00:00:00Z,"Vicinity of Gandarshe, Lower Shabelle Region",Somalia,NA,13,13,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM132,2019-02-03T00:00:00Z,"Vicinity of Gandarshe, Lower Shabelle Region",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM133,2019-02-05T00:00:00Z,"Vicinity of Leego, Bay Region",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM134,2019-02-06T00:00:00Z,"Gandarshe, Lower Shabelle",Somalia,NA,11,11,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM135,2019-02-07T00:00:00Z,"Bariire, Lower Shabelle region",Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM136,2019-02-08T00:00:00Z,Kobon,Somalia,NA,8,8,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM137,2019-02-11T00:00:00Z,"Janaale, Lower Shabelle",Somalia,NA,12,13,0,13,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM138,2019-02-23T00:00:00Z,"Kunyow Barrow, 250km southwest of Mogadishu",Somalia,NA,2,4,0,3,0,1,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM139,2019-02-23T00:00:00Z,"Vicinity of Awdeegle, 50 km west of Mogadishu",Somalia,NA,0,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM140,2019-02-23T00:00:00Z,"Vicinity of Janaale, 75 km southwest of Mogadishu",Somalia,NA,0,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM141,2019-02-24T00:00:00Z,"Rural location, 23 miles east of Beledweyne, Hiran Region",Somalia,NA,35,35,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM142,2019-02-25T00:00:00Z,"Vicinity of Shebeeley, Hiran Region, Somalia",Somalia,NA,20,20,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM143,2019-02-28T00:00:00Z,Vicinity of Hiran,Somalia,NA,26,26,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM144,2019-03-11T00:00:00Z,"Vicinity of Dara Salaam, Lower Shabelle Region",Somalia,NA,8,8,0,7,0,0,0,1,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM145,2019-03-12T00:00:00Z,"Vicinity of Huley, Lower Shabelle region.",Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM146,2019-03-13T00:00:00Z,"Vicinity of Malayle, Lower Juba region",Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM147,2019-03-18T00:00:00Z,"Awdheegle, lower Shabelle region",Somalia,NA,3,7,0,4,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+YEM323,2019-03-31T00:00:00Z,Unknown,Yemen,Bayda,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,6,6
+SOM148,2019-04-09T00:00:00Z,"Jilib, Middle Juba Region",Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM149,2019-04-11T00:00:00Z,"Garowle, Lower Shabelle region",Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM150,2019-04-14T00:00:00Z,"Vicinity of Xiriiro, Bari region",Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM151,2019-04-19T00:00:00Z,"Vicinity of Jamaame, Lower Juba Region",Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM152,2019-04-26T00:00:00Z,Golis Mountains,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM153,2019-05-05T00:00:00Z,Vicinity of Tortoroow,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM154,2019-05-08T00:00:00Z,Golis Mountains,Somalia,NA,13,13,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM155,2019-05-09T00:00:00Z,Golis Mountains,Somalia,NA,4,4,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM156,2019-05-22T00:00:00Z,Golis Mountains,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM157,2019-05-22T00:00:00Z,"Baled Amin, lower Shabelle",Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM158,2019-05-24T00:00:00Z,Golis Mountains,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM159,2019-05-26T00:00:00Z,Golis Mountains,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM160,2019-06-04T00:00:00Z,Golis Mountains,Somalia,NA,6,6,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM161,2019-06-05T00:00:00Z,Vicinity of Tortoroow,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM162,2019-06-16T00:00:00Z,Vicinity of Jilib,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM163,2019-06-24T00:00:00Z,Vicinity of Jilib,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+YEM324,2019-06-24T00:00:00Z,Dhi Naim,Yemen,Badya,0,5,0,0,0,0,0,0,Confirmed,TRUE,FALSE,US air or drone strike,1,1
+SOM164,2019-06-25T00:00:00Z,Vicinity of Kunyo Barrow,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM165,2019-07-27T00:00:00Z,Golis Mountains,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM166,2019-08-20T00:00:00Z,Vicinity of Kunyo Barrow,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM167,2019-09-03T00:00:00Z,Vicinity of Jilib,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM168,2019-09-17T00:00:00Z,"Northwest of Kismayo, lower Juba province",Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM168a,2019-09-24T00:00:00Z,"near Ugungi, Lower Shabelle",Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM169,2019-09-30T00:00:00Z,"Baledogle Military Airfield (BMA) complex, Baledogle",Somalia,NA,10,10,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM170,2019-09-30T00:00:00Z,Near Kunyo Barrow,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM171,2019-10-25T00:00:00Z,"Ameyra village, Golis Mountains",Somalia,NA,3,3,0,2,0,0,0,1,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM172,2019-11-12T00:00:00Z,Vicinity of Jilib,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM173,2019-11-19T00:00:00Z,near Qunyo Barrow,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM174,2019-11-30T00:00:00Z,Vicinity of Jilib,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM175,2019-12-09T00:00:00Z,Vicinity of Saakow,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM176,2019-12-16T00:00:00Z,Vicinity of Dujuuma,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM177,2019-12-29T00:00:00Z,Qunyo Barrow,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM178,2019-12-29T00:00:00Z,Caliyoow Barrow,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM179,2020-01-03T00:00:00Z,Bacaw,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM180,2020-01-16T00:00:00Z,Vicinity of Qunyo Barrow,Somalia,NA,2,2,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM181,2020-01-19T00:00:00Z,Near Bangeeni,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM182,2020-01-26T00:00:00Z,Near Jamaame,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM183,2020-01-27T00:00:00Z,Vicinity of Jilib,Somalia,NA,1,1,0,1,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM184,2020-01-29T00:00:00Z,Vicinity of Jilib,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM185,2020-02-02T00:00:00Z,Vicinity of Jilib,Somalia,NA,1,2,0,1,0,0,0,2,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM186,2020-02-04T00:00:00Z,Vicinity of Beer Xaani,Somalia,NA,1,1,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM187,2020-02-06T00:00:00Z,Vicinity of Jilib,Somalia,NA,0,0,0,0,0,0,2,2,Confirmed,TRUE,FALSE,Air operation - drone or air strike,2,2
+SOM188,2020-02-17T00:00:00Z,Vicinity of Jilib,Somalia,NA,0,0,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1
+SOM189,2020-02-19T00:00:00Z,Vicinity of Wadajir,Somalia,NA,3,3,0,0,0,0,0,0,Confirmed,TRUE,FALSE,Air operation - drone or air strike,1,1

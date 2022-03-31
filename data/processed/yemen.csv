@@ -1,0 +1,450 @@
+strike_id,date,location,country,area,confirm_possible,air_strike,drone_strike,strike_type,min_strikes,max_strikes,min_ppl_killed,max_ppl_killed,min_civil_killed,max_civil_killed,min_child_killed,max_child_killed,min_injured,max_injured
+YEM001,2002-11-03T00:00:00Z,Unknown,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,6,6,0,0,0,0,0,0
+YEM002,2009-12-17T00:00:00Z,Al Majala,Yemen,Abyan,Confirmed,FALSE,FALSE,Cruise missile strike,1,1,55,58,44,44,21,22,9,9
+YEM003,2009-12-17T00:00:00Z,Arhab,Yemen,Sanaa,Confirmed,FALSE,FALSE,"US-Yemen ground operation
+Possible drone strike",1,1,0,0,0,0,0,0,0,0
+YEM004,2009-12-24T00:00:00Z,Rafd,Yemen,Shabwa,Confirmed,TRUE,FALSE,"Airstrike
+Possible cruise missile strike",1,1,30,34,0,0,0,0,0,0
+YEM005,2010-01-12T00:00:00Z,Unknown,Yemen,Shabwa,Possible,FALSE,FALSE,"Yemen ground operation
+Possible US assistance",1,1,1,2,0,0,0,0,0,0
+YEM006,2010-01-15T00:00:00Z,Al Ajashir,Yemen,Saada,Possible,TRUE,FALSE,Airstrike,1,1,0,6,0,0,0,0,0,0
+YEM007,2010-01-20T00:00:00Z,Erq al Shawan,Yemen,Marib,Possible,TRUE,FALSE,Airstrike,4,4,2,2,0,0,0,0,0,0
+YEM008,2010-01-31T00:00:00Z,N/A,Yemen,Across Yemen,Possible,FALSE,FALSE,US ground operations,24,24,0,0,0,0,0,0,0,0
+YEM009,2010-03-14T00:00:00Z,"Jeezat al Qotn
+Moudia district",Yemen,Abyan,Confirmed,TRUE,FALSE,Airstrike,1,1,2,3,0,0,0,0,0,0
+YEM010,2010-03-15T00:00:00Z,Moudia,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,7,20,0,20,0,0,0,0
+YEM011,2010-05-24T00:00:00Z,Unknown,Yemen,Marib,Confirmed,TRUE,FALSE,Airstrike,1,1,3,4,3,4,0,0,2,3
+YEM012,2011-05-05T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,"Drone strike
+Airstrike with US conventional aircraft",1,1,2,2,0,0,0,0,0,0
+YEM013,2011-06-03T00:00:00Z,Zinjibar,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,7,7,4,4,0,0,0,0
+YEM014,2011-06-10T00:00:00Z,Zinjibar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,1,0,0,0,0,0,0
+YEM015,2011-06-10T00:00:00Z,Raia,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,3,2,3,2,3,1,1,0,1
+YEM016,2011-06-18T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,0,0,0,0,0,0,6,6
+YEM017,2011-07-14T00:00:00Z,"Wadeea district
+Mudiya",Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,6,50,30,30,0,0,0,0
+YEM018,2011-07-14T00:00:00Z,Unknown,Yemen,Abyan,Possible,TRUE,TRUE,Drone strike,1,1,0,0,0,0,0,0,0,0
+YEM019,2011-07-27T00:00:00Z,"Karadeef
+Zinjibar",Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,5,5,0,0,0,0,0,0
+YEM020,2011-08-01T00:00:00Z,Al Khamila,Yemen,Abyan,Confirmed,TRUE,TRUE,"Drone strike
+Possible Yemen Air Force airstrike",2,4,13,16,0,0,0,0,12,17
+YEM021,2011-08-24T00:00:00Z,Zinjibar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,30,30,0,0,0,0,40,40
+YEM022,2011-08-24T00:00:00Z,Arkoub,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,6,6,0,0,0,0,0,0
+YEM023,2011-08-25T00:00:00Z,Wadi Hassan,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,8,8,0,0,0,0,3,3
+YEM024,2011-08-31T00:00:00Z,Unknown,Yemen,Abyan,Confirmed,TRUE,FALSE,Airstrike,2,2,30,30,0,0,0,0,0,0
+YEM025,2011-09-05T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,3,7,3,7,0,0,4,4
+YEM026,2011-09-05T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,2,2,9,11,1,1,1,1,2,2
+YEM027,2011-09-07T00:00:00Z,Mahfed,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,2,3,3,10,0,0,0,0,2,24
+YEM028,2011-09-21T00:00:00Z,Mahfed,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,0,0,0,0,0
+YEM029,2011-09-21T00:00:00Z,Shaqra,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,6,7,0,0,0,0,3,3
+YEM030,2011-09-30T00:00:00Z,Unknown,Yemen,Jawf,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,0,0,0,0,0
+YEM031,2011-10-05T00:00:00Z,Al Arqoub,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,5,5,0,0,0,0,7,7
+YEM032,2011-10-14T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,0,0,0,0,0,0,0,0
+YEM033,2011-10-14T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,7,9,2,2,2,2,0,0
+YEM034,2011-10-14T00:00:00Z,Unknown,Yemen,Southern Yemen,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,15,17,0,0,0,0,0,0
+YEM035,2011-10-14T00:00:00Z,Azzan,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,2,1,2,1,1,0,0
+YEM036,2011-12-22T00:00:00Z,Zinjibar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,1,0,0,0,0,0,0
+YEM037,2012-01-31T00:00:00Z,Lawder,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,10,14,0,0,0,0,0,0
+YEM038,2012-01-31T00:00:00Z,Unknown,Yemen,Abyan,Confirmed,TRUE,FALSE,Airstrike,3,3,0,0,0,0,0,0,0,0
+YEM039,2012-03-09T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,23,34,2,2,0,0,0,55
+YEM040,2012-03-10T00:00:00Z,Jaar and Zinjibar,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,2,2,24,24,0,0,0,0,0,0
+YEM041,2012-03-11T00:00:00Z,"Jebel Khanfar
+Near Jaar",Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,3,6,0,0,0,0,0,0
+YEM042,2012-03-13T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,7,4,5,0,0,0,0,0,0
+YEM043,2012-03-18T00:00:00Z,Zinjibar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,2,14,18,0,0,0,0,0,0
+YEM044,2012-03-18T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,8,8,0,0,0,0,0,0
+YEM045,2012-03-22T00:00:00Z,Zinjibar,Yemen,Abyan,Confirmed,TRUE,TRUE,"Drone strike
+Possible naval bombardment",3,4,29,30,0,0,0,0,24,24
+YEM046,2012-03-30T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,2,2,5,5,1,1,0,0,6,9
+YEM047,2012-04-07T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,0,8,0,0,0,0,0,0
+YEM048,2012-04-08T00:00:00Z,Unknown,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike - joint Yemeni and US
+Possible drone strike",2,2,16,16,0,0,0,0,0,0
+YEM049,2012-04-11T00:00:00Z,Lawder,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,10,14,0,0,0,0,10,10
+YEM050,2012-04-14T00:00:00Z,Al Zahir,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,3,7,0,0,0,0,0,0
+YEM051,2012-04-16T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,5,5,7,0,0,0,0,0,0
+YEM052,2012-04-18T00:00:00Z,Lawder and Jaar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,3,6,10,0,0,0,0,0,0
+YEM053,2012-04-21T00:00:00Z,Lawder,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",2,2,12,17,0,0,0,0,0,5
+YEM054,2012-04-22T00:00:00Z,Sanda,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,0,0,0,0,0
+YEM055,2012-04-23T00:00:00Z,Nasab,Yemen,Shabwa,Confirmed,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,2,2
+YEM056,2012-04-23T00:00:00Z,Lawder,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,0,4,0,0,0,0,0,0
+YEM057,2012-04-26T00:00:00Z,Moudia,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM058,2012-04-29T00:00:00Z,Unknown,Yemen,Jawf,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM059,2012-04-30T00:00:00Z,Lawder,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,4,4,0,0,0,0,0,0
+YEM060,2012-04-30T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM061,2012-05-02T00:00:00Z,Zinjibar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,10,15,0,0,0,0,0,0
+YEM062,2012-05-06T00:00:00Z,Wadi Rafad,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,2,4,1,1,0,0,0,0
+YEM063,2012-05-10T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",2,2,5,12,0,0,0,0,0,0
+YEM064,2012-05-10T00:00:00Z,Shaqra,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,1,2,4,0,0,0,0,0,0
+YEM065,2012-05-12T00:00:00Z,Al Hosoon,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,6,7,0,0,0,0,0,0
+YEM066,2012-05-12T00:00:00Z,Unknown,Yemen,Between Marib and Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,10,10,0,0,0,0,0,0
+YEM067,2012-05-12T00:00:00Z,Al Ain,Yemen,Shabwa/Hadramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,6,10,0,0,0,0,0,0
+YEM068,2012-05-14T00:00:00Z,Shaqra,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,10,10,0,0,0,0,0,0
+YEM069,2012-05-14T00:00:00Z,Lawder,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,6,6,0,0,0,0,0,0
+YEM070,2012-05-14T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,0,0,0,0,0,0,2,2
+YEM071,2012-05-15T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",2,4,14,42,14,26,0,0,20,21
+YEM072,2012-05-16T00:00:00Z,Moudia,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,2,16,16,0,0,0,0,5,14
+YEM073,2012-05-17T00:00:00Z,Shibam,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,2,3,0,0,0,0,0,2
+YEM074,2012-05-17T00:00:00Z,Shaqra,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,5,6,0,2,0,0,0,0
+YEM075,2012-05-19T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,3,5,0,0,0,0,0,0
+YEM076,2012-05-19T00:00:00Z,Unknown,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,2,0,0,0,0,0,0
+YEM077,2012-05-20T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,0,9,0,0,0,0,0,0
+YEM078,2012-05-28T00:00:00Z,Manaseh,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,3,5,0,2,0,0,4,4
+YEM079,2012-05-28T00:00:00Z,Mukalla,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible naval bombardment
+Possible drone strike",1,1,5,5,0,0,0,0,0,0
+YEM080,2012-06-01T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,11,12,0,0,0,0,0,0
+YEM081,2012-06-07T00:00:00Z,Moudia,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,2,2,0,0,0,0,7,7
+YEM082,2012-06-07T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM083,2012-06-07T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,5,5,0,0,0,0,3,3
+YEM084,2012-06-11T00:00:00Z,Azzan,Yemen,Shabwa,Possible,TRUE,FALSE,Airstrike,1,1,16,16,0,0,0,0,0,0
+YEM085,2012-06-13T00:00:00Z,Jaar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,4,10,18,0,0,0,0,1,1
+YEM086,2012-06-13T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,9,9,0,0,0,0,0,0
+YEM087,2012-06-15T00:00:00Z,Azzan,Yemen,Shabwa,Possible,TRUE,FALSE,Airstrike,1,1,5,5,0,0,0,0,2,2
+YEM088,2012-06-15T00:00:00Z,Shaqra,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,5,7,5,7,4,6,4,5
+YEM089,2012-06-19T00:00:00Z,Unknown,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM090,2012-06-20T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,1,1,1,0,0,0,0
+YEM091,2012-06-20T00:00:00Z,Al Yafea,Yemen,Bayda,Possible,TRUE,FALSE,Airstrike,6,6,5,30,0,0,0,0,6,6
+YEM092,2012-06-25T00:00:00Z,Mahfed,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,3,3,0,0,0,0,0,0
+YEM093,2012-07-03T00:00:00Z,Bayhan,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,2,5,0,0,0,0,2,2
+YEM094,2012-07-04T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,4,3,13,0,0,0,0,7,7
+YEM095,2012-07-23T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,1,1,5,5,0,0,0,0,0,0
+YEM096,2012-08-04T00:00:00Z,Al Qotn,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,3,5,0,0,0,0,2,2
+YEM097,2012-08-06T00:00:00Z,Radaa,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,7,7,0,0,0,0,0,0
+YEM098,2012-08-07T00:00:00Z,Al Qotn,Yemen,Hadhramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,3,0,0,0,0,2,2
+YEM099,2012-08-28T00:00:00Z,Qahb al-Hisan,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,2,3,0,0,0,0,0,0
+YEM100,2012-08-29T00:00:00Z,Al Qotn,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,5,5,2,2,0,0,0,0
+YEM101,2012-08-31T00:00:00Z,Hawda,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,8,8,0,0,0,0,0,0
+YEM102,2012-09-02T00:00:00Z,Radaa,Yemen,Bayda,Confirmed,TRUE,FALSE,"US airstrike
+Possible drone strike",1,1,12,12,12,12,3,3,4,11
+YEM103,2012-09-05T00:00:00Z,Al Ain,Yemen,Shabwa/Hadramout,Confirmed,TRUE,TRUE,Drone strike,1,1,4,6,1,4,0,0,3,3
+YEM104,2012-09-10T00:00:00Z,Al Ain,Yemen,Shabwa/Hadramout,Confirmed,TRUE,TRUE,Drone strike,1,2,6,15,0,0,0,0,3,3
+YEM105,2012-09-20T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,2,2,4,0,0,0,0,3,3
+YEM106,2012-10-04T00:00:00Z,Al Saeed,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,2,3,6,0,0,0,0,2,4
+YEM107,2012-10-18T00:00:00Z,Jaar,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,2,3,7,9,0,0,0,0,0,0
+YEM108,2012-10-21T00:00:00Z,Maarib,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,0,0,0,0,0
+YEM109,2012-10-28T00:00:00Z,Wadi al Abu Jabara,Yemen,Saada,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,0,0,0,1,1
+YEM110,2012-11-07T00:00:00Z,Beit al Ahan,Yemen,Sanaa,Confirmed,TRUE,TRUE,Drone strike,1,1,2,2,0,0,0,0,2,3
+YEM111,2012-12-24T00:00:00Z,Manaseh,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,3,0,0,0,0,3,3
+YEM112,2012-12-24T00:00:00Z,Shehr,Yemen,Hadhramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,3,3,7,0,0,0,0,1,1
+YEM113,2012-12-28T00:00:00Z,Shehr,Yemen,Hadhramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,2,2,3,0,0,0,0,0,1
+YEM114,2012-12-29T00:00:00Z,Manaseh,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,4,0,0,0,0,0,2
+YEM115,2013-01-01T00:00:00Z,Unknown,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,1,0,0,0,0,0,0
+YEM116,2013-01-04T00:00:00Z,Radaa,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,3,3,0,0,0,0,0,0
+YEM117,2013-01-19T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,0,0,0,0,0,0,0,0
+YEM118,2013-01-19T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,2,4,0,3,0,0,0,0
+YEM119,2013-01-19T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,4,6,0,4,0,0,0,0
+YEM120,2013-01-20T00:00:00Z,Al Kanais,Yemen,Marib,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM121,2013-01-21T00:00:00Z,Nakhla,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,2,4,0,0,0,0,2,2
+YEM122,2013-01-22T00:00:00Z,Al Boka,Yemen,Jawf,Confirmed,TRUE,TRUE,Drone strike,1,1,3,5,0,0,0,0,0,0
+YEM123,2013-01-23T00:00:00Z,Khawlan,Yemen,Sanaa,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,2,2,0,0,0,0
+YEM124,2013-01-23T00:00:00Z,Qayfa,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,5,0,0,0,0,0,0
+YEM125,2013-04-17T00:00:00Z,Wassab al Ali,Yemen,Damar,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,4,0,0,0,0
+YEM126,2013-04-21T00:00:00Z,Wadi Abida,Yemen,Marib,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,2,0,0,0,0,2,3
+YEM127,2013-05-18T00:00:00Z,Mahfed,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,4,9,0,0,0,0,0,0
+YEM128,2013-05-20T00:00:00Z,Radaa,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,2,0,0,0,0,0,0
+YEM129,2013-06-01T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,2,7,8,0,0,0,0,2,3
+YEM130,2013-06-09T00:00:00Z,"Al Makashma/
+Khab al Shath",Yemen,Jawf,Confirmed,TRUE,TRUE,Drone strike,1,1,2,7,1,1,1,1,0,0
+YEM131,2013-07-27T00:00:00Z,Mahfed,Yemen,Abyan,Confirmed,TRUE,TRUE,Drone strike,1,1,4,9,0,0,0,0,0,0
+YEM132,2013-07-30T00:00:00Z,Al Saeed,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,3,4,0,0,0,0,0,0
+YEM133,2013-08-01T00:00:00Z,Wadi Ser,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,3,5,4,5,1,1,3,3
+YEM134,2013-08-06T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,0,0,0,0,0
+YEM135,2013-08-07T00:00:00Z,Markha,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,6,8,0,0,0,0,0,0
+YEM136,2013-08-08T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,3,8,2,2,2,2,0,0
+YEM137,2013-08-08T00:00:00Z,Al Ayoun,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,2,7,0,0,0,0,0,0
+YEM138,2013-08-08T00:00:00Z,Al Qotn,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,3,5,0,0,0,0,0,0
+YEM139,2013-08-10T00:00:00Z,Al Askariya,Yemen,Lahj,Confirmed,TRUE,TRUE,Drone strike,1,1,2,5,0,0,0,0,2,5
+YEM140,2013-08-30T00:00:00Z,Manaseh,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,4,6,0,0,0,0,0,0
+YEM141,2013-11-19T00:00:00Z,Ghayl Bawazir,Yemen,Hadhramout,Confirmed,TRUE,TRUE,"US airstrike
+Possible drone strike",1,1,5,5,0,0,0,0,0,0
+YEM142,2013-11-26T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,12,12,0,0,0,0,0,0
+YEM143,2013-12-09T00:00:00Z,Al Qotn,Yemen,Hadhramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM144,2013-12-12T00:00:00Z,Radaa,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,12,17,8,16,0,0,5,30
+YEM145,2013-12-27T00:00:00Z,Shibam,Yemen,Hadhramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,6,0,0,0,0,0,0
+YEM146,2013-12-31T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,6,0,0,0,0,0,3
+YEM147,2014-01-06T00:00:00Z,Radaa,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,0,0,0,0,0,0,0,2
+YEM148,2014-01-08T00:00:00Z,Al Qotn,Yemen,Hadhramout,Confirmed,TRUE,TRUE,Drone strike,1,1,2,2,0,0,0,0,0,2
+YEM149,2014-01-15T00:00:00Z,Shibam,Yemen,Hadhramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,1,1,1,0,0,0,0
+YEM150,2014-01-24T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,3,4,0,0,0,0,0,0
+YEM151,2014-02-03T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,0,4,0,0,0,0,0,2
+YEM152,2014-03-02T00:00:00Z,Shabwan,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,2,3,0,0,0,0,2,2
+YEM153,2014-03-03T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,1,0,0,0,0,0,0
+YEM154,2014-03-03T00:00:00Z,Radhum,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,4,0,0,0,0,2,2
+YEM155,2014-03-05T00:00:00Z,Khalek,Yemen,Jawf,Confirmed,TRUE,TRUE,Drone strike,1,1,2,4,0,0,0,0,0,0
+YEM156,2014-03-10T00:00:00Z,Wadi Abida,Yemen,Marib,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,1,4,0,1,0,1,0,0
+YEM157,2014-03-12T00:00:00Z,Khab Wal Saaf,Yemen,Jawf,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,3,0,0,0,0,0,0
+YEM158,2014-04-01T00:00:00Z,Mahfed,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,4,4
+YEM159,2014-04-19T00:00:00Z,Sawmaa,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,1,1,13,21,3,8,0,0,1,6
+YEM160,2014-04-20T00:00:00Z,Mahfed,Yemen,Abyan,Confirmed,TRUE,TRUE,"Drone strike
+Yemen Air Force airstrike",1,3,24,31,1,1,1,1,1,3
+YEM161,2014-04-21T00:00:00Z,Usylan,Yemen,Shabwa,Confirmed,FALSE,FALSE,"US-Yemen ground operation
+Possible drone strike",1,1,3,4,1,1,1,1,0,0
+YEM162,2014-05-12T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,4,6,0,0,0,0,0,0
+YEM163,2014-06-04T00:00:00Z,Wadi Abida,Yemen,Marib,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,4,0,0,0,0,0,0
+YEM164,2014-06-13T00:00:00Z,Mafraq al Saeed,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,5,6,0,0,0,0,0,0
+YEM165,2014-06-21T00:00:00Z,Unknown,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,0,0,0,0,0,0,0,0
+YEM166,2014-08-09T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,Drone strike,1,1,3,3,0,0,0,0,2,2
+YEM167,2014-08-16T00:00:00Z,Unknown,Yemen,Hadhramout,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,3,0,0,0,0,0,0
+YEM168,2014-09-11T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,4,5,0,0,0,0,0,0
+YEM169,2014-09-25T00:00:00Z,"Nasab
+Near Ataq",Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,4,5,0,0,0,0,0,0
+YEM170,2014-09-26T00:00:00Z,Khasaf,Yemen,Jawf,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,3,0,0,0,0,3,3
+YEM171,2014-10-15T00:00:00Z,"Bani Assaf
+Mayfaa",Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,4,4,0,0,0,0,0,0
+YEM172,2014-10-24T00:00:00Z,Radaa,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,10,0,10,0,0,0,0
+YEM173,2014-10-26T00:00:00Z,Radaa,Yemen,Bayda,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike
+Yemeni air and ground operations",1,1,12,20,2,10,0,0,0,0
+YEM174,2014-11-04T00:00:00Z,Radaa,Yemen,Bayda,Confirmed,TRUE,TRUE,Drone strike,3,3,9,20,0,0,0,0,0,0
+YEM175,2014-11-12T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,Drone strike,1,1,6,8,0,0,0,0,0,0
+YEM176,2014-11-26T00:00:00Z,Hagr al Saiaar,Yemen,Hadhramout,Confirmed,FALSE,FALSE,US-Yemen ground operation,1,1,7,7,0,0,0,0,0,0
+YEM177,2014-12-06T00:00:00Z,Nasab,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,9,10,0,0,0,0,3,3
+YEM178,2014-12-06T00:00:00Z,Dafaar,Yemen,Shabwa,Confirmed,FALSE,FALSE,"US ground operation
+Possible US air and drone strike",1,1,11,11,8,8,1,1,0,0
+YEM179,2015-01-26T00:00:00Z,Hareeb,Yemen,Shabwa/Mareb border,Confirmed,TRUE,TRUE,US drone strike,1,1,3,3,1,2,1,1,0,0
+YEM180,2015-01-31T00:00:00Z,Al Saeed,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,4,4,0,0,0,0,0,0
+YEM181,2015-02-02T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US drone strike,1,1,3,6,0,0,0,0,0,0
+YEM182,2015-02-20T00:00:00Z,Al Houta,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,3,0,0,0,0,0,0
+YEM183,2015-02-28T00:00:00Z,Bihan region,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,3,4,0,0,0,0,0,0
+YEM184,2015-03-01T00:00:00Z,Markha district,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible drone strike",1,1,2,3,0,0,0,0,3,3
+YEM185,2015-04-12T00:00:00Z,Mukalla,Yemen,Hadhramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,7,0,0,0,0,0,0
+YEM186,2015-04-17T00:00:00Z,Habban,Yemen,Shabwa,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,2,2,0,0,0,0,0,0
+YEM187,2015-04-19T00:00:00Z,Saeed district,Yemen,Shabwa,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,2,6,0,0,0,0,0,0
+YEM188,2015-04-21T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,2,5,7,0,1,0,1,0,0
+YEM189,2015-05-08T00:00:00Z,Mafraq,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1,3,3,0,0,0,0,0,0
+YEM190,2015-05-10T00:00:00Z,Ataq,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1,1,4,0,0,0,0,0,0
+YEM191,2015-05-11T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,4,0,0,0,0,2,2
+YEM192,2015-05-16T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,3,0,0,0,0,0,0
+YEM193,2015-05-22T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,5,0,0,0,0,0,0
+YEM194,2015-06-02T00:00:00Z,Unknown,Yemen,Jawf,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1,5,20,0,0,0,0,0,0
+YEM195,2015-06-09T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,3,0,0,0,0,2,2
+YEM196,2015-06-25T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,5,0,0,0,0,2,2
+YEM197,2015-06-26T00:00:00Z,Rafadh,Yemen,Shabwa,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1,4,4,0,0,0,0,0,0
+YEM198,2015-06-26T00:00:00Z,Mukalla,Yemen,Hadramout,Possible,TRUE,TRUE,"Airstrike
+Possible US drone strike",1,1,4,4,0,0,0,0,0,0
+YEM199,2015-07-03T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,4,0,0,0,0,0,0
+YEM200,2015-07-11T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,10,0,0,0,0,0,0
+YEM201,2015-07-29T00:00:00Z,Wadi Dikha,Yemen,Abyan,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,5,0,0,0,0,0,0
+YEM202,2015-08-12T00:00:00Z,Mukalla-Rukob road,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,5,5,0,0,0,0,0,0
+YEM203,2015-08-21T00:00:00Z,Harib,Yemen,Marib,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1,3,3,0,0,0,0,0,0
+YEM204,2015-08-23T00:00:00Z,Mukalla,Yemen,Hadaramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,4,0,0,0,0,0,0
+YEM205,2015-08-26T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,5,5,0,0,0,0,0,0
+YEM206,2015-09-09T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,6,0,4,0,0,2,2
+YEM207,2015-09-11T00:00:00Z,Unknown,Yemen,Jawf-Mareb border,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1,4,4,0,0,0,0,0,0
+YEM208,2015-09-12T00:00:00Z,Mukalla,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,5,0,0,0,0,0,0
+YEM209,2015-09-21T00:00:00Z,Marib city,Yemen,Marib,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1,2,2,0,0,0,0,0,0
+YEM210,2015-12-22T00:00:00Z,Nata district,Yemen,Bayda-Shabwa border,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,4,0,0,0,0,0,0
+YEM211,2016-01-15T00:00:00Z,Rafadh,Yemen,Shabwa,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,3,0,0,0,0,0,0
+YEM212,2016-01-19T00:00:00Z,Sayoun,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,2,2,0,0,0,0,0,0
+YEM213,2016-02-03T00:00:00Z,Rawda city,Yemen,Shabwa,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,6,6,0,0,0,0,0,0
+YEM214,2016-02-03T00:00:00Z,Maraquesha,Yemen,Abyan,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,3,3,0,0,0,0,0,0
+YEM215,2016-02-15T00:00:00Z,Huta,Yemen,Lahij,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1,3,3,0,0,0,0,0,0
+YEM216,2016-02-29T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,TRUE,"US drone or air strike
+",1,1,3,3,0,0,0,0,0,0
+YEM217,2016-03-04T00:00:00Z,Radhum,Yemen,Shabwa,Confirmed,TRUE,TRUE,"US drone strike
+",1,1,4,4,0,0,0,0,0,0
+YEM218,2016-03-22T00:00:00Z,Hajr (75km W of Mukalla),Yemen,Hadramout,Confirmed,TRUE,FALSE,US air strike,1,1,50,71,0,0,0,0,28,30
+YEM219,2016-03-26T00:00:00Z,Al Hudhn and Naqeel al Hayala villages,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",2,2,8,8,0,0,0,0,0,0
+YEM220,2016-03-26T00:00:00Z,Zinjibar,Yemen,Abyan,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",1,1,6,6,0,0,0,0,0,0
+YEM221,2016-03-28T00:00:00Z,Mukalla,Yemen,Hadramout,Possible,TRUE,FALSE,Airstrike,1,1,5,5,3,3,0,0,0,0
+YEM222,2016-03-30T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,2,5,0,0,0,0,0,0
+YEM223,2016-03-30T00:00:00Z,Mukalla,Yemen,Hadramout,Possible,TRUE,FALSE,Airstrike,3,3,0,0,0,0,0,0,0,0
+YEM224,2016-04-03T00:00:00Z,Mukalla,Yemen,Hadramout,Possible,TRUE,TRUE,"Airstrike, Possible US drone strike",4,5,0,0,0,0,0,0,0,0
+YEM225,2016-04-05T00:00:00Z,Zinjibar,Yemen,Abyan,Possible,TRUE,FALSE,Airstrike,2,2,0,0,0,0,0,0,0,0
+YEM226,2016-04-23T00:00:00Z,Alemien,Yemen,Mareb,Confirmed,TRUE,TRUE,US drone strike,1,1,2,2,0,0,0,0,0,0
+YEM227,2016-04-25T00:00:00Z,Zinjibar,Yemen,Abyan,Confirmed,TRUE,TRUE,US drone strike,1,1,3,6,0,0,0,0,0,0
+YEM228,2016-04-25T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,2,10,0,0,0,0,0,0
+YEM229,2016-04-28T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,4,4,0,0,0,0,1,1
+YEM230,2016-05-19T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,4,4,0,0,0,0,0,0
+YEM231,2016-06-09T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US drone strike,1,1,2,2,0,0,0,0,0,0
+YEM232,2016-06-10T00:00:00Z,Unknown,Yemen,Mareb,Confirmed,TRUE,TRUE,US drone strike,1,1,2,2,0,0,0,0,0,0
+YEM233,2016-06-12T00:00:00Z,Haban,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,2,3,0,0,0,0,1,1
+YEM234,2016-07-01T00:00:00Z,Gardan,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,3,6,0,0,0,0,0,0
+YEM235,2016-07-04T00:00:00Z,Musaina,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,2,3,0,0,0,0,0,1
+YEM236,2016-07-08T00:00:00Z,Unknown,Yemen,Central Yemen,Confirmed,TRUE,TRUE,US drone strike,1,1,1,1,0,0,0,0,0,0
+YEM237,2016-07-10T00:00:00Z,Jabul,Yemen,Mareb,Possible,TRUE,TRUE,US drone strike,1,1,0,0,0,0,0,0,4,4
+YEM238,2016-07-16T00:00:00Z,Al Uqlah,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,2,4,0,0,0,0,0,2
+YEM239,2016-08-04T00:00:00Z,Azzan,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,2,4,0,0,0,0,2,4
+YEM240,2016-08-24T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,US drone strike,1,1,4,5,0,0,0,0,0,0
+YEM241,2016-08-30T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,US air or drone strike,1,1,3,3,0,0,0,0,0,0
+YEM242,2016-09-04T00:00:00Z,Unknown,Yemen,Shabwa,Confirmed,TRUE,TRUE,US air or drone strike,1,1,6,9,0,0,0,0,0,0
+YEM243,2016-09-13T00:00:00Z,Radaa area,Yemen,Bayda,Confirmed,TRUE,TRUE,US drone strike,1,1,5,5,0,0,0,0,0,0
+YEM244,2016-09-20T00:00:00Z,Wadi Abida,Yemen,Marib,Confirmed,TRUE,TRUE,"US drone or air strike
+",1,1,2,2,0,0,0,0,0,0
+YEM245,2016-09-22T00:00:00Z,Sawmaa district,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,3,0,0,0,0,0,0
+YEM246,2016-09-23T00:00:00Z,Unknown,Yemen,Mareb,Confirmed,TRUE,TRUE,US drone strike,1,1,3,5,0,0,0,0,0,0
+YEM247,2016-09-29T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM248,2016-10-06T00:00:00Z,Unknown,Yemen,Shabwah,Confirmed,TRUE,FALSE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM249,2016-10-12T00:00:00Z,North of the Bab el-Mandeb strait,Yemen,-,Confirmed,FALSE,FALSE,US cruise missle strike,3,3,0,0,0,0,0,0,0,0
+YEM250,2016-10-18T00:00:00Z,Unknown,Yemen,Shabwah,Confirmed,TRUE,TRUE,US air or drone strike,1,1,3,8,0,0,0,0,2,2
+YEM251,2016-10-21T00:00:00Z,Unknown,Yemen,Marib,Confirmed,TRUE,FALSE,US air or drone strike,1,1,5,5,0,0,0,0,0,0
+YEM252,2016-11-21T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,1,1,0,0,0,0,0,0
+YEM253,2016-11-24T00:00:00Z,Sawmaah,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM254,2016-11-30T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,TRUE,US air or drone strike,1,1,3,3,0,0,0,0,0,0
+YEM255,2016-12-13T00:00:00Z,Unknown,Yemen,Marib/Al Jawf,Confirmed,TRUE,TRUE,US air or drone strike,1,1,4,4,0,0,0,0,0,0
+YEM256,2016-12-29T00:00:00Z,Sawmaah,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM257,2017-01-08T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,1,1,0,0,0,0,0,0
+YEM258,2017-01-20T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,1,1,0,0,0,0,0,0
+YEM259,2017-01-21T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,2,3,6,0,0,0,0,0,0
+YEM260,2017-01-22T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,2,1,3,0,0,0,0,0,0
+YEM261,2017-01-28T00:00:00Z,Yakla,Yemen,Bayda,Confirmed,FALSE,FALSE,"US air and ground operation
+Special forces air assault and air support, possibly drone",1,1,39,39,25,25,10,10,7,7
+YEM262,2017-01-30T00:00:00Z,Baihan,Yemen,Shabwa,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM263,2017-03-02T00:00:00Z,Unknown,Yemen,Across central Yemen,Confirmed,TRUE,FALSE,US air or drone strikes,25,25,2,12,0,0,0,0,0,0
+YEM264,2017-03-03T00:00:00Z,Unknown,Yemen,Yemen,Confirmed,TRUE,FALSE,US air or drone strikes,5,10,1,8,0,0,0,0,0,0
+YEM265,2017-03-04T00:00:00Z,Ahwar,Yemen,Abyan,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM266,2017-03-06T00:00:00Z,Unknown,Yemen,Multiple provinces,Confirmed,TRUE,FALSE,US air or drone strikes,9,4,7,11,0,2,0,2,0,0
+YEM267,2017-03-31T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strikes,10,10,0,0,0,0,0,0,0,0
+YEM268,2017-04-02T00:00:00Z,Unknown,Yemen,Shabwah,Confirmed,TRUE,FALSE,US air or drone strikes,20,20,0,0,0,0,0,0,0,0
+YEM269,2017-04-18T00:00:00Z,Unknown,Yemen,Marib,Confirmed,TRUE,TRUE,US air or drone strike,1,1,3,4,0,0,0,0,0,0
+YEM270,2017-04-23T00:00:00Z,al Said,Yemen,Shabwah,Confirmed,TRUE,TRUE,US air or drone strike,1,1,3,8,3,8,0,0,0,0
+YEM271,2017-04-24T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,8,8,0,0,0,0,0,0,0,0
+YEM272,2017-04-29T00:00:00Z,Unknown,Yemen,Marib,Confirmed,TRUE,TRUE,US air or drone strike,1,1,4,5,0,0,0,0,0,0
+YEM273,2017-04-29T00:00:00Z,Unknown,Yemen,Shabwah,Confirmed,TRUE,FALSE,US air or drone strike,1,1,3,3,0,0,0,0,0,0
+YEM274,2017-05-23T00:00:00Z,Al Sirim area,Yemen,Marib,Confirmed,FALSE,FALSE,"US air and ground operation
+Special forces raid with air strikes, possibly drone",1,1,7,12,5,5,0,1,5,6
+YEM275,2017-06-16T00:00:00Z,Al Naqba,Yemen,Shabwah,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,3,0,0,0,0,0,0
+YEM276,2017-07-01T00:00:00Z,Al Wadei,Yemen,Abyan,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM277,2017-08-13T00:00:00Z,Marakishah,Yemen,Abyan,Confirmed,TRUE,TRUE,US air or drone strike,1,1,0,3,0,0,0,0,0,0
+YEM278,2017-09-09T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,3,3,2,7,0,0,0,0,0,0
+YEM279,2017-09-16T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,8,6,0,0,0,0,0,0,0,0
+YEM280,2017-10-04T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,1,2,0,0,0,0,0,0
+YEM281,2017-10-08T00:00:00Z,Raghwan,Yemen,Marib,Confirmed,TRUE,TRUE,US air or drone strike,1,1,5,5,0,0,0,0,0,0
+YEM282,2017-10-16T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,2,2,50,50,0,0,0,0,0,0
+YEM283,2017-10-19T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,5,5,0,0,0,0,0,0
+YEM284,2017-10-19T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,7,7,0,0,0,0,0,0,0,0
+YEM285,2017-10-25T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,2,2,9,13,0,0,0,0,0,0
+YEM286,2017-11-02T00:00:00Z,Al Wadi,Yemen,Marib,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM287,2017-11-10T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM288,2017-11-11T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,1,1,0,0,0,0,0,0
+YEM289,2017-11-12T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM290,2017-11-19T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM291,2017-11-20T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,2,2,5,5,0,0,0,0,0,0
+YEM292,2017-11-23T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,1,1,2,2,0,0,0,0,0,0
+YEM293,2017-11-25T00:00:00Z,Unknown,Yemen,Shabwah,Confirmed,TRUE,TRUE,US air or drone strike,1,1,5,7,0,0,0,0,0,0
+YEM294,2017-11-26T00:00:00Z,Qaifa,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,3,3,0,0,0,0,0,0
+YEM295,2017-12-15T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,1,1,1,1,0,0,0,0,0,0
+YEM296,2017-12-19T00:00:00Z,Unknown,Yemen,Marib,Confirmed,TRUE,FALSE,US air or drone strike,1,1,1,1,0,0,0,0,0,0
+YEM297,2018-01-01T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,0,2,0,2,0,0,0,0
+YEM298,2018-01-26T00:00:00Z,Said,Yemen,Shabwah,Confirmed,TRUE,TRUE,US air or drone strike,1,1,7,7,7,7,0,0,0,0
+YEM299,2018-01-29T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,8,8,0,0,0,0,0,0,0,0
+YEM300,2018-02-11T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,6,6,0,0,0,0,0,0
+YEM301,2018-02-16T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,3,0,0,0,0,0,0
+YEM302,2018-02-28T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,4,4,0,0,0,0,0,0,0,0
+YEM303,2018-03-05T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,TRUE,US air or drone strike,1,1,1,4,0,1,0,1,0,1
+YEM304,2018-03-07T00:00:00Z,Al Hudhi,Yemen,Hadramout,Confirmed,TRUE,TRUE,US air or drone strike,1,1,1,1,1,1,0,0,0,0
+YEM305,2018-03-08T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM306,2018-03-09T00:00:00Z,Al Abr,Yemen,Hadramout,Possible,TRUE,TRUE,US air or drone strike,1,1,6,6,0,6,0,1,0,0
+YEM307,2018-03-22T00:00:00Z,Wadi Abida,Yemen,Marib,Possible,TRUE,TRUE,US air or drone strike,1,1,5,7,0,0,0,0,0,0
+YEM308,2018-03-26T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,FALSE,US air or drone strike,3,3,0,0,0,0,0,0,0,0
+YEM309,2018-03-29T00:00:00Z,Sawmaah,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,3,4,0,3,0,0,0,2
+YEM310,2018-04-11T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM311,2018-04-23T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM312,2018-04-30T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,2,2,0,0,0,0,0,0,0,0
+YEM313,2018-05-14T00:00:00Z,Unknown,Yemen,Shabwah,Confirmed,TRUE,TRUE,US air or drone strike,1,1,2,3,0,1,0,0,0,0
+YEM314,2018-06-23T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM315,2018-06-30T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM316,2018-07-22T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM317,2018-07-24T00:00:00Z,Unknown,Yemen,Hadramout,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM318,2018-08-14T00:00:00Z,Unknown,Yemen,Unknown,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM319,2018-09-09T00:00:00Z,Ahwar,Yemen,Abyan,Confirmed,TRUE,FALSE,US air or drone strike,1,1,4,4,0,0,0,0,0,0
+YEM320,2018-09-18T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,0,0,0,0,0,0,0
+YEM321,2018-11-25T00:00:00Z,al Qrishia,Yemen,Bayda,Confirmed,TRUE,TRUE,US air or drone strike,1,1,5,8,0,0,0,0,0,0
+YEM322,2019-01-01T00:00:00Z,Unknown,Yemen,Marib,Confirmed,TRUE,FALSE,US air or drone strike,1,1,1,1,0,0,0,0,0,0
+YEM323,2019-03-31T00:00:00Z,Unknown,Yemen,Bayda,Confirmed,TRUE,FALSE,US air or drone strike,6,6,0,0,0,0,0,0,0,0
+YEM324,2019-06-24T00:00:00Z,Dhi Naim,Yemen,Badya,Confirmed,TRUE,FALSE,US air or drone strike,1,1,0,5,0,0,0,0,0,0
