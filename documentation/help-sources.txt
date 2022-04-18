@@ -1,0 +1,2 @@
+Spatial mapping in R from coordinates: https://stackoverflow.com/questions/14334970/convert-latitude-and-longitude-coordinates-to-country-name-in-r
+Create R Shiny map timeline: https://towardsdatascience.com/eye-catching-animated-maps-in-r-a-simple-introduction-3559d8c33be1
