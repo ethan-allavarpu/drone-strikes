@@ -1,0 +1,178 @@
+---
+title: "Drone Strikes in the Middle East"
+subtitle: "Pakistan, Somalia, Yemen"
+author: "Ethan Allavarpu"
+date: "3 June 2022"
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{longtable}
+  - \usepackage{array}
+  - \usepackage{multirow}
+  - \usepackage{wrapfig}
+  - \usepackage{float}
+  - \usepackage{caption}
+  - \usepackage{colortbl}
+  - \usepackage{pdflscape}
+  - \usepackage{tabu}
+  - \usepackage{threeparttable}
+  - \usepackage{threeparttablex}
+  - \usepackage[normalem]{ulem}
+  - \usepackage{makecell}
+  - \usepackage{xcolor}
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 1
+    number_sections: false
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE,
+                      out.width = "80%", fig.align = "center")
+library(kableExtra)
+library(knitr)
+library(tidyverse)
+strike_data <- read_csv("data/processed/strike-data-geocode.csv") %>%
+  mutate(
+    president = case_when(
+      date < as.Date("2009-01-20") ~ "Bush",
+      date < as.Date("2017-01-20") ~ "Obama",
+      TRUE ~ "Trump"),
+    avg_ppl_killed = (min_ppl_killed + max_ppl_killed) / 2,
+    avg_civ_killed = (min_civil_killed + max_civil_killed) / 2
+  )
+drone_acc <- read_rds('data/processed/drone-accuracy.rds')
+strike_freq <- read_rds('data/processed/strike-frequency.rds')
+```
+
+\vfill
+
+# Abstract
+
+In this report, we look at drone strike data from 2004 onward (Pakistan) and 2007 onward (Somalia and Yemen). We consider the distribution of civilian casualties by country and president in addition to frequency of strikes by president. Our analyses indicate that Pakistan had a higher percentage of civilian casualties, while Somalia had a civilian casualty rate (as a percent of the total persons killed) distinctly less than expected. Regarding presidents, we did not find evidence of a significant difference in drone frequency by term length.
+
+\pagebreak
+
+# Background
+## Context
+## Data Introduction
+
+The data contains information on drone strikes in the Middle East, courtesy of The Guardian. We have drone strike data since 2004 for Pakistan and from 2007 for Somalia and Yemen. Within these datasets, each observation corresponds to a single drone strike. We have information on the date and area of the strike along with the number of people, civilians, and children killed and the number of people injured.
+
+From the area and country for each strike, we used a Google Maps API key (within the `ggmap()` package) to geocode the areas into latitude and longitude. The latitude and longitude are for a general area--not a specific strike location--and some observations did not have geocoded locations.
+
+# Exploratory Data Analysis
+
+# Statistical Analysis
+
+After performing exploratory data analysis, we had two main interests in the dataset: (1) the accuracy/effectiveness of the drone strikes (in terms of casualties) and (2) the frequency of drone strikes for each president's term.
+
+## Drone Accuracy Rate
+
+For this statistical analysis, we compared the three countries (Pakistan, Somalia, and Yemen) with respect to the percentage of civilian casualties. For the purposes of the analysis, we define the total and civilian number of casualties as the average of the minimum and maximum deaths for people and civilians, respectively.
+
+We conducted the analysis as a Chi-squared test to look at the distribution of civilian deaths across the three countries. Our null hypothesis would assume that the distribution of civilian deaths matched the distribution of noncivilian deaths, calculated by $\text{total deaths} - \text{civilian deaths}$. The reason we set the null distribution as the number of noncivilians killed--and not just a pure equality--is because the number of deaths does not remain consistent across countries, so we wanted to account for that distribution. We can summarize our null and alternative hypotheses as follows:
+
+$$
+\begin{aligned}
+H_0: & \text{ Civilian deaths follow the same distribution as noncivilian deaths}\\
+H_a: & \text{ Civilian deaths do not follow the same distribution as noncivilian deaths}\\
+\end{aligned}
+$$
+
+After conducting the Chi-squared test, we obtained a test statistic of $\chi^2 \approx `r round(drone_acc[[1]]$statistic, 2)`$, which corresponds to a p-value of $p < 2.2 \times 10^{-16} \approx 0$. Thus, we reject our null hypothesis that civilian deaths by country follow the same distribution as noncivilian deaths, implying that the countries differed in the accuracy of their strikes with respect to civilian deaths as a fraction of total deaths. Moreover, a posthoc analysis of the test demonstrated the stark differences on the country level:
+
+```{r drone_acc_posthoc}
+drone_acc[[2]] %>%
+  select(country, civ_killed, ppl_killed, pct_civ, chisq_res) %>%
+  mutate_at(c('civ_killed', 'ppl_killed'), as.integer) %>%
+  mutate_at('chisq_res', round, digits = 1) %>%
+  mutate(pct_civ = (pct_civ * 100) %>% round(digits = 1) %>% paste0('%')) %>%
+  kbl(col.names = c('Country', 'Civilians Killed', 'Total Killed',
+                    'Civilian Percent of Deaths', 'Pearson Residual'),
+      align = 'lrrrr',
+      caption = 'Posthoc Summary of Civilian Deaths by Country',
+      format.args = list(big.mark = ',', trim = TRUE),
+      booktabs = TRUE) %>%
+  kable_styling(latex_options = 'HOLD_position')
+```
+
+From the above posthoc analysis, we see that Pakistan had a decided higher civilian death rate, while Somalia had a relatively low civilian death rate. While we cannot make any causal inference from these results, it appears that Pakistan--which does have data from an earlier timeframe (since 2004)--has a less deliberate approach while Somalia had greater accuracy in eliminating hostiles.
+
+## Drone Usage
+Our second statistical analysis focused on the frequency of drone strike usage by each president. However, this analysis had a much greater limitation than our prior analysis, due to the time frames for each country. Thus, to accommodate for data discrepanies across countries, we limited the date range to the overlapping date range across all three datasets. After filtering the data, we had strikes from December 18, 2009 (`2009-12-18`) to January 18, 2018 (`2018-01-18`). Because of this, our analysis for how frequently presidents utilized drone only applies to Presidents Obama and Bush.
+
+From here, we conducted another Chi-squared test to see if the frequency of strikes aligned with the term length for each president over the restricted time frame. Therefore, we can summarize our null and alternative hypothesis as:
+
+$$
+\begin{aligned}
+H_0: & \text{ The number of drone strikes follow the distribution of term length} \\
+H_a: & \text{ The number of drone strikes do not follow the distribution of term length} \\
+\end{aligned}
+$$
+
+After running the analysis, we obtained a Chi-squared statistic of `r round(strike_freq$statistic, 4)`, which has a p-value of `r round(strike_freq$p.value, 4)`. Thus, at the $\alpha = 0.05$ significance level, we fail to reject the null hypothesis--we do not have sufficient evidence that the frequency of drone strikes differed between Presidents Obama and Trump. However, as we noted earlier, this analysis was severely constrained due to the shorter time frame that overlapped across all three countries.
+
+# Dashboard
+## RShiny Background
+## Visualizations
+
+We expanded upon the basic graphics made in our exploratory data analysis and added more complex visualizations for the RShiny dashboard.
+
+Specifically, we borrowed the visualizations for the cumulative deaths over time overall and by country. From these base plots, we added filters for each country--and each president--so that an end user could select which countries and presidential terms to highlight.
+
+We also created a tab with an interactive timeline to visualize the strikes locations over time.
+
+# Conclusions
+## Suggestions for Future Research
+
+Additional research into these drone strikes include looking at the relationship to terrorism attacks, including whether or not U.S. citizens or affiliates were affected by the attack. One strong data source would be the [Global Terrorism Database (GTD)](https://start.umd.edu/gtd/); we chose not to use this dataset because we wanted to make our analysis and dashboard public, which would have required payment (the data is only free for private research).
+
+## Limitations
+
+The original dataset contained data on drone strikes from Pakistan, Somalia, and Yemen. For Pakistan, the data begins in 2004; for Somalia and Yemen, we do not have drone strike data before 2007. Therefore, any temporal analysis may not be wholly accurate if comparing across presidential terms or countries. This became an issue when comparing the frequency of drone strikes for each president; in my analysis, I limited the date range of interest between December 17, 2009 and January 24, 2018 because this was the range of dates for which all three countries had drone strikes. Therefore, I could only compare the strike frequency between Presidents Obama and Trump.
+
+Additionally, for geocoding the areas and countries to derive a latitude and longitude, we used a Google Maps API. While useful, we remained unable to geocode some locations due to undefined areas or incorrectly mapped locations. To verify that the geocoded location was correct, we redetermined the spatial country location from the latitude and longitude. If the spatial country and the original country did not match, we assigned the latitude and longitude to `NA` and dropped those strikes from map visualizations. In total, we removed `r sum(is.na(strike_data$lat))` of `r nrow(strike_data)` drone strikes (`r round(mean(is.na(strike_data$lat)), 4) * 100`\%) for the map visualizations. However, we still included these strikes in subsequent analyses.
+
+In the analyses, we encountered a big limitation in the date range for the individual countries. To avoid issues that may arise due to missing/unaccounted data, we decided to bound the range of interest. However, when doing this, we constricted Trump's term to approximately one year and completely eliminated Bush, presenting a clear drawback of that analysis.
+
+\pagebreak
+
+# Sources
+## Data
+  - The Guardian (via Professor Vivian Lew, UCLA Department of Statistics)
+    - `us-pakistan-strikes-from-2004.xlsx`
+    - `us-somalia-strikes-from-2007.xlsx`
+    - `us-yemen-strikes-from-2007.xlsx`
+  - Gallup (via [UCSB](https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval-all-data))
+    - `bush-ratings.csv`
+    - `obama-ratings.csv`
+    - `trump-ratings.csv`
+  
+## Help Websites
+  - [Creating spatial mapping in R from coordinates](https://stackoverflow.com/questions/14334970/convert-latitude-and-longitude-coordinates-to-country-name-in-r)
+  - [Creating an RShiny map timeline](https://towardsdatascience.com/eye-catching-animated-maps-in-r-a-simple-introduction-3559d8c33be1)
+
+## R Packages
+  - `ggmap`: D. Kahle and H. Wickham. ggmap: Spatial Visualization with ggplot2. The R
+  Journal, 5(1), 144-161. URL
+  http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf
+  - `lubridate`: Garrett Grolemund, Hadley Wickham (2011). Dates and Times Made Easy with
+  lubridate. Journal of Statistical Software, 40(3), 1-25. URL
+  https://www.jstatsoft.org/v40/i03/.
+  - `readxl`: Hadley Wickham and Jennifer Bryan (2022). readxl: Read Excel Files. R package
+  version 1.4.0. https://CRAN.R-project.org/package=readxl
+  - `rvest`: Hadley Wickham (2021). rvest: Easily Harvest (Scrape) Web Pages. R package
+  version 1.0.2. https://CRAN.R-project.org/package=rvest
+  - `rworldxtra`: Andy South (2012). rworldxtra: Country boundaries at high resolution.. R
+  package version 1.01. https://CRAN.R-project.org/package=rworldxtra
+  - `sp`: Pebesma, E.J., R.S. Bivand, 2005. Classes and methods for spatial data in R. R
+  News 5 (2), https://cran.r-project.org/doc/Rnews/.
+  - `tidyverse`: Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source
+  Software, 4(43), 1686, https://doi.org/10.21105/joss.01686
+
+\pagebreak
+
+# Appendix
+## RShiny

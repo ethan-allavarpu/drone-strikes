@@ -12,12 +12,13 @@ strike_data <- read_csv("data/processed/strike-data-geocode.csv") %>%
   )
 
 # Average deadliness by president ----
-president_death_anova <- aov(avg_civ_killed ~ president, data = strike_data)
+president_death_anova <- aov(log(avg_ppl_killed) ~ president,
+                             data = strike_data %>% filter(avg_ppl_killed > 0))
 summary(president_death_anova)
 TukeyHSD(president_death_anova)
 
 # Strike frequency ----
-## Only consider dates with all three countries haaving strikes (overlapping range)
+## Only consider dates with all three countries having strikes (overlapping range)
 country_range <- strike_data %>%
   filter(date > as.Date("2004-01-01")) %>%
   group_by(country) %>%
@@ -49,5 +50,5 @@ chisq_test <- with(n_strikes, chisq.test(n_strike, p = pct_days))
 chisq_test
 
 # Results not statistically significant
-## Fail to reject null that different strike frequency
-
+## Fail to reject null that different strike frequencies
+write_rds(chisq_test, 'data/processed/strike-frequency.rds')

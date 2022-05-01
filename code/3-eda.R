@@ -69,8 +69,6 @@ ggplot() +
         panel.grid = element_blank())
 
 
-
-#
 # Trends in Presidential Approval Rating ----
 approval_ratings <- read_csv("data/processed/approval-ratings.csv")
 approval_over_terms <- approval_ratings %>%

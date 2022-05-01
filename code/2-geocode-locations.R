@@ -2,8 +2,8 @@
 rm(list = ls())
 library(tidyverse)
 library(ggmap)
-library(sp)
 library(rworldxtra)
+library(sp)
 
 # Change Unknown locations to NA, then replace NAs with empty strings
 strike_data <- read_csv("data/processed/strike-data.csv") %>%
