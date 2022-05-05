@@ -65,6 +65,14 @@ strike_data <- strike_data %>%
     lat = case_when(
       country == spatial_country ~ lat
     )
+  ) %>%
+  mutate(
+    president = case_when(
+      date < as.Date("2009-01-20") ~ "Bush",
+      date < as.Date("2017-01-20") ~ "Obama",
+      TRUE ~ "Trump"),
+    avg_ppl_killed = (min_ppl_killed + max_ppl_killed) / 2,
+    avg_civ_killed = (min_civil_killed + max_civil_killed) / 2
   )
 
 # Write CSV file

@@ -6,13 +6,7 @@ library(spData)
 library(tidyverse)
 library(xts)
 
-strike_data <- read_csv("data/processed/strike-data-geocode.csv") %>%
-  mutate(president = case_when(
-    date < as.Date("2009-01-20") ~ "Bush",
-    date < as.Date("2017-01-20") ~ "Obama",
-    TRUE ~ "Trump"
-  )) %>%
-  mutate_at("date", as.Date)
+strike_data <- read_csv("data/processed/strike-data-geocode.csv")
 
 # Color palette for strike timeline
 ## Use an exponential scale because fewer strikes have larger death tolls
@@ -176,7 +170,8 @@ server <- function(input, output) {
     allDates <- strikes() %>%
       filter(!is.na(lat), !is.na(long)) %>%
       pull(date) %>%
-      unique()
+      unique() %>%
+      as.Date()
     # Range of dates by individual day
     eligibleDates <- allDates[endpoints(allDates, on = "days")]
     output$dateUI <- renderUI({

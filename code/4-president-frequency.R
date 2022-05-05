@@ -1,21 +1,7 @@
 rm(list = ls())
 library(tidyverse)
 
-strike_data <- read_csv("data/processed/strike-data-geocode.csv") %>%
-  mutate(
-    president = case_when(
-      date < as.Date("2009-01-20") ~ "Bush",
-      date < as.Date("2017-01-20") ~ "Obama",
-      TRUE ~ "Trump"),
-    avg_ppl_killed = (min_ppl_killed + max_ppl_killed) / 2,
-    avg_civ_killed = (min_civil_killed + max_civil_killed) / 2
-  )
-
-# Average deadliness by president ----
-president_death_anova <- aov(log(avg_ppl_killed) ~ president,
-                             data = strike_data %>% filter(avg_ppl_killed > 0))
-summary(president_death_anova)
-TukeyHSD(president_death_anova)
+strike_data <- read_csv("data/processed/strike-data-geocode.csv")
 
 # Strike frequency ----
 ## Only consider dates with all three countries having strikes (overlapping range)

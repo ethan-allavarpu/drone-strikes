@@ -9,13 +9,7 @@ library(tidyverse)
 library(shiny)
 
 
-strike_data <- read_csv("data/processed/strike-data-geocode.csv") %>%
-  mutate(president = case_when(
-    date < as.Date("2009-01-20") ~ "Bush",
-    date < as.Date("2017-01-20") ~ "Obama",
-    TRUE ~ "Trump"
-  )) %>%
-  mutate_at("date", as.Date)
+strike_data <- read_csv("data/processed/strike-data-geocode.csv")
 
 
 #define colorpalette for chart legend
@@ -45,7 +39,8 @@ server <- function(input, output, session) {
     allDates <- strike_data %>%
       filter(!is.na(lat), !is.na(long)) %>%
       pull(date) %>%
-      unique()
+      unique() %>%
+      as.Date()
     eligibleDates <- allDates[xts::endpoints(allDates, on = "days")]
 
     stepSize <- 1

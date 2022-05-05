@@ -121,7 +121,8 @@ civilian casualties by country and president in addition to frequency of
 strikes by president. Our analyses indicate that Pakistan had a higher
 percentage of civilian casualties, while Somalia had a civilian casualty
 rate (as a percent of the total persons killed) distinctly less than
-expected.
+expected. Regarding presidents, we did not find evidence of a
+significant difference in drone frequency by term length.
 
 \pagebreak
 
@@ -252,12 +253,6 @@ overlapped across all three countries.
 \hypertarget{dashboard}{%
 \section{Dashboard}\label{dashboard}}
 
-\hypertarget{rshiny-background}{%
-\subsection{RShiny Background}\label{rshiny-background}}
-
-\hypertarget{visualizations}{%
-\subsection{Visualizations}\label{visualizations}}
-
 We expanded upon the basic graphics made in our exploratory data
 analysis and added more complex visualizations for the RShiny dashboard.
 
@@ -267,7 +262,12 @@ filters for each country--and each president--so that an end user could
 select which countries and presidential terms to highlight.
 
 We also created a tab with an interactive timeline to visualize the
-strikes locations over time.
+strikes locations over time. This visualization shows strikes over time
+at their impact point (found through geocoding), with the size and color
+correlating to the number of deaths caused by that strike.
+
+The interactive timeline map presented itself as the most intensive
+element of the dashboard--and the project.
 
 \hypertarget{conclusions}{%
 \section{Conclusions}\label{conclusions}}
@@ -283,6 +283,13 @@ source would be the \href{https://start.umd.edu/gtd/}{Global Terrorism
 Database (GTD)}; we chose not to use this dataset because we wanted to
 make our analysis and dashboard public, which would have required
 payment (the data is only free for private research).
+
+Another sector to investigate would be the impact of drone
+strikes--either count, death rates, or injuries--on presidential
+approval rating. From my high-level exploration, there appeared to be
+limited-to-no relationship between approval change and various drone
+statistics, but a deeper dive into these two elements could glean
+previously undiscovered insights.
 
 \hypertarget{limitations}{%
 \subsection{Limitations}\label{limitations}}
@@ -400,13 +407,5 @@ that analysis.
   Journal of Open Source Software, 4(43), 1686,
   \url{https://doi.org/10.21105/joss.01686}
 \end{itemize}
-
-\pagebreak
-
-\hypertarget{appendix}{%
-\section{Appendix}\label{appendix}}
-
-\hypertarget{rshiny}{%
-\subsection{RShiny}\label{rshiny}}
 
 \end{document}

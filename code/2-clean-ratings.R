@@ -17,7 +17,7 @@ tidy_ratings <- function(pres_rating, pres_name) {
     # Convert start, end to date formats
     mutate_at(vars(start, end), mdy) %>%
     # Add president of interest
-    mutate(president = pres_name) %>%
+    mutate(president = str_to_title(pres_name)) %>%
     na.omit()
   write_csv(fixed_ratings,
             paste0("data/processed/", pres_name, "-approval-ratings.csv"))

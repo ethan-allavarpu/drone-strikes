@@ -5,8 +5,6 @@ strike_data <- read_csv("data/processed/strike-data-geocode.csv")
 
 # Civilian Death Percentages by Country
 pct_civilian <- strike_data %>%
-  mutate(avg_ppl_killed = (min_ppl_killed + max_ppl_killed) / 2,
-         avg_civ_killed = (min_civil_killed + max_civil_killed) / 2) %>%
   group_by(country) %>%
   summarise(ppl_killed = sum(avg_ppl_killed),
             civ_killed = sum(avg_civ_killed),

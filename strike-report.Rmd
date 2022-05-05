@@ -66,7 +66,7 @@ From the area and country for each strike, we used a Google Maps API key (within
 
 # Statistical Analysis
 
-After performing exploratory data analysis, we had two main interests in the dataset: (1) the accuracy/effectiveness of the drone strikes (in terms of casualties) and (2) the frequency of drone strikes for each president's term.
+After performing exploratory data analysis, we had three main interests in the dataset: (1) the accuracy/effectiveness of the drone strikes (in terms of casualties), (2) the  strike lethality for each president, and (3) the frequency of drone strikes for each president's term.
 
 ## Drone Accuracy Rate
 
@@ -100,8 +100,13 @@ drone_acc[[2]] %>%
 
 From the above posthoc analysis, we see that Pakistan had a decided higher civilian death rate, while Somalia had a relatively low civilian death rate. While we cannot make any causal inference from these results, it appears that Pakistan--which does have data from an earlier timeframe (since 2004)--has a less deliberate approach while Somalia had greater accuracy in eliminating hostiles.
 
+## Drone Lethality
+Our second analysis considered the lethality of drone strikes, by president. Initially, when performing EDA, we noticed that the distribution of deaths from drone strikes was heavily right-skewed. To correct for this (and meet the assumptions for the ANOVA we wished to conduct), we log-transformed the deaths after adding 1 to all deaths. This ensured that we did not have to remove strikes with 0 deaths from our analysis.
+
+Once we ensured that we met the assumptions of our ANOVA, we could construct our null and alternative hypotheses and conduct the analysis. Our null hypothesis would be that the average number of deaths per strike would be the same across all presidents; our alternative would be that at least one president had a significantly different average number of deaths.
+
 ## Drone Usage
-Our second statistical analysis focused on the frequency of drone strike usage by each president. However, this analysis had a much greater limitation than our prior analysis, due to the time frames for each country. Thus, to accommodate for data discrepanies across countries, we limited the date range to the overlapping date range across all three datasets. After filtering the data, we had strikes from December 18, 2009 (`2009-12-18`) to January 18, 2018 (`2018-01-18`). Because of this, our analysis for how frequently presidents utilized drone only applies to Presidents Obama and Bush.
+Our third statistical analysis focused on the frequency of drone strike usage by each president. However, this analysis had a much greater limitation than our first analysis, due to the time frames for each country. Thus, to accommodate for data discrepanies across countries, we limited the date range to the overlapping date range across all three datasets. After filtering the data, we had strikes from December 18, 2009 (`2009-12-18`) to January 18, 2018 (`2018-01-18`). Because of this, our analysis for how frequently presidents utilized drone only applies to Presidents Obama and Bush.
 
 From here, we conducted another Chi-squared test to see if the frequency of strikes aligned with the term length for each president over the restricted time frame. Therefore, we can summarize our null and alternative hypothesis as:
 
@@ -115,19 +120,21 @@ $$
 After running the analysis, we obtained a Chi-squared statistic of `r round(strike_freq$statistic, 4)`, which has a p-value of `r round(strike_freq$p.value, 4)`. Thus, at the $\alpha = 0.05$ significance level, we fail to reject the null hypothesis--we do not have sufficient evidence that the frequency of drone strikes differed between Presidents Obama and Trump. However, as we noted earlier, this analysis was severely constrained due to the shorter time frame that overlapped across all three countries.
 
 # Dashboard
-## RShiny Background
-## Visualizations
 
 We expanded upon the basic graphics made in our exploratory data analysis and added more complex visualizations for the RShiny dashboard.
 
 Specifically, we borrowed the visualizations for the cumulative deaths over time overall and by country. From these base plots, we added filters for each country--and each president--so that an end user could select which countries and presidential terms to highlight.
 
-We also created a tab with an interactive timeline to visualize the strikes locations over time.
+We also created a tab with an interactive timeline to visualize the strikes locations over time. This visualization shows strikes over time at their impact point (found through geocoding), with the size and color correlating to the number of deaths caused by that strike.
+
+The interactive timeline map presented itself as the most intensive element of the dashboard--and the project.
 
 # Conclusions
 ## Suggestions for Future Research
 
 Additional research into these drone strikes include looking at the relationship to terrorism attacks, including whether or not U.S. citizens or affiliates were affected by the attack. One strong data source would be the [Global Terrorism Database (GTD)](https://start.umd.edu/gtd/); we chose not to use this dataset because we wanted to make our analysis and dashboard public, which would have required payment (the data is only free for private research).
+
+Another sector to investigate would be the impact of drone strikes--either count, death rates, or injuries--on presidential approval rating. From my high-level exploration, there appeared to be limited-to-no relationship between approval change and various drone statistics, but a deeper dive into these two elements could glean previously undiscovered insights.
 
 ## Limitations
 
@@ -171,8 +178,3 @@ In the analyses, we encountered a big limitation in the date range for the indiv
   News 5 (2), https://cran.r-project.org/doc/Rnews/.
   - `tidyverse`: Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source
   Software, 4(43), 1686, https://doi.org/10.21105/joss.01686
-
-\pagebreak
-
-# Appendix
-## RShiny

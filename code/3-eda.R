@@ -82,3 +82,55 @@ approval_over_terms %>%
        x = "Years Since Start of Term",
        y = "Rating (%)") +
   facet_wrap(vars(president %>% str_to_title()), nrow = 3)
+
+# Relationship between Approval Rating and Strikes
+approval_ratings <- read_csv('data/processed/approval-ratings.csv')
+
+approval_shift <- approval_ratings %>%
+  select(start:approve, president) %>%
+  arrange(start) %>%
+  group_by(president) %>%
+  mutate(approve_shift = approve - lag(approve, n = 1)) %>%
+  ungroup()
+
+# Get the approval shift for the rating period just after the strike date
+get_shift <- function(strike_date, approval_df) {
+  approval_df %>%
+    # Only look at start dates after the strike
+    filter(start > strike_date) %>%
+    # Get the next strike date
+    slice_head(n = 1) %>%
+    # Extract the approval rating change
+    pull(approve_shift)
+}
+
+strike_info <- strike_data %>%
+  mutate(approval_change = map_dbl(date,
+                                   get_shift,
+                                   approval_df = approval_shift))
+
+summary(strike_info$approval_change)
+
+ggplot(strike_info, aes(x = approval_change)) +
+  geom_bar(fill = 'darkblue') +
+  labs(title = 'Approval Changes After Drone Strikes',
+       x = 'Approval Change', y = 'Count')
+
+ggplot(strike_info, aes(x = approval_change, color = president)) +
+  geom_density() +
+  labs(title = 'Approval Changes After Drone Strikes by President',
+       x = 'Approval Change', y = 'Count',
+       color = 'President')
+
+ggplot(strike_info, aes(x = date, y = approval_change)) +
+  geom_line()  +
+  labs(title = 'Approval Changes After Drone Strikes over Time',
+      x = 'Date (Year)', y = 'Approval Change')
+
+ggplot(strike_info, aes(x = avg_civ_killed, y = approval_change)) +
+  geom_point() +
+  geom_jitter() +
+  labs(title = 'Approval Changes vs. Civilian Strike Deaths',
+       x = 'Number of Civilian Deaths', y = 'Approval Change')
+
+# No relationship between strikes and approval ratings
