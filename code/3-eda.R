@@ -84,8 +84,6 @@ approval_over_terms %>%
   facet_wrap(vars(president %>% str_to_title()), nrow = 3)
 
 # Relationship between Approval Rating and Strikes
-approval_ratings <- read_csv('data/processed/approval-ratings.csv')
-
 approval_shift <- approval_ratings %>%
   select(start:approve, president) %>%
   arrange(start) %>%
@@ -109,17 +107,15 @@ strike_info <- strike_data %>%
                                    get_shift,
                                    approval_df = approval_shift))
 
-summary(strike_info$approval_change)
-
-ggplot(strike_info, aes(x = approval_change)) +
-  geom_bar(fill = 'darkblue') +
+ggplot(strike_info, aes(x = approval_change, fill = president)) +
+  geom_bar() +
   labs(title = 'Approval Changes After Drone Strikes',
        x = 'Approval Change', y = 'Count')
 
 ggplot(strike_info, aes(x = approval_change, color = president)) +
   geom_density() +
   labs(title = 'Approval Changes After Drone Strikes by President',
-       x = 'Approval Change', y = 'Count',
+       x = 'Approval Change', y = 'Frequency',
        color = 'President')
 
 ggplot(strike_info, aes(x = date, y = approval_change)) +

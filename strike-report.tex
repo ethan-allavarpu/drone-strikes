@@ -121,8 +121,10 @@ civilian casualties by country and president in addition to frequency of
 strikes by president. Our analyses indicate that Pakistan had a higher
 percentage of civilian casualties, while Somalia had a civilian casualty
 rate (as a percent of the total persons killed) distinctly less than
-expected. Regarding presidents, we did not find evidence of a
-significant difference in drone frequency by term length.
+expected. Regarding presidents, we find evidence that the lethality of
+drone strikes differs by president (with Bush having the largest average
+fatality per strike), but do not find evidence of a significant
+difference in drone frequency by term length.
 
 \pagebreak
 
@@ -151,13 +153,19 @@ locations.
 \hypertarget{exploratory-data-analysis}{%
 \section{Exploratory Data Analysis}\label{exploratory-data-analysis}}
 
+\begin{center}\includegraphics[width=0.75\linewidth]{strike-report_files/figure-latex/strike-deaths-1} \end{center}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{strike-report_files/figure-latex/strike-location-1} \end{center}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{strike-report_files/figure-latex/strike-approval-change-1} \end{center}
+
 \hypertarget{statistical-analysis}{%
 \section{Statistical Analysis}\label{statistical-analysis}}
 
-After performing exploratory data analysis, we had two main interests in
-the dataset: (1) the accuracy/effectiveness of the drone strikes (in
-terms of casualties) and (2) the frequency of drone strikes for each
-president's term.
+After performing exploratory data analysis, we had three main interests
+in the dataset: (1) the accuracy/effectiveness of the drone strikes (in
+terms of casualties), (2) the strike lethality for each president, and
+(3) the frequency of drone strikes for each president's term.
 
 \hypertarget{drone-accuracy-rate}{%
 \subsection{Drone Accuracy Rate}\label{drone-accuracy-rate}}
@@ -217,12 +225,83 @@ results, it appears that Pakistan--which does have data from an earlier
 timeframe (since 2004)--has a less deliberate approach while Somalia had
 greater accuracy in eliminating hostiles.
 
+\hypertarget{drone-lethality}{%
+\subsection{Drone Lethality}\label{drone-lethality}}
+
+Our second analysis considered the lethality of drone strikes, by
+president. Initially, when performing EDA, we noticed that the
+distribution of deaths from drone strikes was heavily right-skewed. To
+correct for this (and meet the assumptions for the ANOVA we wished to
+conduct), we log-transformed the deaths after adding 1 to all deaths.
+This ensured that we did not have to remove strikes with 0 deaths from
+our analysis.
+
+Once we ensured that we met the assumptions of our ANOVA, we could
+construct our null and alternative hypotheses and conduct the analysis.
+Our null hypothesis would be that the average number of deaths per
+strike would be the same across all presidents; our alternative would be
+that at least one president had a significantly different average number
+of deaths.
+
+\[
+\begin{aligned}
+H_0: & \text{ } \mu_\text{Bush} = \mu_\text{Obama} = \mu_\text{Trump} \\
+H_a: & \text{ At least one } \mu \text{ is not equal} \\
+\mu_\text{President} & \text{ represents the average number of deaths per strike, after transformation} \\
+\end{aligned}
+\]
+
+\begin{table}[H]
+
+\caption{\label{tab:drone_leth}ANOVA Results for Strike Lethality}
+\centering
+\begin{tabular}[t]{lrrrrr}
+\toprule
+  & df & SS & MS & F & p-value\\
+\midrule
+President & 2 & 53.89 & 26.94 & 44.93 & 0\\
+Residuals & 941 & 564.31 & 0.60 &  & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+
+\caption{\label{tab:drone_leth_posthoc}TukeyHSD Pairwise Posthoc}
+\centering
+\begin{tabular}[t]{lr}
+\toprule
+Pairwise Comparison & Adjusted p-value\\
+\midrule
+Obama-Bush & 0.0245\\
+Trump-Bush & 0.0000\\
+Trump-Obama & 0.0000\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[H]
+
+\caption{\label{tab:drone_leth_posthoc2}Lethality Statistics by President}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+President & Average Deaths per Strike & Median Deaths per Strike\\
+\midrule
+Bush & 9.75 & 7.50\\
+Obama & 7.03 & 5.00\\
+Trump & 5.54 & 2.25\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{strike-report_files/figure-latex/drone_leth_posthoc2-1} \end{center}
+
 \hypertarget{drone-usage}{%
 \subsection{Drone Usage}\label{drone-usage}}
 
-Our second statistical analysis focused on the frequency of drone strike
+Our third statistical analysis focused on the frequency of drone strike
 usage by each president. However, this analysis had a much greater
-limitation than our prior analysis, due to the time frames for each
+limitation than our first analysis, due to the time frames for each
 country. Thus, to accommodate for data discrepanies across countries, we
 limited the date range to the overlapping date range across all three
 datasets. After filtering the data, we had strikes from December 18,

@@ -28,29 +28,23 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE,
-                      out.width = "80%", fig.align = "center")
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE,
+                      out.width = "75%", fig.align = "center")
 library(kableExtra)
 library(knitr)
 library(tidyverse)
-strike_data <- read_csv("data/processed/strike-data-geocode.csv") %>%
-  mutate(
-    president = case_when(
-      date < as.Date("2009-01-20") ~ "Bush",
-      date < as.Date("2017-01-20") ~ "Obama",
-      TRUE ~ "Trump"),
-    avg_ppl_killed = (min_ppl_killed + max_ppl_killed) / 2,
-    avg_civ_killed = (min_civil_killed + max_civil_killed) / 2
-  )
+strike_data <- read_csv("data/processed/strike-data-geocode.csv")
+approval_ratings <- read_csv("data/processed/approval-ratings.csv")
 drone_acc <- read_rds('data/processed/drone-accuracy.rds')
 strike_freq <- read_rds('data/processed/strike-frequency.rds')
+president_death_anova <- read_rds('data/processed/lethality-analysis.rds')
 ```
 
 \vfill
 
 # Abstract
 
-In this report, we look at drone strike data from 2004 onward (Pakistan) and 2007 onward (Somalia and Yemen). We consider the distribution of civilian casualties by country and president in addition to frequency of strikes by president. Our analyses indicate that Pakistan had a higher percentage of civilian casualties, while Somalia had a civilian casualty rate (as a percent of the total persons killed) distinctly less than expected. Regarding presidents, we did not find evidence of a significant difference in drone frequency by term length.
+In this report, we look at drone strike data from 2004 onward (Pakistan) and 2007 onward (Somalia and Yemen). We consider the distribution of civilian casualties by country and president in addition to frequency of strikes by president. Our analyses indicate that Pakistan had a higher percentage of civilian casualties, while Somalia had a civilian casualty rate (as a percent of the total persons killed) distinctly less than expected. Regarding presidents, we find evidence that the lethality of drone strikes differs by president (with Bush having the largest average fatality per strike), but do not find evidence of a significant difference in drone frequency by term length.
 
 \pagebreak
 
@@ -63,6 +57,95 @@ The data contains information on drone strikes in the Middle East, courtesy of T
 From the area and country for each strike, we used a Google Maps API key (within the `ggmap()` package) to geocode the areas into latitude and longitude. The latitude and longitude are for a general area--not a specific strike location--and some observations did not have geocoded locations.
 
 # Exploratory Data Analysis
+```{r strike-deaths}
+strike_data %>%
+  filter(date > as.Date('2004-01-01')) %>%
+  group_by(country) %>%
+  mutate(country_min_killed = cumsum(min_ppl_killed),
+         country_max_killed = cumsum(max_ppl_killed)) %>%
+  ggplot(aes(x = date, color = country, fill = country)) +
+  geom_line(aes(y = country_min_killed)) +
+  geom_line(aes(y = country_max_killed)) +
+  scale_color_manual(values = rgb(c(0.5, 0, 0), c(0, 0.5, 0), c(0, 0, 0.5))) +
+  scale_fill_manual(values = rgb(c(0.5, 0, 0), c(0, 0.5, 0), c(0, 0, 0.5),
+                                 alpha = 0.5)) +
+  geom_ribbon(aes(ymin = country_min_killed, ymax = country_max_killed)) +
+  labs(title = "Cumulative Deaths from Drone Strikes",
+       x = "Year",
+       y = "Total Deaths from Drone Strikes",
+       fill = "Country",
+       color = "Country") +
+  facet_wrap(vars(country), nrow = 3) +
+  theme_minimal()
+```
+From the above faceted graph, we see the difference in drone deaths for each of the three countries. Pakistan has the greatest number of deaths and the earliest timeline of the three countries, with data starting in 2004 and terminating around 2018. Yemen had the second largest number casualties, while Somalia had the fewest. Both Somalia and Yemen began after 2005, with Somalia ranging from 2007 to 2020 and Yemen having data from 2010 to 2019. The discrepancies in deaths across the countries suggests that this may be an aspect of the data we will further explore in our statistical analyses.
+
+```{r strike-location}
+# Plot drone strike locations ----
+country_maps <- map_data("world") %>%
+  # Bound the countries to plot based on latitude and longitude
+  # Boundaries quasi-arbitrary: Used the "eye test" for a manual cutoff
+  filter(long > 40, long < 80,
+         lat > -5, lat < 40,
+         !(region %in% c("Turkey", "China")))
+ggplot() +
+  geom_rect(aes(xmin = 40, xmax = 80, ymin = -5, ymax = 40),
+            fill = "lightblue", colour = "black") +
+  # Turkey's region should be grey
+  geom_rect(aes(xmin = 40, xmax = 45, ymin = 35, ymax = 40),
+            fill = "lightgrey", colour = "black") +
+  # China's region should be grey
+  geom_rect(aes(xmin = 70, xmax = 80, ymin = 30, ymax = 40),
+            fill = "lightgrey", colour = "black") +
+  # Add the countries within the region
+  geom_polygon(aes(x = long, y = lat, group = group), country_maps,
+               fill = "lightgrey", colour = "black") +
+  # Plot drone strike locations
+  geom_point(aes(x = long, y = lat, colour = country), size = 0.75, data = strike_data) +
+  scale_color_manual(values = rgb(c(0.5, 0, 0), c(0, 0.5, 0), c(0, 0, 0.5))) +
+  labs(title = "Location of Drone Strikes",
+       x = "Longitude",
+       y = "Latitude",
+       colour = "Country of Strike") +
+  coord_equal() +
+  theme_minimal() +
+  theme(panel.grid = element_blank())
+```
+The above graphic/map
+
+```{r strike-approval-change}
+# Relationship between Approval Rating and Strikes
+approval_shift <- approval_ratings %>%
+  select(start:approve, president) %>%
+  arrange(start) %>%
+  group_by(president) %>%
+  mutate(approve_shift = approve - lag(approve, n = 1)) %>%
+  ungroup()
+
+# Get the approval shift for the rating period just after the strike date
+get_shift <- function(strike_date, approval_df) {
+  approval_df %>%
+    # Only look at start dates after the strike
+    filter(start > strike_date) %>%
+    # Get the next strike date
+    slice_head(n = 1) %>%
+    # Extract the approval rating change
+    pull(approve_shift)
+}
+
+strike_info <- strike_data %>%
+  mutate(approval_change = map_dbl(date,
+                                   get_shift,
+                                   approval_df = approval_shift))
+
+ggplot(strike_info, aes(x = approval_change, color = president)) +
+  geom_density() +
+  labs(title = 'Approval Changes After Drone Strikes by President',
+       x = 'Approval Change', y = 'Frequency',
+       color = 'President') +
+  theme_minimal()
+```
+
 
 # Statistical Analysis
 
@@ -104,6 +187,69 @@ From the above posthoc analysis, we see that Pakistan had a decided higher civil
 Our second analysis considered the lethality of drone strikes, by president. Initially, when performing EDA, we noticed that the distribution of deaths from drone strikes was heavily right-skewed. To correct for this (and meet the assumptions for the ANOVA we wished to conduct), we log-transformed the deaths after adding 1 to all deaths. This ensured that we did not have to remove strikes with 0 deaths from our analysis.
 
 Once we ensured that we met the assumptions of our ANOVA, we could construct our null and alternative hypotheses and conduct the analysis. Our null hypothesis would be that the average number of deaths per strike would be the same across all presidents; our alternative would be that at least one president had a significantly different average number of deaths.
+
+$$
+\begin{aligned}
+H_0: & \text{ } \mu_\text{Bush} = \mu_\text{Obama} = \mu_\text{Trump} \\
+H_a: & \text{ At least one } \mu \text{ is not equal} \\
+\mu_\text{President} & \text{ represents the average number of deaths per strike, after transformation} \\
+\end{aligned}
+$$
+
+```{r drone_leth}
+summary(president_death_anova)[[1]] %>%
+  round(2) %>%
+  as_tibble() %>%
+  mutate_at(c('F value', 'Pr(>F)'), as.character) %>%
+  mutate_at(c('F value', 'Pr(>F)'), replace_na, replace = '') %>%
+  mutate(index = summary(president_death_anova)[[1]] %>%
+           rownames() %>%
+           str_trim() %>%
+           str_to_title()) %>%
+  column_to_rownames('index') %>%
+  kbl(col.names = c('df', 'SS', 'MS', 'F', 'p-value'),
+      align = 'rrrrr', caption = 'ANOVA Results for Strike Lethality',
+      escape = FALSE,
+      booktabs = TRUE) %>%
+  kable_styling(latex_options = 'HOLD_position')
+```
+
+```{r drone_leth_posthoc}
+posthoc <- TukeyHSD(president_death_anova)
+posthoc$president %>%
+  as_tibble() %>%
+  mutate(comparison = posthoc$president %>% rownames(), .before = diff) %>%
+  rename(p_adj = `p adj`) %>%
+  select(comparison, p_adj) %>%
+  mutate_at('p_adj', round, digits = 4) %>%
+  kbl(col.names = c('Pairwise Comparison', 'Adjusted p-value'),
+      align = 'lr', caption = 'TukeyHSD Pairwise Posthoc',
+      booktabs = TRUE) %>%
+  kable_styling(latex_options = 'HOLD_position')
+```
+```{r drone_leth_posthoc2}
+strike_data %>%
+  group_by(president) %>%
+  summarise(avg_death = mean(avg_ppl_killed),
+            med_death = median(avg_ppl_killed)) %>%
+  mutate_at(vars(avg_death, med_death), round, digits = 2) %>%
+  kbl(col.names = c('President', 'Average Deaths per Strike', 'Median Deaths per Strike'),
+      align = 'lrr', caption = 'Lethality Statistics by President',
+      booktabs = TRUE) %>%
+  kable_styling(latex_options = 'HOLD_position')
+  
+
+ggplot(strike_data, aes(x = avg_ppl_killed, y = president, color = president)) +
+  geom_boxplot() +
+  scale_color_manual(values = rgb(c(0.5, 0, 0), c(0, 0.5, 0), c(0, 0, 0.5))) +
+  labs(title = 'People Killed per Drone Strike by President',
+       x = 'People Killed in Strike', y = 'President') +
+  theme_minimal() +
+  theme(panel.grid.major.y = element_blank(),
+        legend.position = 'none')
+```
+
+
 
 ## Drone Usage
 Our third statistical analysis focused on the frequency of drone strike usage by each president. However, this analysis had a much greater limitation than our first analysis, due to the time frames for each country. Thus, to accommodate for data discrepanies across countries, we limited the date range to the overlapping date range across all three datasets. After filtering the data, we had strikes from December 18, 2009 (`2009-12-18`) to January 18, 2018 (`2018-01-18`). Because of this, our analysis for how frequently presidents utilized drone only applies to Presidents Obama and Bush.

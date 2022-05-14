@@ -13,10 +13,7 @@ posthoc$president %>%
   as_tibble() %>%
   mutate(comparison = posthoc$president %>% rownames(), .before = diff) %>%
   rename(p_adj = `p adj`) %>%
-  mutate_at(vars(diff:upr),
-            function(column) {
-              exp(column)
-            })
+  select(comparison, p_adj)
 
 strike_data %>%
   group_by(president) %>%
@@ -31,3 +28,5 @@ ggplot(strike_data, aes(x = avg_ppl_killed, y = president, color = president)) +
   theme_minimal() +
   theme(panel.grid.major.y = element_blank(),
         legend.position = 'none')
+
+write_rds(president_death_anova, 'data/processed/lethality-analysis.rds')
