@@ -4,8 +4,8 @@ This repository houses data regarding drone strikes by the United States in Soma
 
 Data courtesy of The Guardian, UCSB.
 
-`strike-report.pdf`: Final report and output of the analysis
-`shiny-app.R`: Code to create the interactive RShiny dashboard
-`code`: Code files for data wrangling, cleaning, and exploration along with statistical analyses. These are numbered based on the order in which they should be run (order does not matter within like-numbered scripts)
-`data/raw`: Original data files (scraped or downloaded from UCSB and The Guardian, respectively)
-`data/processed`: Processsed data files (post-cleaning, analysis results)
+- `strike-report.pdf`: Final report and output of the analysis
+- `shiny-app.R`: Code to create the interactive RShiny dashboard
+- `code`: Code files for data wrangling, cleaning, and exploration along with statistical analyses. These are numbered based on the order in which they should be run (order does not matter within like-numbered scripts)
+- `data/raw`: Original data files (scraped or downloaded from UCSB and The Guardian, respectively)
+- `data/processed`: Processsed data files (post-cleaning, analysis results)
