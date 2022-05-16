@@ -82,7 +82,7 @@ strike_data %>%
   facet_wrap(vars(country), nrow = 3) +
   theme_minimal()
 ```
-From the above faceted graph, we saw the difference in drone deaths for each of the three countries. Pakistan had the greatest number of deaths and the earliest timeline of the three countries, with data starting in 2004 and terminating around 2018. Yemen had the second largest number casualties, while Somalia had the fewest. Both Somalia and Yemen began after 2005, with Somalia ranging from 2007 to 2020 and Yemen having data from 2010 to 2019. The discrepancies in deaths across the countries suggested that this may be an aspect of the data we will further explore in our statistical analyses.
+From the above faceted graph, we saw the difference in drone deaths for each of the three countries. Pakistan had the greatest number of deaths and the earliest timeline of the three countries, with data starting in 2004 and terminating around 2018. Yemen had the second largest number casualties, while Somalia had the fewest. Both Somalia's and Yemen's reported data began after 2005, with Somalia ranging from 2007 to 2020 and Yemen having data from 2010 to 2019. The difference in the number of deaths across the countries suggested that this may be an aspect of the data we will further explore in our statistical analyses.
 
 ```{r strike-location}
 # Plot drone strike locations ----
@@ -115,7 +115,7 @@ ggplot() +
   theme_minimal() +
   theme(panel.grid = element_blank())
 ```
-The above graphic/map depicted drone strike locations in the three countries of interest, colored by country. As mentioned earlier, one limitation of the geocoding performed on the dataset was that some data points  do not have correct or valid latitude or longitude coordinates. For the purposes of this visualization--and the RShiny maps discussed later--we omitted such points; however, we retained these points when performing coordinate-agnostic analyses. From the map, we saw that drone strikes might occur in clusters of locations, suggesting potential points of interest for the U.S. military. 
+The above graphic/map depicted drone strike locations in the three countries of interest, colored by country. As mentioned earlier, one limitation of the geocoding performed on the dataset was that some data points  do not have valid latitude or longitude coordinates. For the purposes of this visualization--and the RShiny maps discussed later--we omitted such points; however, we retained these points when performing coordinate-agnostic analyses. From the map, we saw that drone strikes occurred in clusters of locations, suggesting potential points of interest for the U.S. military. 
 
 ```{r strike-approval-change}
 # Relationship between Approval Rating and Strikes
@@ -187,7 +187,7 @@ drone_acc[[2]] %>%
   kable_styling(latex_options = 'HOLD_position')
 ```
 
-From the above posthoc analysis, we saw that Pakistan had a decided higher civilian death rate, while Somalia had a relatively low civilian death rate. While we could not make any causal inference from these results, it appeared that Pakistan--which does have data from an earlier timeframe (since 2004)--has a less deliberate approach while Somalia had greater accuracy in eliminating hostiles.
+From the above posthoc analysis, we saw that Pakistan had a decidedly higher civilian death rate, while Somalia had a relatively low civilian death rate. While we could not make any causal inference from these results, it appeared that Pakistan--which does have data from an earlier timeframe (since 2004)--has a less deliberate approach while Somalia had greater accuracy in eliminating hostiles.
 
 ## Drone Lethality
 Our second analysis considered the lethality of drone strikes, by president. Initially, when performing EDA, we noticed that the distribution of deaths from drone strikes was heavily right-skewed:
@@ -197,7 +197,8 @@ ggplot(strike_data, mapping = aes(x = avg_ppl_killed))  +
   geom_histogram(binwidth = 5, fill = 'darkblue') +
   labs(title = 'Histogram of Deaths per Drone Strike',
        caption = 'Deaths equal the average between the minimum and maximum number of people killed',
-       x = 'Number of Deaths in a Drone Strike', y = 'Frequency')
+       x = 'Number of Deaths in a Drone Strike', y = 'Frequency') +
+  theme_minimal()
 ```
 
 To correct for this (and meet the assumptions for the ANOVA we wished to conduct), we log-transformed the deaths after adding 1 to all deaths. This ensured that we did not have to remove strikes with 0 deaths from our analysis.
@@ -207,7 +208,8 @@ ggplot(strike_data, mapping = aes(x = log(avg_ppl_killed + 1)))  +
   geom_histogram(bins = 10, fill = 'darkblue') +
   labs(title = 'Histogram of Deaths per Drone Strike, Log-Transformed',
        caption = 'Deaths equal the average between the minimum and maximum number of people killed',
-       x = 'Number of Deaths in a Drone Strike, Log-Transformed', y = 'Frequency')
+       x = 'Number of Deaths in a Drone Strike, Log-Transformed', y = 'Frequency') +
+  theme_minimal()
 ```
 
 Once we ensured that we met the assumptions of our ANOVA (the above plot is roughly symmetric), we could construct our null and alternative hypotheses and conduct the analysis. Our null hypothesis would be that the average number of deaths per strike would be the same across all presidents; our alternative would be that at least one president had a significantly different average number of deaths.
@@ -293,7 +295,7 @@ After running the analysis, we obtained a Chi-squared statistic of `r round(stri
 
 We expanded upon the basic graphics made in our exploratory data analysis and added more complex visualizations for the RShiny dashboard.
 
-Specifically, we borrowed the visualizations for the cumulative deaths over time overall and by country. From these base plots, we added filters for each country--and each president--so that an end user could select which countries and presidential terms to highlight.
+Specifically, we incorporated the visualizations for the cumulative deaths over time overall and by country from the EDA. From these base plots, we added filters for each country--and each president--so that an end user could select which countries and presidential terms to highlight.
 
 We also created a tab with an interactive timeline to visualize the strikes locations over time. This visualization shows strikes over time at their impact point (found through geocoding), with the size and color correlating to the number of deaths caused by that strike.
 
@@ -321,7 +323,7 @@ Outside of additional statistics analyses, we might further investigate potentia
 
 ## Limitations
 
-In the analyses, we encountered a big limitation in the date range for the individual countries. The original dataset contained data on drone strikes from Pakistan, Somalia, and Yemen. For Pakistan, the data begins in 2004; for Somalia and Yemen, we do not have drone strike data before 2007. To avoid issues that may arise due to missing/unaccounted data across the three countries, we decided to bound the range of interest. I limited the date range of interest between December 17, 2009 and January 24, 2018 because this was the range of dates for which all three countries had drone strikes. Therefore, I could only compare the strike frequency between Presidents Obama and Trump and ended up retaining `r sum(strike_data$date >= as.Date('2009-12-17') & strike_data$date <= as.Date('2018-01-24'))` of `r nrow(strike_data)` drone strikes (`r round(mean(strike_data$date >= as.Date('2009-12-17') & strike_data$date <= as.Date('2018-01-24')), 4) * 100`\%) from this analysis.
+In the analyses, we encountered a big limitation in the date range for the individual countries. The original dataset contained data on drone strikes from Pakistan, Somalia, and Yemen. For Pakistan, the data begins in 2004; for Somalia and Yemen, we do not have drone strike data before 2007. To avoid issues that may arise due to missing/unaccounted data across the three countries, we decided to bound the range of interest. We limited the date range of interest between December 17, 2009 and January 24, 2018 because this was the range of dates for which all three countries had drone strikes. Therefore, we could only compare the strike frequency between Presidents Obama and Trump and ended up retaining `r sum(strike_data$date >= as.Date('2009-12-17') & strike_data$date <= as.Date('2018-01-24'))` of `r nrow(strike_data)` drone strikes (`r round(mean(strike_data$date >= as.Date('2009-12-17') & strike_data$date <= as.Date('2018-01-24')), 4) * 100`\%) from this analysis.
 
 Additionally, for geocoding the areas and countries to derive a latitude and longitude, we used a Google Maps API. While useful, we remained unable to geocode some locations due to undefined areas or incorrectly mapped locations. To verify that the geocoded location was correct, we redetermined the spatial country location from the latitude and longitude. If the spatial country and the original country did not match, we assigned the latitude and longitude to `NA` and dropped those strikes from map visualizations. In total, we removed `r sum(is.na(strike_data$lat))` of `r nrow(strike_data)` drone strikes (`r round(mean(is.na(strike_data$lat)), 4) * 100`\%) for the map visualizations. However, we still included these strikes in subsequent analyses.
 
@@ -360,6 +362,6 @@ Additionally, for geocoding the areas and countries to derive a latitude and lon
   - `tidyverse`: Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source
   Software, 4(43), 1686, https://doi.org/10.21105/joss.01686
   
-# Additional Links
+\vfill
 
-- GitHub Repository: https://github.com/ethan-allavarpu/drone-strikes
+**GitHub Repository:** https://github.com/ethan-allavarpu/drone-strikes
