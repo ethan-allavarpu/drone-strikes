@@ -24,7 +24,6 @@ output:
     toc: true
     toc_depth: 1
     number_sections: false
-    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
