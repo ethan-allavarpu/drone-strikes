@@ -44,18 +44,22 @@ president_death_anova <- read_rds('data/processed/lethality-analysis.rds')
 
 # Abstract
 
-In this report, we looked at drone strike data from 2004 onward (Pakistan) and 2007 onward (Somalia and Yemen). We considered the distribution of civilian casualties by country and president in addition to frequency of strikes by president. Our analyses indicated that Pakistan had a higher percentage of civilian casualties, while Somalia had a civilian casualty rate (as a percent of the total persons killed) distinctly less than expected. Regarding presidents, we found evidence that the lethality of drone strikes differed by president (with Bush having the largest average fatality per strike), but did not find evidence of a significant difference in drone frequency by term length.
+In this report, we looked at drone strike data from 2004 onward (Pakistan) and 2007 onward (Somalia and Yemen). We considered the distribution of civilian casualties by country and president in addition to the frequency of strikes by president. Our analyses indicated that Pakistan had a higher percentage of civilian casualties, while Somalia had a civilian casualty rate (as a percent of the total persons killed) distinctly less than expected. Regarding presidents, we found evidence that the lethality of drone strikes differed by president (with Bush having the largest average fatality per strike) but did not find evidence of a significant difference in drone frequency by term length.
 
 \pagebreak
 
 # Background
 ## Context
 
-The United States has had a heavy military presence in the Middle East for the past 40 years--but especially after the terrorist attacks on September 11, 2001. With improved technology, the United States expanded its attacks in size and scale. Specifically, we considered the impact of *drones* in the region. These drones provided air strikes from above without the need to risk the lives of soldiers on the ground, potentially allowing for greater devastation in the region. Thus, we chose to investigate the impact of these strikes by the United States in three countries of interest--Pakistan, Somalia, and Yemen--and across three presidents--George W. Bush, Barack Obama, and Donald Trump. 
+The United States has had a heavy military presence in the Middle East for the past 40 years--especially after the terrorist attacks on September 11, 2001. With improved technology, the United States expanded its attacks in size and scale. Specifically, we considered the impact of *drones* in the region. These drones provided airstrikes from above without the need to risk the lives of soldiers on the ground, potentially allowing for greater devastation in the region. Thus, we chose to investigate the impact of these strikes by the United States in three countries of interest--Pakistan, Somalia, and Yemen--and across three presidents: George W. Bush, Barack Obama, and Donald Trump.
+
+Various projects have utilized this dataset, including Pakistan-specific drone strike visualizations. A [student-created website](https://drones.pitchinteractive.com/) goes into detail about the breakdown of deaths by demographic (e.g., civilian, military, child) and places the deaths on a timeline. Similarly, an [infographic created by The Economist](https://www.economist.com/img/b/1280/1721/90/sites/default/files/images/2015/09/blogs/graphic-detail/20150912_woc683_1.png) places the number of deaths from US drone strikes in the context of terrorist attacks; the visual also highlights major events over the past two decades related to these attacks and strikes.
+
+Earlier projects focus on relaying the data to users visually and placing the data in context. While useful for providing easy-to-digest results and background about the findings, these projects fail to dive deeper into any statistical analysis. In our project, we hope to provide statistical results to determine the *significance* of these results, rather than solely conducting exploratory data analysis. Additionally, our dashboard aims to provide an interactive experience for users by allowing them to filter the data at their discretion to gain a specific insight from a potentially overwhelming dataset.
 
 ## Data Introduction
 
-The data contains information on drone strikes in the Middle East, courtesy of The Guardian. We have drone strike data since 2004 for Pakistan and from 2007 for Somalia and Yemen. Within these datasets, each observation corresponds to a single drone strike. We have information on the date and area of the strike along with the number of people, civilians, and children killed and the number of people injured.
+The data contains information on drone strikes in the Middle East, courtesy of The Guardian. We have drone strike data from 2004 for Pakistan and 2007 for Somalia and Yemen. Within these datasets, each observation corresponds to a single drone strike. We have information on the date and area of the strike along with the number of people, civilians, and children killed and the number of people injured. For each statistic, we had two numbers--a minimum and a maximum---which we displayed through various visualizations. For subsequent analyses, we constructed the number of deaths for a given drone strike as $\frac{\text{Minimum Deaths + Maximum Deaths}}{2}$.
 
 From the area and country for each strike, we used a Google Maps API key (within the `ggmap` package) to geocode the areas into latitude and longitude. The latitude and longitude are for a general area--not a specific strike location--and some observations did not have geocoded locations.
 
@@ -81,7 +85,7 @@ strike_data %>%
   facet_wrap(vars(country), nrow = 3) +
   theme_minimal()
 ```
-From the above faceted graph, we saw the difference in drone deaths for each of the three countries. Pakistan had the greatest number of deaths and the earliest timeline of the three countries, with data starting in 2004 and terminating around 2018. Yemen had the second largest number casualties, while Somalia had the fewest. Both Somalia's and Yemen's reported data began after 2005, with Somalia ranging from 2007 to 2020 and Yemen having data from 2010 to 2019. The difference in the number of deaths across the countries suggested that this may be an aspect of the data we will further explore in our statistical analyses.
+From the above graph, we saw the difference in drone deaths for each of the three countries. The upper limit for each plot represents the cumulative maximum number of deaths, while the lower limit represents the cumulative minimum number of deaths. Pakistan had the greatest number of deaths and the earliest timeline of the three countries, with data starting in 2004 and terminating around 2018. Yemen had the second-largest number of casualties, while Somalia had the fewest. Both Somalia's and Yemen's reported data began after 2005, with Somalia ranging from 2007 to 2020 and Yemen having data from 2010 to 2019. The difference in the number of deaths across the countries suggested that this may be an aspect of the data we will further explore in our statistical analyses.
 
 ```{r strike-location}
 # Plot drone strike locations ----
@@ -114,7 +118,7 @@ ggplot() +
   theme_minimal() +
   theme(panel.grid = element_blank())
 ```
-The above graphic/map depicted drone strike locations in the three countries of interest, colored by country. As mentioned earlier, one limitation of the geocoding performed on the dataset was that some data points  do not have valid latitude or longitude coordinates. For the purposes of this visualization--and the RShiny maps discussed later--we omitted such points; however, we retained these points when performing coordinate-agnostic analyses. From the map, we saw that drone strikes occurred in clusters of locations, suggesting potential points of interest for the U.S. military. 
+The above graphic/map depicted drone strike locations in the three countries of interest, colored by country. As mentioned earlier, one limitation of the geocoding performed on the dataset was that some data points  do not have valid latitude or longitude coordinates. For this visualization--and the RShiny maps discussed later--we omitted such points; however, we retained these points when performing coordinate-agnostic analyses. From the map, we saw that drone strikes occurred in clusters of locations, suggesting potential points of interest for the U.S. military. 
 
 ```{r strike-approval-change}
 # Relationship between Approval Rating and Strikes
@@ -158,9 +162,9 @@ After performing exploratory data analysis, we had three main interests in the d
 
 ## Drone Accuracy Rate
 
-For this statistical analysis, we compared the three countries (Pakistan, Somalia, and Yemen) with respect to the percentage of civilian casualties. For the purposes of the analysis, we define the total and civilian number of casualties as the average of the minimum and maximum deaths for people and civilians, respectively.
+For this statistical analysis, we compared the percentage of civilian casualties for the three countries (Pakistan, Somalia, and Yemen). For this analysis, we defined the total and civilian number of casualties as the average of the minimum and maximum deaths for people and civilians, respectively.
 
-We conducted the analysis as a Chi-squared test to look at the distribution of civilian deaths across the three countries. Our null hypothesis would assume that the distribution of civilian deaths matched the distribution of noncivilian deaths, calculated by $\text{total deaths} - \text{civilian deaths}$. The reason we set the null distribution as the number of noncivilians killed--and not just a pure equality--is because the number of deaths does not remain consistent across countries, so we wanted to account for that distribution. We can summarize our null and alternative hypotheses as follows:
+We conducted a Chi-squared test to look at the distribution of civilian deaths across the three countries. Our null hypothesis would assume that the distribution of civilian deaths matched the distribution of noncivilian deaths, calculated by $\text{total deaths} - \text{civilian deaths}$. The reason we set the null distribution as the number of noncivilians killed--and not just a pure equality--is because the number of deaths does not remain consistent across countries, so we wanted to account for that distribution. We can summarize our null and alternative hypotheses as follows:
 
 $$
 \begin{aligned}
@@ -169,7 +173,7 @@ H_a: & \text{ Civilian deaths do not follow the same distribution as noncivilian
 \end{aligned}
 $$
 
-After conducting the Chi-squared test, we obtained a test statistic of $\chi^2 \approx `r round(drone_acc[[1]]$statistic, 2)`$, which corresponds to a p-value of $p < 2.2 \times 10^{-16} \approx 0$. Thus, we rejected our null hypothesis that civilian deaths by country follow the same distribution as noncivilian deaths, implying that the countries differed in the accuracy of their strikes with respect to civilian deaths as a fraction of total deaths. Moreover, we conducted a posthoc analysis of the test demonstrated the stark differences on the country level:
+After conducting the Chi-squared test, we obtained a test statistic of $\chi^2 \approx `r round(drone_acc[[1]]$statistic, 2)`$, which corresponds to a p-value of $p < 2.2 \times 10^{-16} \approx 0$. Thus, we rejected our null hypothesis that civilian deaths by country follow the same distribution as noncivilian deaths, implying that the countries differed in the accuracy of their strikes with respect to civilian deaths as a fraction of total deaths. Moreover, we conducted a posthoc analysis of the test to demonstrate the stark differences at the country level:
 
 ```{r drone_acc_posthoc}
 drone_acc[[2]] %>%
@@ -186,7 +190,7 @@ drone_acc[[2]] %>%
   kable_styling(latex_options = 'HOLD_position')
 ```
 
-From the above posthoc analysis, we saw that Pakistan had a decidedly higher civilian death rate, while Somalia had a relatively low civilian death rate. While we could not make any causal inference from these results, it appeared that Pakistan--which does have data from an earlier timeframe (since 2004)--has a less deliberate approach while Somalia had greater accuracy in eliminating hostiles.
+From the above posthoc analysis, we saw that Pakistan had a decidedly higher civilian death rate, while Somalia had a relatively low civilian death rate. While we could not make any causal inference from these results, it appeared that Pakistan--which does have data from an earlier time frame (since 2004)--has a less deliberate approach while Somalia had greater accuracy in eliminating hostiles.
 
 ## Drone Lethality
 Our second analysis considered the lethality of drone strikes, by president. Initially, when performing EDA, we noticed that the distribution of deaths from drone strikes was heavily right-skewed:
@@ -235,7 +239,7 @@ Residuals & 941 & 564.31 & 0.60 &  & \\
 \end{tabular}
 \end{table}
 
-From the above ANOVA results, we saw that we have a statistically significant result. Because $p \approx 0 < 0.05 = \alpha$, we rejected the null hypothesis that $\mu_\text{Bush} = \mu_\text{Obama} = \mu_\text{Trump}$ and had evidence which supported the alternative that all three presidents did not have equal average death numbers per drone strike, after transformation. Thus, we decided to perform posthoc analysis. In addition to performing TukeyHSD pairwise comparisons, we calculated and plotted key summary statistics for the untransformed death numbers by president to place our findings in context.
+From the above ANOVA results, we saw that we have a statistically significant result. Because $p \approx 0 < 0.05 = \alpha$, we rejected the null hypothesis that $\mu_\text{Bush} = \mu_\text{Obama} = \mu_\text{Trump}$ and had evidence that supported the alternative that all three presidents did not have equal average death numbers per drone strike, after transformation. Thus, we decided to perform posthoc analysis. In addition to performing TukeyHSD pairwise comparisons, we calculated and plotted key summary statistics for the untransformed death numbers by president to place our findings in context.
 
 \begin{table}[H]
 
@@ -277,14 +281,14 @@ ggplot(strike_data, aes(x = avg_ppl_killed, y = president, color = president)) +
 
 
 ## Drone Usage
-Our third statistical analysis focused on the frequency of drone strike usage by each president. However, this analysis had a much greater limitation than our first analysis, due to the time frames for each country. Thus, to accommodate for data discrepanies across countries, we limited the date range to the overlapping date range across all three datasets. After filtering the data, we had strikes from December 18, 2009 (`2009-12-18`) to January 18, 2018 (`2018-01-18`). Because of this, our analysis for how frequently presidents utilized drone only applies to Presidents Obama and Bush.
+Our third statistical analysis focused on the frequency of drone strike usage by each president. However, this analysis had a much greater limitation than our first analysis, due to the time frames for each country. Thus, to accommodate for data discrepancies across countries, we limited the date range to the overlapping date range across all three datasets. After filtering the data, we had strikes from December 18, 2009 (`2009-12-18`) to January 18, 2018 (`2018-01-18`). Because of this, our analysis of how frequently presidents utilized drone only applies to Presidents Obama and Bush.
 
-From here, we conducted another Chi-squared test to see if the frequency of strikes aligned with the term length for each president over the restricted time frame. Therefore, we can summarize our null and alternative hypothesis as:
+From here, we conducted another Chi-squared test to see if the frequency of strikes aligned with the term length for each president over the restricted time frame. Therefore, we can summarize our null and alternative hypotheses as:
 
 $$
 \begin{aligned}
-H_0: & \text{ The number of drone strikes follow the distribution of term length} \\
-H_a: & \text{ The number of drone strikes do not follow the distribution of term length} \\
+H_0: & \text{ The number of drone strikes follows the distribution of term length} \\
+H_a: & \text{ The number of drone strikes does not follow the distribution of term length} \\
 \end{aligned}
 $$
 
@@ -294,9 +298,9 @@ After running the analysis, we obtained a Chi-squared statistic of `r round(stri
 
 We expanded upon the basic graphics made in our exploratory data analysis and added more complex visualizations for the RShiny dashboard.
 
-Specifically, we incorporated the visualizations for the cumulative deaths over time overall and by country from the EDA. From these base plots, we added filters for each country--and each president--so that an end user could select which countries and presidential terms to highlight.
+Specifically, we incorporated the visualizations for the cumulative deaths over time overall and by country from the EDA. From these base plots, we added filters for each country--and each president--so that an end-user could select which countries and presidential terms to highlight.
 
-We also created a tab with an interactive timeline to visualize the strikes locations over time. This visualization shows strikes over time at their impact point (found through geocoding), with the size and color correlating to the number of deaths caused by that strike.
+We also created a tab with an interactive timeline to visualize the strike locations over time. This visualization shows strikes over time at their impact point (found through geocoding), with the size and color correlating to the number of deaths caused by that strike.
 
 The interactive timeline map presented itself as the most intensive element of the dashboard--and the project. In the Sources section, under Help Websites, we have linked two websites that proved useful for the construction of our RShiny app. While rudimentary, we hope it provides a more interactive high-level look at various statistics than a static exploratory data analysis, as is present in this report.
 
@@ -306,25 +310,25 @@ Our results provided a high-level insight into drone strike implementation in th
 
 Regarding the civilian death rate as a percentage of total deaths, Pakistan had a  higher civilian death rate at around 21.3\%, while Somalia had a relatively low civilian death rate of only 5.2\% (Yemen had a death rate of 14.7\%). From these results, it seemed that Pakistan followed a blanket attack strategy, with little precision regarding sparing civilian lives. Somalia, by contrast, focused on targeted attacks, as most deaths were among non-civilians.
 
-As for the presidents, the results are a little murkier. When looking at the average fatality of a strike (represented by the average number of deaths per drone strike), we discovered that President Bush had a significantly higher death rate than Presidents Obama and Trump, with Bush having a median around 7.5 deaths per strike (Obama and Trump had a median of approximately 5 and 2.25 deaths per strike, respectively). While the median difference between Presidents Bush and Obama may not seem terribly great, we found significance on the logarithmic (base-$e$) scale, which accounted for the right-skew of the initial data set when calculating the mean. Our results, though statistically significant, could be interpreted in two lens: some might view the high death rates of Bush's strikes as an indicator of success in killing "the enemy," but others might interpret the same findings as Bush being brazen and careless--the killing may not have been necessary. Ultimately, this is where additional research by domain experts can help determine whether the high death toll was necessary (and therefore Bush was successful), or if it was a misuse of power on his behalf.
+As for the presidents, the results are a little murkier. When looking at the average fatality of a strike (represented by the average number of deaths per drone strike), we discovered that President Bush had a significantly higher death rate than Presidents Obama and Trump, with Bush having a median of around 7.5 deaths per strike (Obama and Trump had a median of approximately 5 and 2.25 deaths per strike, respectively). While the median difference between Presidents Bush and Obama may not seem large, we found significance on the logarithmic (base-$e$) scale, which accounted for the right-skew of the initial data set when calculating the mean. Our results, though statistically significant, could be interpreted in two lenses: some might view the high death rates of Bush's strikes as an indicator of success in killing "the enemy," but others might interpret the same findings as Bush being brazen and careless--the killing may not have been necessary. Ultimately, this is where additional research by domain experts can help determine whether the high death toll was necessary (and therefore Bush was successful), or if it was a misuse of power on his behalf.
 
-The last analysis had a limited scope due to the constraints of our data source. We looked at whether presidents differed in their drone strike usage--more usage might indicate that a president could have abused his powers as Commander in Chief. Ultimately, our results provided no statistical significance, but we had severe date constraints (as described in the Limitations section). We could only compare Presidents Obama and Trump because of the overlapping timeframes for strikes in all three countries--we limited the analysis to the overlap because we wanted to be able to get results from all three sets to avoid bias. Therefore, we did not consider the drone strike usage of President Bush, who had a significantly higher death rate per drone strike in our prior analysis.
+The last analysis had a limited scope due to the constraints of our data source. We looked at whether presidents differed in their drone strike usage--more usage might indicate that a president could have abused his powers as Commander in Chief. Ultimately, our results provided no statistical significance, but we had severe date constraints (as described in the Limitations section). We could only compare Presidents Obama and Trump because of the overlapping time frames for strikes in all three countries--we limited the analysis to the overlap because we wanted to be able to get results from all three sets to avoid bias. Therefore, we did not consider the drone strike usage of President Bush, who had a significantly higher death rate per drone strike in our prior analysis.
 
-Ultimately, the analyses we performed proved interesting. When we consider military action in the Middle East, we tend to group the Middle East as a whole and assume it's a general effectiveness; however, the country-level analysis proved that each country had a statistically significant different civilian death rate as a percent of total deaths, hinting at different levels of effectiveness, precision, or discretion. When looking at the presidential performance, the average death toll per drone strike proved greatest for President Bush, which goes contrary to the recency bias which compels people to consider President Trump to be the most military-heavy president. In fact, Trump had the smallest death toll per strike of the three presidents--less than half of Obama's. These findings allow us to reassess our misconceptions about military action by presidents and the United States in the Middle East and evaluate our positions and decisions in the region.
+Ultimately, the analyses we performed proved interesting. When we consider military action in the Middle East, we tend to group the Middle East as a whole and assume general effectiveness; however, the country-level analysis proved that each country had a statistically significant different civilian death rate as a percent of total deaths, hinting at different levels of effectiveness, precision, or discretion. When looking at the presidential performance, the average death toll per drone strike proved greatest for President Bush, which goes contrary to the recency bias which compels people to consider President Trump to be the most military-heavy president. In fact, Trump had the smallest death toll per strike of the three presidents--less than half of Obama's. These findings allow us to reassess our misconceptions about military action by presidents and the United States in the Middle East and evaluate our positions and decisions in the region.
 
 ## Suggestions for Future Research
 
-Additional research into these drone strikes include looking at the relationship to terrorism attacks, including whether or not U.S. citizens or affiliates were affected by the attack. One strong data source would be the [Global Terrorism Database (GTD)](https://start.umd.edu/gtd/); we chose not to use this dataset because we wanted to make our analysis and dashboard public, which would have required payment (the data is only free for private research).
+Additional research into these drone strikes includes looking at the relationship to terrorism attacks, including whether or not U.S. citizens or affiliates were affected by the attack. One strong data source would be the [Global Terrorism Database (GTD)](https://start.umd.edu/gtd/); we chose not to use this dataset because we wanted to make our analysis and dashboard public, which would have required payment (the data is only free for private research).
 
 Another sector to investigate would be the impact of drone strikes--either count, death rates, or injuries--on presidential approval rating. From our high-level exploration, there appeared to be limited-to-no relationship between approval change and various drone statistics, but a deeper dive into these two elements could glean previously undiscovered insights.
 
-Outside of additional statistics analyses, we might further investigate potential causes or reasons behind our findings. While statistical analyses present great insight into how significant or important trends are, we must place our findings into context; the statistics alone cannot paint to complete picture.
+Outside of additional statistical analyses, we might further investigate potential causes or reasons behind our findings. While statistical analyses present great insights into how significant trends are, we must place our findings into context; the statistics alone cannot paint to complete picture.
 
 ## Limitations
 
 In the analyses, we encountered a big limitation in the date range for the individual countries. The original dataset contained data on drone strikes from Pakistan, Somalia, and Yemen. For Pakistan, the data begins in 2004; for Somalia and Yemen, we do not have drone strike data before 2007. To avoid issues that may arise due to missing/unaccounted data across the three countries, we decided to bound the range of interest. We limited the date range of interest between December 17, 2009 and January 24, 2018 because this was the range of dates for which all three countries had drone strikes. Therefore, we could only compare the strike frequency between Presidents Obama and Trump and ended up retaining `r sum(strike_data$date >= as.Date('2009-12-17') & strike_data$date <= as.Date('2018-01-24'))` of `r nrow(strike_data)` drone strikes (`r round(mean(strike_data$date >= as.Date('2009-12-17') & strike_data$date <= as.Date('2018-01-24')), 4) * 100`\%) from this analysis.
 
-Additionally, for geocoding the areas and countries to derive a latitude and longitude, we used a Google Maps API. While useful, we remained unable to geocode some locations due to undefined areas or incorrectly mapped locations. To verify that the geocoded location was correct, we redetermined the spatial country location from the latitude and longitude. If the spatial country and the original country did not match, we assigned the latitude and longitude to `NA` and dropped those strikes from map visualizations. In total, we removed `r sum(is.na(strike_data$lat))` of `r nrow(strike_data)` drone strikes (`r round(mean(is.na(strike_data$lat)), 4) * 100`\%) for the map visualizations. However, we still included these strikes in subsequent analyses.
+Additionally, for geocoding the areas and countries to derive latitude and longitude, we used a Google Maps API. While useful, we remained unable to geocode some locations due to undefined areas or incorrectly mapped locations. To verify that the geocoded location was correct, we redetermined the spatial country location from the latitude and longitude. If the spatial country and the original country did not match, we assigned the latitude and longitude to `NA` and dropped those strikes from map visualizations. In total, we removed `r sum(is.na(strike_data$lat))` of `r nrow(strike_data)` drone strikes (`r round(mean(is.na(strike_data$lat)), 4) * 100`\%) for the map visualizations. However, we still included these strikes in subsequent analyses.
 
 \pagebreak
 
