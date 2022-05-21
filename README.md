@@ -2,6 +2,8 @@
 
 This repository houses data regarding drone strikes by the United States in Somalia, Yemen, and Pakistan. The goal of this research is to determine whether presidents had differed in their application of drone usage along with the fatality rates of those strikes. Additionally, we hope to create an interactive web application to display the data visually with various filters.
 
+The interactive RShiny dashboard can be found at this link: https://ethan-allavarpu.shinyapps.io/drone-strike-dashboard/
+
 Data courtesy of The Guardian, UCSB.
 
 - `strike-report.pdf`: Final report and output of the analysis
